@@ -1,9 +1,18 @@
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useMemo, useRef, useState } from "react";
 import { useDropzone } from "react-dropzone";
 import { motion, AnimatePresence } from "framer-motion";
 import { Upload, File, X, AlertCircle, ChevronUp, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import {
+  acceptAttribute,
+  canUseNativePicker,
+  matchesAccept,
+  pickFiles,
+} from "@/lib/file-picker";
 import { cn } from "@/lib/utils";
+
+/** Just the part of react-dropzone's rejection shape the error message needs. */
+type FileRejectionLike = { readonly errors: readonly { readonly code?: string }[] };
 
 export interface UploadedFile {
   file: File;
@@ -87,7 +96,7 @@ const FileUploader = ({
   );
 
   const onDrop = useCallback(
-    (acceptedFiles: File[], rejectedFiles: { errors: { code?: string }[] }[]) => {
+    (acceptedFiles: File[], rejectedFiles: readonly FileRejectionLike[]) => {
       setError(null);
 
       if (rejectedFiles.length > 0) {
@@ -130,18 +139,74 @@ const FileUploader = ({
     onFilesChange(reordered);
   };
 
-  const { getRootProps, getInputProps, isDragActive } = useDropzone({
+  const { getRootProps, isDragActive } = useDropzone({
     onDrop,
     accept,
     maxFiles: maxFiles - files.length,
     maxSize,
     disabled: files.length >= maxFiles,
+    // Clicks open the OS file explorer below; the dropzone only handles drops.
+    noClick: true,
+    noKeyboard: true,
   });
+
+  const inputRef = useRef<HTMLInputElement>(null);
+  const nativePickerFailed = useRef(false);
+  const remaining = maxFiles - files.length;
+  const acceptAttr = useMemo(() => acceptAttribute(accept), [accept]);
+
+  /** Files chosen from the explorer take the same route as dropped ones. */
+  const handlePicked = useCallback(
+    (picked: File[]) => {
+      const accepted: File[] = [];
+      const rejected: FileRejectionLike[] = [];
+      for (const file of picked) {
+        if (!matchesAccept(file, accept)) {
+          rejected.push({ errors: [{ code: "file-invalid-type" }] });
+        } else if (file.size > maxSize) {
+          rejected.push({ errors: [{ code: "file-too-large" }] });
+        } else {
+          accepted.push(file);
+        }
+      }
+      onDrop(accepted, rejected);
+    },
+    [accept, maxSize, onDrop]
+  );
+
+  const openPicker = useCallback(() => {
+    if (remaining <= 0) return;
+    setError(null);
+
+    // Checked synchronously so the fallback still runs inside the user gesture.
+    if (nativePickerFailed.current || !canUseNativePicker()) {
+      inputRef.current?.click();
+      return;
+    }
+
+    void pickFiles(accept, remaining > 1).then((picked) => {
+      if (picked === null) {
+        nativePickerFailed.current = true;
+        inputRef.current?.click();
+      } else if (picked.length > 0) {
+        handlePicked(picked);
+      }
+    });
+  }, [accept, handlePicked, remaining]);
 
   return (
     <div className={cn(compact ? "space-y-3" : "space-y-4", className)}>
       <div
         {...getRootProps()}
+        role="button"
+        tabIndex={remaining > 0 ? 0 : -1}
+        aria-label={labels.button}
+        onClick={openPicker}
+        onKeyDown={(event) => {
+          if (event.key !== "Enter" && event.key !== " ") return;
+          event.preventDefault();
+          openPicker();
+        }}
         className={cn(
           "relative cursor-pointer rounded-xl border-2 border-dashed text-center transition-all",
           compact ? "p-5 md:p-6" : "rounded-2xl p-8",
@@ -151,7 +216,20 @@ const FileUploader = ({
           files.length >= maxFiles && "cursor-not-allowed opacity-50"
         )}
       >
-        <input {...getInputProps()} />
+        <input
+          ref={inputRef}
+          type="file"
+          className="hidden"
+          accept={acceptAttr}
+          multiple={remaining > 1}
+          disabled={remaining <= 0}
+          onChange={(event) => {
+            const picked = Array.from(event.target.files ?? []);
+            // Reset so re-picking the same file still fires a change.
+            event.target.value = "";
+            if (picked.length > 0) handlePicked(picked);
+          }}
+        />
         <motion.div
           initial={false}
           animate={{ scale: isDragActive ? 1.02 : 1 }}

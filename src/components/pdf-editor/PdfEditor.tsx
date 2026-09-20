@@ -13,6 +13,7 @@ import {
   type LoadedPdf,
 } from "@/lib/pdf-editor/document";
 import { exportEditedPdf } from "@/lib/pdf-editor/export";
+import { IMAGE_ACCEPT, canUseNativePicker, pickFiles } from "@/lib/file-picker";
 import { imageFileToPng } from "@/lib/pdf-editor/raster";
 import { DEFAULT_TEXT, newId, useEditorDocument, useSignatureLibrary } from "@/lib/pdf-editor/state";
 import type {
@@ -54,6 +55,21 @@ const PdfEditor = ({ mode }: Props) => {
   const signatures = useSignatureLibrary();
   const scrollRef = useRef<HTMLDivElement>(null);
   const imageInputRef = useRef<HTMLInputElement>(null);
+  // The handler is declared further down and changes every render, so the picker
+  // reaches it through a ref and stays stable itself.
+  const imageChosenRef = useRef<(file: File) => void>(() => {});
+
+  /** Desktop opens the OS file explorer directly; everything else uses the input. */
+  const chooseImage = useCallback(() => {
+    if (!canUseNativePicker()) {
+      imageInputRef.current?.click();
+      return;
+    }
+    void pickFiles(IMAGE_ACCEPT, false).then((picked) => {
+      if (picked === null) imageInputRef.current?.click();
+      else if (picked.length > 0) imageChosenRef.current(picked[0]);
+    });
+  }, []);
   const pendingImagePoint = useRef<{ page: EditorPage; point: Point } | null>(null);
   const loadedRef = useRef<LoadedPdf | null>(null);
 
@@ -196,7 +212,7 @@ const PdfEditor = ({ mode }: Props) => {
 
       if (tool === "image") {
         pendingImagePoint.current = { page, point };
-        imageInputRef.current?.click();
+        chooseImage();
         return;
       }
 
@@ -210,7 +226,7 @@ const PdfEditor = ({ mode }: Props) => {
         placeSignature(page, point, match);
       }
     },
-    [doc, placeSignature, signatures.signatures, tool]
+    [chooseImage, doc, placeSignature, signatures.signatures, tool]
   );
 
   const handleCreateBox = useCallback(
@@ -280,6 +296,10 @@ const PdfEditor = ({ mode }: Props) => {
     });
     setTool("select");
   };
+
+  useEffect(() => {
+    imageChosenRef.current = (file) => void handleImageChosen(file);
+  });
 
   const handleSignatureCreated = (signature: SavedSignature) => {
     signatures.add(signature);
@@ -557,7 +577,7 @@ const PdfEditor = ({ mode }: Props) => {
       <input
         ref={imageInputRef}
         type="file"
-        accept="image/png,image/jpeg"
+        accept="image/png,image/jpeg,.png,.jpg,.jpeg"
         className="hidden"
         onChange={(event) => {
           void handleImageChosen(event.target.files?.[0]);

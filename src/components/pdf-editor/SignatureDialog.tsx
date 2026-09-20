@@ -241,7 +241,7 @@ const SignatureDialog = ({ open, role, onOpenChange, onCreate }: Props) => {
           <TabsContent value="upload" className="space-y-3">
             <Input
               type="file"
-              accept="image/png,image/jpeg"
+              accept="image/png,image/jpeg,.png,.jpg,.jpeg"
               onChange={(e) => handleUpload(e.target.files?.[0])}
             />
             <p className="text-xs text-muted-foreground">
