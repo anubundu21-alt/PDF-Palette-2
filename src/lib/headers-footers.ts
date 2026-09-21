@@ -1,27 +1,8 @@
 import { PDFDocument, StandardFonts, rgb } from "pdf-lib";
 
-export type HeaderFooterOptions = {
-  headerLeft: string;
-  headerCenter: string;
-  headerRight: string;
-  footerLeft: string;
-  footerCenter: string;
-  footerRight: string;
-  fontSize: number;
-  margin: number;
-};
-
-export const DEFAULT_HEADERS_FOOTERS: HeaderFooterOptions = {
-  headerLeft: "",
-  headerCenter: "",
-  headerRight: "",
-  footerLeft: "",
-  // Pre-filled so "Add headers & footers" works without empty-form failure.
-  footerCenter: "Page {n} of {N}",
-  footerRight: "",
-  fontSize: 10,
-  margin: 36,
-};
+export type { HeaderFooterOptions } from "./headers-footers-options";
+export { DEFAULT_HEADERS_FOOTERS } from "./headers-footers-options";
+import type { HeaderFooterOptions } from "./headers-footers-options";
 
 function spellable(text: string): string {
   let out = "";

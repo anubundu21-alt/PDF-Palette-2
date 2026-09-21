@@ -60,6 +60,22 @@ export default defineConfig(({ mode }) => ({
     exclude: ["pdfjs-dist"],
     include: ["pdf-lib", "@pdf-lib/fontkit"],
   },
+  build: {
+    // Split the heavy PDF/OCR libraries out of the entry chunk. Each is pulled
+    // in by a different set of tools, so a visitor downloads only the ones the
+    // tool they opened actually needs, and they cache across releases.
+    rollupOptions: {
+      output: {
+        // Only the React runtime is pinned. Every heavy PDF/OCR library is now
+        // reached through a dynamic import, so Rollup splits those on its own;
+        // naming them here instead pulled Vite's preload helper into one of the
+        // vendor chunks and made it load on every page.
+        manualChunks: {
+          react: ["react", "react-dom", "react-router-dom"],
+        },
+      },
+    },
+  },
   preview: {
     headers: {
       "Cross-Origin-Opener-Policy": "same-origin-allow-popups",

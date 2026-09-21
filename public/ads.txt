@@ -1,3 +1,0 @@
-# After Google AdSense approval, replace this file with your publisher line:
-# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
-# (Use the exact line from your AdSense account → Sites → ads.txt.)
