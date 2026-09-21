@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { Suspense, lazy, useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import { toast } from "sonner";
@@ -12,61 +12,30 @@ import {
   Wand2,
 } from "lucide-react";
 
-import { warmupGhostscript } from "@/lib/ghostscript-compress";
 import { getToolByRoute, ToolFeature } from "@/lib/tools";
-import {
-  CompressionLevel,
-  ProcessingResult,
-  addPageNumbersToPDF,
-  addWatermark,
-  compressPDF,
-  downloadResult,
-  excelToPDF,
-  flattenPDF,
-  htmlToPDF,
-  imagesToPDF,
-  mergePDFs,
-  pdfToExcel,
-  pdfToImageFiles,
-  pdfToPpt,
-  pdfToWord,
-  pdfToWordIlove,
-  pdfToWordNew,
-  pptToPDF,
-  protectPDFWithPassword,
-  rotatePDF,
-  txtToPDF,
-  unlockPDF,
-  wordToPDF,
-  wordToPdfIlove,
-  ocrPDF,
-  repairPDF,
-  extractTextFromPDF,
-  extractImagesFromPDF,
-  editPdfMetadata,
-  addHeadersFootersToPDF,
-  markdownToPDF,
-  csvToPDF,
-  autoRedactPiiPDF,
-} from "@/lib/pdf-utils";
+import type { CompressionLevel, ProcessingResult } from "@/lib/pdf-utils";
+
+/**
+ * Each of these owns a pdfjs canvas workflow and is used by exactly one tool,
+ * so they load on demand rather than on every tool page.
+ */
+const PdfEditor = lazy(() => import("@/components/pdf-editor/PdfEditor"));
+const PageOrganizer = lazy(() => import("@/components/pdf-pages/PageOrganizer"));
+const PdfSplitter = lazy(() => import("@/components/pdf-pages/PdfSplitter"));
+const PdfCropper = lazy(() => import("@/components/pdf-pages/PdfCropper"));
+const PdfFormFiller = lazy(() => import("@/components/pdf-pages/PdfFormFiller"));
+const PdfRedactor = lazy(() => import("@/components/pdf-pages/PdfRedactor"));
+const PdfComparer = lazy(() => import("@/components/pdf-pages/PdfComparer"));
+const PdfChatPanel = lazy(() => import("@/components/PdfChatPanel"));
 import ToolPageLayout from "@/components/ToolPageLayout";
-import PdfEditor from "@/components/pdf-editor/PdfEditor";
-import PageOrganizer from "@/components/pdf-pages/PageOrganizer";
-import PdfSplitter from "@/components/pdf-pages/PdfSplitter";
-import PdfCropper from "@/components/pdf-pages/PdfCropper";
-import PdfFormFiller from "@/components/pdf-pages/PdfFormFiller";
-import PdfRedactor from "@/components/pdf-pages/PdfRedactor";
-import PdfComparer from "@/components/pdf-pages/PdfComparer";
-import PdfChatPanel from "@/components/PdfChatPanel";
-import { DEFAULT_PAGE_NUMBERS } from "@/lib/pdf-pages/page-numbers";
-import type { NumberPosition, PageNumberOptions } from "@/lib/pdf-pages/page-numbers";
+import { DEFAULT_PAGE_NUMBERS } from "@/lib/pdf-pages/page-numbers-options";
+import type { NumberPosition, PageNumberOptions } from "@/lib/pdf-pages/page-numbers-options";
 import type { PdfToImageOptions } from "@/lib/pdf-to-image";
 import {
   DEFAULT_HEADERS_FOOTERS,
   type HeaderFooterOptions,
-} from "@/lib/headers-footers";
+} from "@/lib/headers-footers-options";
 import type { PdfMetadataFields } from "@/lib/edit-metadata";
-import { readPdfMetadata } from "@/lib/edit-metadata";
 import FileUploader, { UploadedFile } from "@/components/FileUploader";
 import ProgressBar from "@/components/ProgressBar";
 import NotFound from "./NotFound";
@@ -387,7 +356,9 @@ const ToolPage = () => {
   // Preload Ghostscript WASM while the user picks a file — saves 10–15s on first compress.
   useEffect(() => {
     if (tool?.feature !== "compress") return;
-    warmupGhostscript().catch(() => {
+    void import("@/lib/ghostscript-compress")
+      .then((m) => m.warmupGhostscript())
+      .catch(() => {
       // Warmup is best-effort; compress will retry loading the engine.
     });
   }, [tool?.feature]);
@@ -399,7 +370,9 @@ const ToolPage = () => {
   if (tool.feature === "edit-pdf" || tool.feature === "sign-pdf") {
     return (
       <ToolPageLayout tool={tool}>
-        <PdfEditor mode={tool.feature === "sign-pdf" ? "sign" : "edit"} />
+        <Suspense fallback={<div className="min-h-[60vh]" aria-busy="true" />}>
+          <PdfEditor mode={tool.feature === "sign-pdf" ? "sign" : "edit"} />
+        </Suspense>
       </ToolPageLayout>
     );
   }
@@ -409,7 +382,9 @@ const ToolPage = () => {
   if (tool.feature === "split") {
     return (
       <ToolPageLayout tool={tool}>
-        <PdfSplitter />
+        <Suspense fallback={<div className="min-h-[60vh]" aria-busy="true" />}>
+          <PdfSplitter />
+        </Suspense>
       </ToolPageLayout>
     );
   }
@@ -421,15 +396,17 @@ const ToolPage = () => {
   ) {
     return (
       <ToolPageLayout tool={tool}>
-        <PageOrganizer
-          mode={
-            tool.feature === "organize-pages"
-              ? "organize"
-              : tool.feature === "remove-pages"
-                ? "remove"
-                : "extract"
-          }
-        />
+        <Suspense fallback={<div className="min-h-[60vh]" aria-busy="true" />}>
+          <PageOrganizer
+            mode={
+              tool.feature === "organize-pages"
+                ? "organize"
+                : tool.feature === "remove-pages"
+                  ? "remove"
+                  : "extract"
+            }
+          />
+        </Suspense>
       </ToolPageLayout>
     );
   }
@@ -437,7 +414,9 @@ const ToolPage = () => {
   if (tool.feature === "crop-pdf") {
     return (
       <ToolPageLayout tool={tool}>
-        <PdfCropper />
+        <Suspense fallback={<div className="min-h-[60vh]" aria-busy="true" />}>
+          <PdfCropper />
+        </Suspense>
       </ToolPageLayout>
     );
   }
@@ -445,7 +424,9 @@ const ToolPage = () => {
   if (tool.feature === "fill-forms") {
     return (
       <ToolPageLayout tool={tool}>
-        <PdfFormFiller />
+        <Suspense fallback={<div className="min-h-[60vh]" aria-busy="true" />}>
+          <PdfFormFiller />
+        </Suspense>
       </ToolPageLayout>
     );
   }
@@ -453,7 +434,9 @@ const ToolPage = () => {
   if (tool.feature === "redact") {
     return (
       <ToolPageLayout tool={tool}>
-        <PdfRedactor />
+        <Suspense fallback={<div className="min-h-[60vh]" aria-busy="true" />}>
+          <PdfRedactor />
+        </Suspense>
       </ToolPageLayout>
     );
   }
@@ -461,7 +444,9 @@ const ToolPage = () => {
   if (tool.feature === "compare") {
     return (
       <ToolPageLayout tool={tool}>
-        <PdfComparer />
+        <Suspense fallback={<div className="min-h-[60vh]" aria-busy="true" />}>
+          <PdfComparer />
+        </Suspense>
       </ToolPageLayout>
     );
   }
@@ -469,7 +454,9 @@ const ToolPage = () => {
   if (tool.feature === "chat-with-pdf") {
     return (
       <ToolPageLayout tool={tool}>
-        <PdfChatPanel />
+        <Suspense fallback={<div className="min-h-[60vh]" aria-busy="true" />}>
+          <PdfChatPanel />
+        </Suspense>
       </ToolPageLayout>
     );
   }
@@ -507,23 +494,27 @@ const ToolPage = () => {
     const inputFiles = files.map((f) => f.file);
 
     try {
+      // Loaded here, not at module scope: this barrel pulls pdf-lib, docx,
+      // tesseract and every conversion module. Deferring it to the click keeps
+      // ~1.1 MB off the initial load of every tool page.
+      const U = await import("@/lib/pdf-utils");
       let res: ProcessingResult;
 
       switch (tool.feature) {
         case "merge":
-          res = await mergePDFs(inputFiles, onProgress);
+          res = await U.mergePDFs(inputFiles, onProgress);
           break;
         case "rotate":
-          res = await rotatePDF(inputFiles[0], rotation, undefined, onProgress);
+          res = await U.rotatePDF(inputFiles[0], rotation, undefined, onProgress);
           break;
         case "compress":
-          res = await compressPDF(inputFiles[0], compressionLevel, (p, message) => {
+          res = await U.compressPDF(inputFiles[0], compressionLevel, (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "watermark":
-          res = await addWatermark(
+          res = await U.addWatermark(
             inputFiles[0],
             watermarkText || "CONFIDENTIAL",
             { opacity },
@@ -531,64 +522,64 @@ const ToolPage = () => {
           );
           break;
         case "jpg-to-pdf":
-          res = await imagesToPDF(inputFiles, onProgress);
+          res = await U.imagesToPDF(inputFiles, onProgress);
           break;
         case "word-to-pdf":
-          res = await wordToPDF(inputFiles[0], (p, message) => {
+          res = await U.wordToPDF(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "word-to-pdf-ilove":
-          res = await wordToPdfIlove(inputFiles[0], (p, message) => {
+          res = await U.wordToPdfIlove(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "excel-to-pdf":
-          res = await excelToPDF(inputFiles[0], (p, message) => {
+          res = await U.excelToPDF(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "pdf-to-ppt":
-          res = await pdfToPpt(inputFiles[0], (p, message) => {
+          res = await U.pdfToPpt(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "pdf-to-excel":
-          res = await pdfToExcel(inputFiles[0], (p, message) => {
+          res = await U.pdfToExcel(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "ppt-to-pdf":
-          res = await pptToPDF(inputFiles[0], (p, message) => {
+          res = await U.pptToPDF(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "pdf-to-word":
-          res = await pdfToWord(inputFiles[0], (p, message) => {
+          res = await U.pdfToWord(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "pdf-to-word-new":
-          res = await pdfToWordNew(inputFiles[0], (p, message) => {
+          res = await U.pdfToWordNew(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "pdf-to-word-ilove":
-          res = await pdfToWordIlove(inputFiles[0], (p, message) => {
+          res = await U.pdfToWordIlove(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "unlock-pdf":
-          res = await unlockPDF(inputFiles[0], password, (p, message) => {
+          res = await U.unlockPDF(inputFiles[0], password, (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
@@ -598,25 +589,25 @@ const ToolPage = () => {
             res = { success: false, message: "Passwords do not match." };
             break;
           }
-          res = await protectPDFWithPassword(inputFiles[0], password, (p, message) => {
+          res = await U.protectPDFWithPassword(inputFiles[0], password, (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "page-numbers":
-          res = await addPageNumbersToPDF(inputFiles[0], pageNumbers, (p, message) => {
+          res = await U.addPageNumbersToPDF(inputFiles[0], pageNumbers, (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "pdf-to-jpg":
-          res = await pdfToImageFiles(inputFiles[0], imageOptions, (p, message) => {
+          res = await U.pdfToImageFiles(inputFiles[0], imageOptions, (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "html-to-pdf":
-          res = await htmlToPDF(
+          res = await U.htmlToPDF(
             { file: inputFiles[0], url: htmlUrl.trim() || undefined },
             (p, message) => {
               onProgress(p);
@@ -625,67 +616,67 @@ const ToolPage = () => {
           );
           break;
         case "ocr":
-          res = await ocrPDF(inputFiles[0], (p, message) => {
+          res = await U.ocrPDF(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "flatten-pdf":
-          res = await flattenPDF(inputFiles[0], (p, message) => {
+          res = await U.flattenPDF(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "txt-to-pdf":
-          res = await txtToPDF(inputFiles[0], (p, message) => {
+          res = await U.txtToPDF(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "repair-pdf":
-          res = await repairPDF(inputFiles[0], (p, message) => {
+          res = await U.repairPDF(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "extract-text":
-          res = await extractTextFromPDF(inputFiles[0], (p, message) => {
+          res = await U.extractTextFromPDF(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "extract-images":
-          res = await extractImagesFromPDF(inputFiles[0], (p, message) => {
+          res = await U.extractImagesFromPDF(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "edit-metadata":
-          res = await editPdfMetadata(inputFiles[0], metadata, (p, message) => {
+          res = await U.editPdfMetadata(inputFiles[0], metadata, (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "headers-footers":
-          res = await addHeadersFootersToPDF(inputFiles[0], headersFooters, (p, message) => {
+          res = await U.addHeadersFootersToPDF(inputFiles[0], headersFooters, (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "markdown-to-pdf":
-          res = await markdownToPDF(inputFiles[0], (p, message) => {
+          res = await U.markdownToPDF(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "csv-to-pdf":
-          res = await csvToPDF(inputFiles[0], (p, message) => {
+          res = await U.csvToPDF(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
           break;
         case "auto-redact-pii":
-          res = await autoRedactPiiPDF(inputFiles[0], (p, message) => {
+          res = await U.autoRedactPiiPDF(inputFiles[0], (p, message) => {
             onProgress(p);
             if (message) setConvertStatus(message);
           });
@@ -704,7 +695,7 @@ const ToolPage = () => {
           tool.feature === "pdf-to-excel" ||
           tool.feature === "ocr" ||
           fetchesUrl;
-        if (res.blob && !waitForDownload) downloadResult(res);
+        if (res.blob && !waitForDownload) U.downloadResult(res);
       } else {
         toast.error(res.message);
       }
@@ -935,7 +926,7 @@ const ToolPage = () => {
                         ? "default"
                         : "outline"
                     }
-                    onClick={() => downloadResult(result)}
+                    onClick={async () => (await import("@/lib/pdf-utils")).downloadResult(result)}
                   >
                     <Download className="mr-1.5 h-4 w-4" />
                     Download
@@ -1297,7 +1288,8 @@ const MetadataOptionsPanel = ({
   useEffect(() => {
     if (!file) return;
     let cancelled = false;
-    readPdfMetadata(file)
+    void import("@/lib/edit-metadata")
+      .then((m) => m.readPdfMetadata(file))
       .then((fields) => {
         if (!cancelled) onChange(fields);
       })

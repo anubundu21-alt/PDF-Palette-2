@@ -2,39 +2,9 @@ import { PDFDocument, StandardFonts, degrees, rgb } from "pdf-lib";
 import { PdfPagesError } from "./organize";
 import { normalizeRotation, visibleSize, visibleToPage } from "./geometry";
 
-export type NumberPosition =
-  | "top-left" | "top-center" | "top-right"
-  | "bottom-left" | "bottom-center" | "bottom-right";
-
-export type NumberFace = "sans" | "serif" | "mono";
-
-export interface PageNumberOptions {
-  position: NumberPosition;
-  /** Template with {n} for the page number and {N} for the total. */
-  format: string;
-  /** The number printed on the first numbered page. */
-  startAt: number;
-  /** One-based, inclusive. Pages outside the range are left alone. */
-  fromPage: number;
-  toPage: number;
-  fontSize: number;
-  /** Distance from the edge of the page, in points. */
-  margin: number;
-  face: NumberFace;
-  color: { r: number; g: number; b: number };
-}
-
-export const DEFAULT_PAGE_NUMBERS: PageNumberOptions = {
-  position: "bottom-center",
-  format: "{n}",
-  startAt: 1,
-  fromPage: 1,
-  toPage: 0,
-  fontSize: 11,
-  margin: 28,
-  face: "sans",
-  color: { r: 0, g: 0, b: 0 },
-};
+export type { NumberPosition, NumberFace, PageNumberOptions } from "./page-numbers-options";
+export { DEFAULT_PAGE_NUMBERS } from "./page-numbers-options";
+import type { NumberFace, NumberPosition, PageNumberOptions } from "./page-numbers-options";
 
 const FACES: Record<NumberFace, StandardFonts> = {
   sans: StandardFonts.Helvetica,
