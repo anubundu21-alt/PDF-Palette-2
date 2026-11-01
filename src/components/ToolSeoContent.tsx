@@ -105,7 +105,7 @@ const ToolSeoContent = ({ tool, content }: ToolSeoContentProps) => {
       {content.internalLinks.length > 0 && (
         <section className="mt-10">
           <h2 className="text-2xl font-bold text-black dark:text-foreground">
-            Related guides on PDF Palette
+            Related guides on PDF Robin
           </h2>
           <ul className={`mt-4 list-disc space-y-2 pl-5 ${bodyText}`}>
             {content.internalLinks.map((link) => (

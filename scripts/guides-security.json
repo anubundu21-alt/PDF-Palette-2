@@ -1,8 +1,8 @@
 {
   "/sign-pdf": {
     "name": "Sign PDF",
-    "title": "Sign PDF Files Without Printing Free Online | PDF Palette",
-    "description": "Sign a PDF free online in your browser. Draw, type, or upload a signature, place it on any page, and download—no account required with PDF Palette today.",
+    "title": "Sign PDF Files Without Printing Free Online | PDF Robin",
+    "description": "Sign a PDF free online in your browser. Draw, type, or upload a signature, place it on any page, and download—no account required with PDF Robin today.",
     "primaryKeyword": "sign PDF online",
     "secondaryKeywords": [
       "electronic signature PDF",
@@ -15,7 +15,7 @@
     ],
     "h1": "How to Use Sign PDF – Complete Guide",
     "slug": "sign-pdf",
-    "intro": "Need to sign a contract, form, or approval without a printer? PDF Palette’s Sign PDF tool lets you add a signature right in your browser—draw it, type it in a handwriting style, or upload an image of your wet-ink signature.\n\nPlace and resize the mark on any page, add a date or initials if you need them, then download the signed file. No account is required, and signing stays in your tab so the document is not uploaded for this tool.",
+    "intro": "Need to sign a contract, form, or approval without a printer? PDF Robin’s Sign PDF tool lets you add a signature right in your browser—draw it, type it in a handwriting style, or upload an image of your wet-ink signature.\n\nPlace and resize the mark on any page, add a date or initials if you need them, then download the signed file. No account is required, and signing stays in your tab so the document is not uploaded for this tool.",
     "steps": [
       "Open Sign PDF and upload the PDF you need to sign.",
       "Create a signature by drawing, typing, or uploading an image.",
@@ -30,7 +30,7 @@
       },
       {
         "heading": "How to Use Sign PDF",
-        "body": "Follow these steps in PDF Palette to finish a self-signature quickly. Everything runs in your browser, so you do not install software or create an account first.",
+        "body": "Follow these steps in PDF Robin to finish a self-signature quickly. Everything runs in your browser, so you do not install software or create an account first.",
         "steps": [
           "Upload your PDF.",
           "Create or reuse a signature (draw, type, or image).",
@@ -49,7 +49,7 @@
     ],
     "faqs": [
       {
-        "q": "Is an electronic signature on PDF Palette legally binding?",
+        "q": "Is an electronic signature on PDF Robin legally binding?",
         "a": "Many everyday agreements accept a drawn or typed e-signature, but rules differ by country and document type. Confirm what your situation requires before relying on it for high-stakes filings."
       },
       {
@@ -57,7 +57,7 @@
         "a": "No. You sign the file yourself in the browser. It does not manage recipients, reminders, or certificate-based workflows."
       },
       {
-        "q": "Is my signature stored on PDF Palette servers?",
+        "q": "Is my signature stored on PDF Robin servers?",
         "a": "No. For this tool, the signature exists only in your browser session and is discarded when you close the tab."
       },
       {
@@ -65,7 +65,7 @@
         "a": "Yes. Place signatures, initials, or dates on as many pages as you need before you download."
       }
     ],
-    "conclusion": "Sign PDF on PDF Palette is a fast, free way to finish paperwork without printing or scanning. Upload your file, place a drawn, typed, or image signature, add dates if needed, and download. No account is required, and signing stays in your browser for everyday documents.",
+    "conclusion": "Sign PDF on PDF Robin is a fast, free way to finish paperwork without printing or scanning. Upload your file, place a drawn, typed, or image signature, add dates if needed, and download. No account is required, and signing stays in your browser for everyday documents.",
     "internalLinks": [
       {
         "route": "/fill-forms",
@@ -83,8 +83,8 @@
   },
   "/ocr-pdf": {
     "name": "OCR PDF",
-    "title": "OCR Scanned PDFs to Searchable Free Online | PDF Palette",
-    "description": "OCR a PDF free online to make scans searchable and selectable. Run optical character recognition with PDF Palette; no account required to get started.",
+    "title": "OCR Scanned PDFs to Searchable Free Online | PDF Robin",
+    "description": "OCR a PDF free online to make scans searchable and selectable. Run optical character recognition with PDF Robin; no account required to get started.",
     "primaryKeyword": "OCR PDF online",
     "secondaryKeywords": [
       "make PDF searchable",
@@ -97,7 +97,7 @@
     ],
     "h1": "How to Use OCR PDF – Complete Guide",
     "slug": "ocr-pdf",
-    "intro": "A scanned PDF is usually just pictures of pages. You cannot search it, select words, or paste quotes into another document until optical character recognition (OCR) adds a text layer behind the scan.\n\nPDF Palette’s OCR PDF tool recognizes the characters on each page and returns a searchable PDF that still looks like the original. Use it free online with no account—ideal before converting to Word or Excel, or when you need to find a phrase in a paper archive.",
+    "intro": "A scanned PDF is usually just pictures of pages. You cannot search it, select words, or paste quotes into another document until optical character recognition (OCR) adds a text layer behind the scan.\n\nPDF Robin’s OCR PDF tool recognizes the characters on each page and returns a searchable PDF that still looks like the original. Use it free online with no account—ideal before converting to Word or Excel, or when you need to find a phrase in a paper archive.",
     "steps": [
       "Open OCR PDF and upload your scanned PDF.",
       "Start recognition and wait while each page is processed.",
@@ -112,7 +112,7 @@
       },
       {
         "heading": "How to Use OCR PDF",
-        "body": "Upload a scan, run recognition, and download the searchable PDF. No install is needed. OCR uses a conversion service for recognition; PDF Palette does not keep a copy.",
+        "body": "Upload a scan, run recognition, and download the searchable PDF. No install is needed. OCR uses a conversion service for recognition; PDF Robin does not keep a copy.",
         "steps": [
           "Upload the scanned PDF.",
           "Wait for OCR to finish on all pages.",
@@ -122,7 +122,7 @@
       },
       {
         "heading": "Why Use OCR PDF?",
-        "body": "Paper archives, faxed forms, and phone photos of documents are hard to reuse until they become text. OCR unlocks search across large packets, speeds quoting for notes and tickets, and prepares files for Word or Excel conversion afterward. PDF Palette keeps the flow simple: one upload, one download, and no sign-up before you start the recognition job."
+        "body": "Paper archives, faxed forms, and phone photos of documents are hard to reuse until they become text. OCR unlocks search across large packets, speeds quoting for notes and tickets, and prepares files for Word or Excel conversion afterward. PDF Robin keeps the flow simple: one upload, one download, and no sign-up before you start the recognition job."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -135,19 +135,19 @@
         "a": "Usually no. The original page image remains; recognized text is added as a searchable layer behind it."
       },
       {
-        "q": "How accurate is OCR on PDF Palette?",
+        "q": "How accurate is OCR on PDF Robin?",
         "a": "Clean printed scans at good resolution work well. Low-resolution, skewed, noisy, or handwritten pages are less reliable."
       },
       {
         "q": "Is my PDF kept after OCR?",
-        "a": "The file is sent for recognition only. PDF Palette does not keep a copy afterward. Prefer tools that stay fully in-browser if you cannot send a sensitive scan anywhere."
+        "a": "The file is sent for recognition only. PDF Robin does not keep a copy afterward. Prefer tools that stay fully in-browser if you cannot send a sensitive scan anywhere."
       },
       {
         "q": "Can I convert the OCR’d PDF to Word next?",
         "a": "Yes. Once a text layer exists, PDF to Word and similar converters have real characters to work with instead of a blank image page."
       }
     ],
-    "conclusion": "OCR PDF makes image-based scans searchable and copyable so paper archives become usable again. Run recognition free online on PDF Palette, download the searchable file, then find phrases or convert to Word or Excel with far better results than you get from a blank scan alone.",
+    "conclusion": "OCR PDF makes image-based scans searchable and copyable so paper archives become usable again. Run recognition free online on PDF Robin, download the searchable file, then find phrases or convert to Word or Excel with far better results than you get from a blank scan alone.",
     "internalLinks": [
       {
         "route": "/pdf-to-word",
@@ -165,8 +165,8 @@
   },
   "/unlock-pdf": {
     "name": "Unlock PDF",
-    "title": "Unlock Password-Protected PDF Free Online | PDF Palette",
-    "description": "Unlock a PDF free online when you know the password. Remove open restrictions in your browser with PDF Palette—no account required and no guessing at all.",
+    "title": "Unlock Password-Protected PDF Free Online | PDF Robin",
+    "description": "Unlock a PDF free online when you know the password. Remove open restrictions in your browser with PDF Robin—no account required and no guessing at all.",
     "primaryKeyword": "unlock PDF online",
     "secondaryKeywords": [
       "remove PDF password",
@@ -179,7 +179,7 @@
     ],
     "h1": "How to Use Unlock PDF – Complete Guide",
     "slug": "unlock-pdf",
-    "intro": "Bank statements, payslips, and shared packs often arrive encrypted. If you already know the password, Unlock PDF removes that open restriction so you can archive, print, merge, or convert the file without typing it every time you open the document.\n\nPDF Palette runs this step in your browser: enter the password you are entitled to use, then download an unlocked copy. No account is required, and the tool does not guess or bypass passwords you do not already have.",
+    "intro": "Bank statements, payslips, and shared packs often arrive encrypted. If you already know the password, Unlock PDF removes that open restriction so you can archive, print, merge, or convert the file without typing it every time you open the document.\n\nPDF Robin runs this step in your browser: enter the password you are entitled to use, then download an unlocked copy. No account is required, and the tool does not guess or bypass passwords you do not already have.",
     "steps": [
       "Open Unlock PDF and upload the protected file.",
       "Enter the password that currently opens the PDF.",
@@ -190,7 +190,7 @@
     "sections": [
       {
         "heading": "What Is Unlock PDF?",
-        "body": "Unlock PDF creates a copy of a password-protected document that opens without asking for that password again. It is for documents you can already open—not for cracking unknown credentials or breaking into files you should not access. Once unlocked, the file behaves like a normal PDF for viewing, printing, merging, and further editing with other PDF Palette tools on your device afterward."
+        "body": "Unlock PDF creates a copy of a password-protected document that opens without asking for that password again. It is for documents you can already open—not for cracking unknown credentials or breaking into files you should not access. Once unlocked, the file behaves like a normal PDF for viewing, printing, merging, and further editing with other PDF Robin tools on your device afterward."
       },
       {
         "heading": "How to Use Unlock PDF",
@@ -229,7 +229,7 @@
         "a": "If you still need to share it securely, use Protect PDF and send the password through a separate channel."
       }
     ],
-    "conclusion": "Unlock PDF is a free, browser-local way to remove a password you already know and are allowed to use. Open PDF Palette, enter the passphrase once, download the unrestricted copy, then archive, print, merge, or convert without repeated prompts each time the file opens on your computer.",
+    "conclusion": "Unlock PDF is a free, browser-local way to remove a password you already know and are allowed to use. Open PDF Robin, enter the passphrase once, download the unrestricted copy, then archive, print, merge, or convert without repeated prompts each time the file opens on your computer.",
     "internalLinks": [
       {
         "route": "/protect-pdf",
@@ -247,8 +247,8 @@
   },
   "/protect-pdf": {
     "name": "Protect PDF",
-    "title": "Password-Protect PDF Documents Free Online | PDF Palette",
-    "description": "Protect a PDF with a password free online. Encrypt the file in your browser with PDF Palette so recipients need your passphrase before they can open it.",
+    "title": "Password-Protect PDF Documents Free Online | PDF Robin",
+    "description": "Protect a PDF with a password free online. Encrypt the file in your browser with PDF Robin so recipients need your passphrase before they can open it.",
     "primaryKeyword": "protect PDF with password",
     "secondaryKeywords": [
       "password protect PDF online",
@@ -261,7 +261,7 @@
     ],
     "h1": "How to Use Protect PDF – Complete Guide",
     "slug": "protect-pdf",
-    "intro": "Before you email a contract, tax form, or ID scan, put a password on the PDF. Protect PDF encrypts the file so recipients cannot open it without the passphrase you choose and communicate separately from the attachment.\n\nPDF Palette applies protection in your browser—no account required. Share the password through a different channel than the file itself, such as a call, text, or separate message, so one intercepted email is never enough on its own.",
+    "intro": "Before you email a contract, tax form, or ID scan, put a password on the PDF. Protect PDF encrypts the file so recipients cannot open it without the passphrase you choose and communicate separately from the attachment.\n\nPDF Robin applies protection in your browser—no account required. Share the password through a different channel than the file itself, such as a call, text, or separate message, so one intercepted email is never enough on its own.",
     "steps": [
       "Open Protect PDF and upload the document.",
       "Enter a strong password (and confirm it if prompted).",
@@ -311,7 +311,7 @@
         "a": "No. Encryption controls access; it does not rewrite how text and images appear on the page."
       }
     ],
-    "conclusion": "Protect PDF gives you a free, in-browser way to lock a file before sharing it by email or chat. Encrypt on PDF Palette, download the protected copy, deliver the password separately, and keep sensitive attachments from opening for anyone who should not see them at all.",
+    "conclusion": "Protect PDF gives you a free, in-browser way to lock a file before sharing it by email or chat. Encrypt on PDF Robin, download the protected copy, deliver the password separately, and keep sensitive attachments from opening for anyone who should not see them at all.",
     "internalLinks": [
       {
         "route": "/unlock-pdf",
@@ -329,8 +329,8 @@
   },
   "/fill-forms": {
     "name": "Fill PDF Forms",
-    "title": "Fill Interactive PDF Form Fields Free Online | PDF Palette",
-    "description": "Fill PDF forms free online in your browser. Complete text fields, checkboxes, and dropdowns with PDF Palette, then download—no account required at all.",
+    "title": "Fill Interactive PDF Form Fields Free Online | PDF Robin",
+    "description": "Fill PDF forms free online in your browser. Complete text fields, checkboxes, and dropdowns with PDF Robin, then download—no account required at all.",
     "primaryKeyword": "fill PDF forms online",
     "secondaryKeywords": [
       "complete PDF form free",
@@ -343,7 +343,7 @@
     ],
     "h1": "How to Use Fill PDF Forms – Complete Guide",
     "slug": "fill-forms",
-    "intro": "Skip the print-and-pen routine for applications and HR packs. Fill PDF Forms detects interactive fields—text boxes, checkboxes, and dropdowns—so you can complete worksheets on screen without scanning anything back in afterward.\n\nWork stays in your browser on PDF Palette: type your answers, optionally flatten so they cannot be edited later, and download the finished file. No account is required, and what you type does not need to leave your device for this tool.",
+    "intro": "Skip the print-and-pen routine for applications and HR packs. Fill PDF Forms detects interactive fields—text boxes, checkboxes, and dropdowns—so you can complete worksheets on screen without scanning anything back in afterward.\n\nWork stays in your browser on PDF Robin: type your answers, optionally flatten so they cannot be edited later, and download the finished file. No account is required, and what you type does not need to leave your device for this tool.",
     "steps": [
       "Upload the fillable PDF form.",
       "Click each field and enter text, checks, or dropdown choices.",
@@ -393,7 +393,7 @@
         "a": "Yes. Complete the fields here, then open Sign PDF to place a signature or initials."
       }
     ],
-    "conclusion": "Fill PDF Forms makes interactive paperwork quick and private in your browser. Complete the fields free on PDF Palette, flatten if you need a locked snapshot for submission, and download without creating an account or installing desktop form-filling software on your computer at all.",
+    "conclusion": "Fill PDF Forms makes interactive paperwork quick and private in your browser. Complete the fields free on PDF Robin, flatten if you need a locked snapshot for submission, and download without creating an account or installing desktop form-filling software on your computer at all.",
     "internalLinks": [
       {
         "route": "/sign-pdf",
@@ -411,8 +411,8 @@
   },
   "/redact-pdf": {
     "name": "Redact PDF",
-    "title": "Redact Sensitive Data in PDFs Free Online | PDF Palette",
-    "description": "Redact a PDF free online in your browser. Permanently remove sensitive text and images with PDF Palette—true redaction that removes content, not a cover.",
+    "title": "Redact Sensitive Data in PDFs Free Online | PDF Robin",
+    "description": "Redact a PDF free online in your browser. Permanently remove sensitive text and images with PDF Robin—true redaction that removes content, not a cover.",
     "primaryKeyword": "redact PDF online",
     "secondaryKeywords": [
       "black out text in PDF",
@@ -425,7 +425,7 @@
     ],
     "h1": "How to Use Redact PDF – Complete Guide",
     "slug": "redact-pdf",
-    "intro": "Drawing a black rectangle in a normal editor often only hides text—the words can still be selected or recovered from the file underneath. Redact PDF on PDF Palette rebuilds affected pages so the underlying content is actually gone from the document.\n\nMark the regions to remove in your browser, apply redaction, and download a sanitized copy. No account is required. Prefer this whenever you must share a file that still contains account numbers, addresses, or private notes.",
+    "intro": "Drawing a black rectangle in a normal editor often only hides text—the words can still be selected or recovered from the file underneath. Redact PDF on PDF Robin rebuilds affected pages so the underlying content is actually gone from the document.\n\nMark the regions to remove in your browser, apply redaction, and download a sanitized copy. No account is required. Prefer this whenever you must share a file that still contains account numbers, addresses, or private notes.",
     "steps": [
       "Upload the PDF that contains sensitive content.",
       "Draw redaction boxes over text or images to remove.",
@@ -450,7 +450,7 @@
       },
       {
         "heading": "Why Use Redact PDF?",
-        "body": "Legal, HR, and support teams share PDFs that still contain secrets in headers and footnotes. Overlay “redaction” fails under simple copy-paste from the file. Browser-local redaction keeps the document on your device while you sanitize it, and PDF Palette requires no account for a free pass on routine packets that need permanent removal."
+        "body": "Legal, HR, and support teams share PDFs that still contain secrets in headers and footnotes. Overlay “redaction” fails under simple copy-paste from the file. Browser-local redaction keeps the document on your device while you sanitize it, and PDF Robin requires no account for a free pass on routine packets that need permanent removal."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -475,7 +475,7 @@
         "a": "Use Auto-Redact PII to find common personal-data patterns quickly, then use Redact PDF for anything the patterns miss."
       }
     ],
-    "conclusion": "Redact PDF is the free, browser-local way to remove sensitive content for real before you share. Mark every region carefully, apply redaction so underlying data is gone, download on PDF Palette, and keep the unredacted original offline where only you can reach it.",
+    "conclusion": "Redact PDF is the free, browser-local way to remove sensitive content for real before you share. Mark every region carefully, apply redaction so underlying data is gone, download on PDF Robin, and keep the unredacted original offline where only you can reach it.",
     "internalLinks": [
       {
         "route": "/auto-redact-pii",
@@ -493,8 +493,8 @@
   },
   "/compare-pdf": {
     "name": "Compare PDF",
-    "title": "Compare Two PDF File Versions Free Online | PDF Palette",
-    "description": "Compare two PDFs free online in your browser. Spot text and layout changes between versions with PDF Palette, and review diffs with no account required.",
+    "title": "Compare Two PDF File Versions Free Online | PDF Robin",
+    "description": "Compare two PDFs free online in your browser. Spot text and layout changes between versions with PDF Robin, and review diffs with no account required.",
     "primaryKeyword": "compare PDF online",
     "secondaryKeywords": [
       "PDF difference checker",
@@ -507,7 +507,7 @@
     ],
     "h1": "How to Use Compare PDF – Complete Guide",
     "slug": "compare-pdf",
-    "intro": "When a contract or report comes back marked as only lightly revised, the risky changes are easy to miss. Compare PDF loads two versions and highlights differences page by page so you can see what actually changed between exports.\n\nRun the comparison free online in your browser on PDF Palette—no account required. Use it before you sign, publish, or file a document that should only contain the edits you already agreed to accept in writing.",
+    "intro": "When a contract or report comes back marked as only lightly revised, the risky changes are easy to miss. Compare PDF loads two versions and highlights differences page by page so you can see what actually changed between exports.\n\nRun the comparison free online in your browser on PDF Robin—no account required. Use it before you sign, publish, or file a document that should only contain the edits you already agreed to accept in writing.",
     "steps": [
       "Open Compare PDF and upload the original version.",
       "Upload the revised PDF as the second file.",
@@ -532,7 +532,7 @@
       },
       {
         "heading": "Why Use Compare PDF?",
-        "body": "Manual side-by-side scrolling misses renumbered clauses and quiet deletions in long exhibits. A dedicated compare pass reduces that risk before you sign or publish. Doing it locally in the browser keeps draft agreements on your device while you review, and PDF Palette does not require a login to begin checking what changed."
+        "body": "Manual side-by-side scrolling misses renumbered clauses and quiet deletions in long exhibits. A dedicated compare pass reduces that risk before you sign or publish. Doing it locally in the browser keeps draft agreements on your device while you review, and PDF Robin does not require a login to begin checking what changed."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -557,7 +557,7 @@
         "a": "No. It is a practical aid for spotting changes. Critical agreements still need human—and often legal—review."
       }
     ],
-    "conclusion": "Compare PDF helps you catch real edits between versions without endless side-by-side scrolling. Upload both files free on PDF Palette, review the highlights in your browser, then approve or send feedback with fewer surprises hiding in the fine print of a last-minute revision.",
+    "conclusion": "Compare PDF helps you catch real edits between versions without endless side-by-side scrolling. Upload both files free on PDF Robin, review the highlights in your browser, then approve or send feedback with fewer surprises hiding in the fine print of a last-minute revision.",
     "internalLinks": [
       {
         "route": "/sign-pdf",
@@ -575,8 +575,8 @@
   },
   "/flatten-pdf": {
     "name": "Flatten PDF",
-    "title": "Flatten PDF Forms and Page Layers Free Online | PDF Palette",
-    "description": "Flatten a PDF free online in your browser. Lock form fields and make pages static with PDF Palette so recipients cannot casually edit finished content.",
+    "title": "Flatten PDF Forms and Page Layers Free Online | PDF Robin",
+    "description": "Flatten a PDF free online in your browser. Lock form fields and make pages static with PDF Robin so recipients cannot casually edit finished content.",
     "primaryKeyword": "flatten PDF online",
     "secondaryKeywords": [
       "flatten PDF form fields",
@@ -589,7 +589,7 @@
     ],
     "h1": "How to Use Flatten PDF – Complete Guide",
     "slug": "flatten-pdf",
-    "intro": "A filled form that still has live fields can be cleared or altered after you send it. Flatten PDF bakes interactive content into static pages so the file reads as a finished document instead of an open worksheet someone can reset.\n\nUse PDF Palette free online in your browser: upload, flatten, and download. No account is required. It is the usual last step after Fill PDF Forms or before archiving a packet you do not want edited later by someone else.",
+    "intro": "A filled form that still has live fields can be cleared or altered after you send it. Flatten PDF bakes interactive content into static pages so the file reads as a finished document instead of an open worksheet someone can reset.\n\nUse PDF Robin free online in your browser: upload, flatten, and download. No account is required. It is the usual last step after Fill PDF Forms or before archiving a packet you do not want edited later by someone else.",
     "steps": [
       "Open Flatten PDF and upload your file.",
       "Confirm you want fields and pages flattened.",
@@ -639,7 +639,7 @@
         "a": "Fill fields first, sign if required, then flatten when you want a final uneditable snapshot for submission."
       }
     ],
-    "conclusion": "Flatten PDF locks a finished document into a static copy you can share with fewer edit risks. Run it free in your browser on PDF Palette once the fields and signatures are final, then download and submit the snapshot with more confidence than a still-live form.",
+    "conclusion": "Flatten PDF locks a finished document into a static copy you can share with fewer edit risks. Run it free in your browser on PDF Robin once the fields and signatures are final, then download and submit the snapshot with more confidence than a still-live form.",
     "internalLinks": [
       {
         "route": "/fill-forms",
@@ -657,8 +657,8 @@
   },
   "/repair-pdf": {
     "name": "Repair PDF",
-    "title": "Repair Corrupt or Damaged PDFs Free Online | PDF Palette",
-    "description": "Repair a damaged PDF free online in your browser. Rebuild pages so viewers and printers can open the file again using PDF Palette—no account required.",
+    "title": "Repair Corrupt or Damaged PDFs Free Online | PDF Robin",
+    "description": "Repair a damaged PDF free online in your browser. Rebuild pages so viewers and printers can open the file again using PDF Robin—no account required.",
     "primaryKeyword": "repair PDF online",
     "secondaryKeywords": [
       "fix corrupt PDF",
@@ -671,7 +671,7 @@
     ],
     "h1": "How to Use Repair PDF – Complete Guide",
     "slug": "repair-pdf",
-    "intro": "Some PDFs throw errors, refuse to save, or open with missing pages after a bad download or flaky export from another app. Repair PDF rebuilds the document page by page into a fresh file that ordinary viewers can open again more reliably.\n\nProcessing stays in your browser on PDF Palette—free, with no account. It cannot invent content that was never in the file, but it often restores a usable copy when the structure is only partly broken.",
+    "intro": "Some PDFs throw errors, refuse to save, or open with missing pages after a bad download or flaky export from another app. Repair PDF rebuilds the document page by page into a fresh file that ordinary viewers can open again more reliably.\n\nProcessing stays in your browser on PDF Robin—free, with no account. It cannot invent content that was never in the file, but it often restores a usable copy when the structure is only partly broken.",
     "steps": [
       "Open Repair PDF and upload the problematic file.",
       "Start repair and wait while pages are rebuilt.",
@@ -696,7 +696,7 @@
       },
       {
         "heading": "Why Use Repair PDF?",
-        "body": "A single bad attachment can block printing, merging, or conversion for an entire workflow on deadline. Repairing locally avoids uploading sensitive broken files to unknown recovery sites. PDF Palette keeps the flow simple and free when you just need the document to open again on ordinary viewers without installing recovery utilities."
+        "body": "A single bad attachment can block printing, merging, or conversion for an entire workflow on deadline. Repairing locally avoids uploading sensitive broken files to unknown recovery sites. PDF Robin keeps the flow simple and free when you just need the document to open again on ordinary viewers without installing recovery utilities."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -721,7 +721,7 @@
         "a": "Usually not. Use Unlock PDF with the known password rather than repair."
       }
     ],
-    "conclusion": "Repair PDF is a free, browser-local reset for files that will not open cleanly after a bad download or export. Rebuild on PDF Palette, verify every page loads, keep the original until you are sure, then continue compressing, merging, or converting as usual with the fixed copy.",
+    "conclusion": "Repair PDF is a free, browser-local reset for files that will not open cleanly after a bad download or export. Rebuild on PDF Robin, verify every page loads, keep the original until you are sure, then continue compressing, merging, or converting as usual with the fixed copy.",
     "internalLinks": [
       {
         "route": "/compress-pdf",
@@ -739,8 +739,8 @@
   },
   "/extract-text": {
     "name": "Extract Text",
-    "title": "Extract All Text from PDF Files Free Online | PDF Palette",
-    "description": "Extract text from a PDF free online in your browser. Download selectable content as a plain .txt file with PDF Palette; no account required for quotes.",
+    "title": "Extract All Text from PDF Files Free Online | PDF Robin",
+    "description": "Extract text from a PDF free online in your browser. Download selectable content as a plain .txt file with PDF Robin; no account required for quotes.",
     "primaryKeyword": "extract text from PDF",
     "secondaryKeywords": [
       "PDF to text online",
@@ -753,7 +753,7 @@
     ],
     "h1": "How to Use Extract Text – Complete Guide",
     "slug": "extract-text",
-    "intro": "When you need quotes, notes, or a plain-text archive, Extract Text pulls selectable strings from a PDF into a downloadable .txt file. It is faster than copying page by page and handy when you want search outside the PDF viewer on your computer.\n\nRun it free online in your browser on PDF Palette with no account. Scanned pages without a text layer will come out empty or nearly empty until you run OCR PDF first.",
+    "intro": "When you need quotes, notes, or a plain-text archive, Extract Text pulls selectable strings from a PDF into a downloadable .txt file. It is faster than copying page by page and handy when you want search outside the PDF viewer on your computer.\n\nRun it free online in your browser on PDF Robin with no account. Scanned pages without a text layer will come out empty or nearly empty until you run OCR PDF first.",
     "steps": [
       "Open Extract Text and upload your PDF.",
       "Start extraction in your browser.",
@@ -803,7 +803,7 @@
         "a": "Yes. Summarize & Ask PDF builds a local extractive summary and keyword answers from the document text."
       }
     ],
-    "conclusion": "Extract Text turns a PDF’s selectable content into a simple .txt download you can paste or index anywhere. Use it free in your browser on PDF Palette, and run OCR first whenever you are starting from a scan instead of a born-digital file with real text.",
+    "conclusion": "Extract Text turns a PDF’s selectable content into a simple .txt download you can paste or index anywhere. Use it free in your browser on PDF Robin, and run OCR first whenever you are starting from a scan instead of a born-digital file with real text.",
     "internalLinks": [
       {
         "route": "/ocr-pdf",
@@ -821,8 +821,8 @@
   },
   "/extract-images": {
     "name": "Extract Images",
-    "title": "Extract Embedded PDF Image Files Free Online | PDF Palette",
-    "description": "Extract images from a PDF free online in your browser. Download embedded pictures as PNG files with PDF Palette; no account required to export figures.",
+    "title": "Extract Embedded PDF Image Files Free Online | PDF Robin",
+    "description": "Extract images from a PDF free online in your browser. Download embedded pictures as PNG files with PDF Robin; no account required to export figures.",
     "primaryKeyword": "extract images from PDF",
     "secondaryKeywords": [
       "PDF image extractor",
@@ -835,7 +835,7 @@
     ],
     "h1": "How to Use Extract Images – Complete Guide",
     "slug": "extract-images",
-    "intro": "Diagrams, logos, and photos embedded in a PDF are awkward to reuse if you only have a low-quality screenshot. Extract Images pulls those pictures out so you can save them as PNG files for slides, tickets, or docs.\n\nWhen a page has no separate image objects, PDF Palette can render that page as a PNG instead so you still get a usable visual. The tool runs free online in your browser with no account required to begin.",
+    "intro": "Diagrams, logos, and photos embedded in a PDF are awkward to reuse if you only have a low-quality screenshot. Extract Images pulls those pictures out so you can save them as PNG files for slides, tickets, or docs.\n\nWhen a page has no separate image objects, PDF Robin can render that page as a PNG instead so you still get a usable visual. The tool runs free online in your browser with no account required to begin.",
     "steps": [
       "Open Extract Images and upload your PDF.",
       "Start extraction in your browser.",
@@ -885,7 +885,7 @@
         "a": "Yes. Use PDF to JPG when you want one image per page rather than only embedded pictures."
       }
     ],
-    "conclusion": "Extract Images recovers usable PNG files from a PDF without relying on cropped screenshots. Run it free in your browser on PDF Palette, then drop figures into presentations, tickets, or design tools with better clarity than a phone photo of the printed page would give you.",
+    "conclusion": "Extract Images recovers usable PNG files from a PDF without relying on cropped screenshots. Run it free in your browser on PDF Robin, then drop figures into presentations, tickets, or design tools with better clarity than a phone photo of the printed page would give you.",
     "internalLinks": [
       {
         "route": "/pdf-to-jpg",
@@ -903,8 +903,8 @@
   },
   "/auto-redact-pii": {
     "name": "Auto-Redact PII",
-    "title": "Auto-Redact PII in PDF Documents Free Online | PDF Palette",
-    "description": "Auto-redact PII in a PDF free online. Find names, emails, phones, and similar data, then black them out in your browser with PDF Palette—no account needed.",
+    "title": "Auto-Redact PII in PDF Documents Free Online | PDF Robin",
+    "description": "Auto-redact PII in a PDF free online. Find names, emails, phones, and similar data, then black them out in your browser with PDF Robin—no account needed.",
     "primaryKeyword": "auto redact PII PDF",
     "secondaryKeywords": [
       "redact personal information PDF",
@@ -917,7 +917,7 @@
     ],
     "h1": "How to Use Auto-Redact PII – Complete Guide",
     "slug": "auto-redact-pii",
-    "intro": "Sharing logs, tickets, or customer PDFs often means stripping personal data first. Auto-Redact PII scans for common patterns—such as names, emails, and phone numbers—paints black boxes over matches, and flattens so the text cannot be copied straight back out of the file.\n\nEverything runs in your browser on PDF Palette, free and without an account. Always review the output carefully; automation speeds the pass but does not replace a human check before you release the file.",
+    "intro": "Sharing logs, tickets, or customer PDFs often means stripping personal data first. Auto-Redact PII scans for common patterns—such as names, emails, and phone numbers—paints black boxes over matches, and flattens so the text cannot be copied straight back out of the file.\n\nEverything runs in your browser on PDF Robin, free and without an account. Always review the output carefully; automation speeds the pass but does not replace a human check before you release the file.",
     "steps": [
       "Upload the PDF that may contain personal data.",
       "Start Auto-Redact PII and wait while patterns are found.",
@@ -967,7 +967,7 @@
         "a": "Flattening helps ensure blacked-out text cannot simply be selected or copied from live text underneath."
       }
     ],
-    "conclusion": "Auto-Redact PII speeds removal of common personal data before you share a PDF outside your team. Run it free in your browser on PDF Palette, review every page carefully, and finish stubborn edge cases with manual Redact PDF so fewer identifiers slip through unnoticed.",
+    "conclusion": "Auto-Redact PII speeds removal of common personal data before you share a PDF outside your team. Run it free in your browser on PDF Robin, review every page carefully, and finish stubborn edge cases with manual Redact PDF so fewer identifiers slip through unnoticed.",
     "internalLinks": [
       {
         "route": "/redact-pdf",
@@ -985,8 +985,8 @@
   },
   "/chat-with-pdf": {
     "name": "Summarize & Ask PDF",
-    "title": "Summarize and Ask PDF Locally Free Online | PDF Palette",
-    "description": "Summarize a PDF and ask questions free online with local extractive Q&A—not cloud AI chat. Private on-device help from PDF Palette, no account needed.",
+    "title": "Summarize and Ask PDF Locally Free Online | PDF Robin",
+    "description": "Summarize a PDF and ask questions free online with local extractive Q&A—not cloud AI chat. Private on-device help from PDF Robin, no account needed.",
     "primaryKeyword": "summarize PDF online",
     "secondaryKeywords": [
       "ask questions about PDF",
@@ -999,7 +999,7 @@
     ],
     "h1": "How to Use Summarize & Ask PDF – Complete Guide",
     "slug": "chat-with-pdf",
-    "intro": "Summarize & Ask PDF helps you skim a long document without sending it to a cloud AI chatbot. PDF Palette builds an extractive summary from the file’s own sentences and answers questions by matching keywords to passages that already appear in the text.\n\nLoad the PDF in your browser, read the summary, then ask follow-ups. Nothing is sent to a cloud model for this tool—the text stays on your device. Free to use with no account.",
+    "intro": "Summarize & Ask PDF helps you skim a long document without sending it to a cloud AI chatbot. PDF Robin builds an extractive summary from the file’s own sentences and answers questions by matching keywords to passages that already appear in the text.\n\nLoad the PDF in your browser, read the summary, then ask follow-ups. Nothing is sent to a cloud model for this tool—the text stays on your device. Free to use with no account.",
     "steps": [
       "Open Summarize & Ask PDF and upload your document.",
       "Click Load & summarize to build the local summary.",
@@ -1049,7 +1049,7 @@
         "a": "The PDF may lack a text layer. Run OCR PDF, then load and summarize again."
       }
     ],
-    "conclusion": "Summarize & Ask PDF gives you a private, on-device way to skim and query a long document. Use it free on PDF Palette for extractive summaries and keyword passage answers—faithful to what the file already says, without sending any of that text to cloud AI chat services.",
+    "conclusion": "Summarize & Ask PDF gives you a private, on-device way to skim and query a long document. Use it free on PDF Robin for extractive summaries and keyword passage answers—faithful to what the file already says, without sending any of that text to cloud AI chat services.",
     "internalLinks": [
       {
         "route": "/extract-text",

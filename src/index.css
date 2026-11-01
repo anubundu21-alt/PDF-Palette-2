@@ -6,6 +6,10 @@
 
 @layer base {
   :root {
+    /* PDF Robin brand mark. Hex, not HSL channels: the SVG consumes them raw. */
+    --brand-navy: #16294A;
+    --brand-navy-soft: #1E3A63;
+
     --background: 210 20% 98%;
     --foreground: 222 47% 11%;
 
@@ -61,6 +65,11 @@
   }
 
   .dark {
+    /* The dark background is near-black navy, so the literal brand navy
+       vanishes against it. Lift it enough to read while staying navy. */
+    --brand-navy: #3C5F99;
+    --brand-navy-soft: #4A6FA8;
+
     --background: 222 47% 6%;
     --foreground: 210 20% 98%;
 

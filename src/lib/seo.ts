@@ -39,10 +39,10 @@ export interface ToolContent {
   internalLinks: ToolInternalLink[];
 }
 
-export const SITE_NAME = "PDF Palette";
+export const SITE_NAME = "PDF Robin";
 
 export const DEFAULT_TITLE =
-  "PDF Palette — 38 Free PDF Tools That Don’t Keep Your Files";
+  "PDF Robin — 38 Free PDF Tools That Don’t Keep Your Files";
 
 export const DEFAULT_DESCRIPTION =
   "Free tools for your better productivity. Merge, split, compress, convert, sign, OCR and edit PDFs — free and fast.";

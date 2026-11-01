@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Privacy = () => (
   <LegalPage
     title="Privacy Policy"
-    description="PDF Palette does not collect customer accounts or keep the files you process. This page explains what does and does not happen when you use the site."
+    description="PDF Robin does not collect customer accounts or keep the files you process. This page explains what does and does not happen when you use the site."
         updated="9 September 2026"
   >
     <section>
@@ -12,14 +12,14 @@ const Privacy = () => (
       <p>
         We do not ask you to sign up. We do not take your documents as customer data. Most tools process
         files in your browser. PDF to Word, Word to PDF, PDF to PowerPoint, PDF to Excel, and OCR PDF send the file to a conversion
-        service. PDF Palette does not keep a copy. We do not sell personal information, because
+        service. PDF Robin does not keep a copy. We do not sell personal information, because
         we do not run a customer database of people or files.
       </p>
     </section>
     <section>
       <h2>Who this policy covers</h2>
       <p>
-        This policy describes the PDF Palette website (the pages and tools on this domain). It is written for
+        This policy describes the PDF Robin website (the pages and tools on this domain). It is written for
         how the product works today. If that changes, we will update this page and the “Last updated” date.
       </p>
     </section>
@@ -59,7 +59,7 @@ const Privacy = () => (
       <p>
         The website is hosted on infrastructure that typically records ordinary web-server metadata when a page
         is requested (for example an IP address, browser user-agent, and the URL requested). Those logs exist
-        to operate and secure the site. They are not a PDF Palette customer database, and they are not used to
+        to operate and secure the site. They are not a PDF Robin customer database, and they are not used to
         identify you in order to market to you. We do not attach those logs to the files you process in tools,
         because those files are not uploaded to us.
       </p>
@@ -67,7 +67,7 @@ const Privacy = () => (
     <section>
       <h2>Cookies, ads, and analytics</h2>
       <p>
-        PDF Palette may show advertisements through Google AdSense (or a similar network) once approved.
+        PDF Robin may show advertisements through Google AdSense (or a similar network) once approved.
         Those partners can use cookies or similar technologies to serve and measure ads. We do not use an
         in-app analytics product that tracks which documents you open. Your browser and hosting provider may
         also use technical cookies required to deliver the site. You can control cookies in your browser
@@ -102,7 +102,7 @@ const Privacy = () => (
     <section>
       <h2>Your choices</h2>
       <p>
-        Because we do not hold a customer file about you, there is no PDF Palette account to download or delete.
+        Because we do not hold a customer file about you, there is no PDF Robin account to download or delete.
         You control the files on your device. You can stop using the site at any time.
       </p>
     </section>
@@ -111,7 +111,7 @@ const Privacy = () => (
       <p>
         If we ever start collecting customer data (for example accounts or server-side file storage), we will
         change this policy before that happens and describe what is collected and why. Until then, treat this
-        page as the accurate description: no customer accounts, no retained document uploads to PDF Palette.
+        page as the accurate description: no customer accounts, no retained document uploads to PDF Robin.
       </p>
     </section>
     <section>

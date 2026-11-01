@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 const Terms = () => (
   <LegalPage
     title="Terms of Service"
-    description="These terms govern use of the PDF Palette website and its in-browser tools. By using the site, you agree to them."
+    description="These terms govern use of the PDF Robin website and its in-browser tools. By using the site, you agree to them."
     updated="7 September 2026"
   >
     <section>
       <h2>Agreement</h2>
       <p>
-        PDF Palette is a free web application that provides PDF and document utilities in your browser. If you
+        PDF Robin is a free web application that provides PDF and document utilities in your browser. If you
         do not agree with these terms, do not use the site.
       </p>
     </section>
@@ -20,7 +20,7 @@ const Terms = () => (
         We provide tools such as convert, merge, split, compress, OCR, and related utilities. Most processing
         happens on your device. As described in the <Link to="/privacy">Privacy Policy</Link>, a few tools
         (PDF to Word, Word to PDF, and HTML to PDF from a URL) send a file or page address for conversion
-        only — PDF Palette does not store it. We do not offer document storage, user accounts, or a hosted
+        only — PDF Robin does not store it. We do not offer document storage, user accounts, or a hosted
         filing system.
       </p>
       <p>
@@ -60,7 +60,7 @@ const Terms = () => (
     <section>
       <h2>Intellectual property</h2>
       <p>
-        The PDF Palette name, site design, and original code of the application are protected as applicable.
+        The PDF Robin name, site design, and original code of the application are protected as applicable.
         Third-party libraries retain their own licenses. Your documents remain yours.
       </p>
     </section>
@@ -75,7 +75,7 @@ const Terms = () => (
     <section>
       <h2>Limitation of liability</h2>
       <p>
-        To the fullest extent permitted by law, PDF Palette and its contributors are not liable for indirect,
+        To the fullest extent permitted by law, PDF Robin and its contributors are not liable for indirect,
         incidental, special, consequential, or punitive damages, or for lost data, lost profits, or business
         interruption, arising from use of the tools. If a jurisdiction does not allow some limitations, those
         limitations apply to the maximum extent allowed.

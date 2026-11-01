@@ -6,8 +6,8 @@ const NotFound = () => {
   const location = useLocation();
 
   useSeo({
-    title: "Page not found — PDF Palette",
-    description: "This page does not exist. Browse the free PDF tools on PDF Palette instead.",
+    title: "Page not found — PDF Robin",
+    description: "This page does not exist. Browse the free PDF tools on PDF Robin instead.",
     noindex: true,
   });
 

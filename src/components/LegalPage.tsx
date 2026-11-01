@@ -14,7 +14,7 @@ interface LegalPageProps {
 
 const LegalPage = ({ title, description, updated, children }: LegalPageProps) => {
   useSeo({
-    title: `${title} | PDF Palette`,
+    title: `${title} | PDF Robin`,
     description: description ?? DEFAULT_DESCRIPTION,
   });
 

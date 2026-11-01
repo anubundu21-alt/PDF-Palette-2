@@ -20,9 +20,9 @@ const toolNames = [
 /** Curated meta descriptions (~150–160 chars) tuned for search queries. */
 const metaByRoute = {
   "/pdf-to-word":
-    "Convert PDF to Word (.docx) free online. Editable text, tables and layout — no sign-up, no watermark. Fast PDF to DOCX with PDF Palette.",
+    "Convert PDF to Word (.docx) free online. Editable text, tables and layout — no sign-up, no watermark. Fast PDF to DOCX with PDF Robin.",
   "/word-to-pdf":
-    "Convert Word to PDF free online. Turn .docx into a shareable PDF — no sign-up, no watermark. Fast DOCX to PDF with PDF Palette.",
+    "Convert Word to PDF free online. Turn .docx into a shareable PDF — no sign-up, no watermark. Fast DOCX to PDF with PDF Robin.",
   "/compress-pdf":
     "Compress PDF free online to reduce file size. Shrink large PDFs for email or upload — no sign-up. Fast PDF compressor in your browser.",
   "/merge-pdf":
@@ -30,53 +30,53 @@ const metaByRoute = {
   "/split-pdf":
     "Split PDF free online. Extract pages or divide a PDF into separate files — no sign-up. Fast PDF splitter in your browser.",
   "/pdf-to-jpg":
-    "Convert PDF to JPG free online. Export each page as a high-quality JPEG image — no sign-up. Fast PDF to JPG with PDF Palette.",
+    "Convert PDF to JPG free online. Export each page as a high-quality JPEG image — no sign-up. Fast PDF to JPG with PDF Robin.",
   "/jpg-to-pdf":
-    "Convert JPG or PNG to PDF free online. Combine images into one PDF — no sign-up, no watermark. Fast image to PDF with PDF Palette.",
+    "Convert JPG or PNG to PDF free online. Combine images into one PDF — no sign-up, no watermark. Fast image to PDF with PDF Robin.",
   "/pdf-to-excel":
-    "Convert PDF to Excel free online. Extract tables into an editable spreadsheet — no sign-up. Fast PDF to XLSX with PDF Palette.",
+    "Convert PDF to Excel free online. Extract tables into an editable spreadsheet — no sign-up. Fast PDF to XLSX with PDF Robin.",
   "/excel-to-pdf":
-    "Convert Excel to PDF free online. Turn spreadsheets into a shareable PDF — no sign-up. Fast XLSX to PDF with PDF Palette.",
+    "Convert Excel to PDF free online. Turn spreadsheets into a shareable PDF — no sign-up. Fast XLSX to PDF with PDF Robin.",
   "/pdf-to-powerpoint":
-    "Convert PDF to PowerPoint free online. Turn pages into editable PPTX slides — no sign-up. Fast PDF to PPT with PDF Palette.",
+    "Convert PDF to PowerPoint free online. Turn pages into editable PPTX slides — no sign-up. Fast PDF to PPT with PDF Robin.",
   "/powerpoint-to-pdf":
-    "Convert PowerPoint to PDF free online. Export PPTX as a fixed PDF — no sign-up. Fast PowerPoint to PDF with PDF Palette.",
+    "Convert PowerPoint to PDF free online. Export PPTX as a fixed PDF — no sign-up. Fast PowerPoint to PDF with PDF Robin.",
   "/edit-pdf":
-    "Edit PDF free online. Add text, images and annotations in your browser — no sign-up. Simple PDF editor with PDF Palette.",
+    "Edit PDF free online. Add text, images and annotations in your browser — no sign-up. Simple PDF editor with PDF Robin.",
   "/sign-pdf":
-    "Sign PDF free online. Draw or type your signature and place it on the page — no sign-up. Fast e-sign PDF with PDF Palette.",
+    "Sign PDF free online. Draw or type your signature and place it on the page — no sign-up. Fast e-sign PDF with PDF Robin.",
   "/ocr-pdf":
-    "OCR PDF free online. Make scanned PDFs searchable and copyable — no sign-up. Optical character recognition with PDF Palette.",
+    "OCR PDF free online. Make scanned PDFs searchable and copyable — no sign-up. Optical character recognition with PDF Robin.",
   "/unlock-pdf":
-    "Unlock PDF free online. Remove PDF password restrictions you know — no sign-up. Open protected PDFs with PDF Palette.",
+    "Unlock PDF free online. Remove PDF password restrictions you know — no sign-up. Open protected PDFs with PDF Robin.",
   "/protect-pdf":
-    "Protect PDF free online. Add a password so others need it to open the file — no sign-up. Encrypt PDFs with PDF Palette.",
+    "Protect PDF free online. Add a password so others need it to open the file — no sign-up. Encrypt PDFs with PDF Robin.",
   "/rotate-pdf":
-    "Rotate PDF free online. Fix sideways or upside-down pages permanently — no sign-up. Rotate PDF pages with PDF Palette.",
+    "Rotate PDF free online. Fix sideways or upside-down pages permanently — no sign-up. Rotate PDF pages with PDF Robin.",
   "/organize-pdf":
-    "Organize PDF free online. Reorder, rotate or delete pages in one place — no sign-up. Rearrange PDF pages with PDF Palette.",
+    "Organize PDF free online. Reorder, rotate or delete pages in one place — no sign-up. Rearrange PDF pages with PDF Robin.",
   "/watermark-pdf":
-    "Add a watermark to PDF free online. Place text or an image across pages — no sign-up. Watermark PDFs with PDF Palette.",
+    "Add a watermark to PDF free online. Place text or an image across pages — no sign-up. Watermark PDFs with PDF Robin.",
   "/html-to-pdf":
-    "Convert HTML or a web page URL to PDF free online. Save pages as PDF — no sign-up. HTML to PDF with PDF Palette.",
+    "Convert HTML or a web page URL to PDF free online. Save pages as PDF — no sign-up. HTML to PDF with PDF Robin.",
   "/extract-pages":
-    "Extract pages from PDF free online. Save selected pages as a new PDF — no sign-up. Pull pages out with PDF Palette.",
+    "Extract pages from PDF free online. Save selected pages as a new PDF — no sign-up. Pull pages out with PDF Robin.",
   "/remove-pages":
-    "Remove pages from PDF free online. Delete unwanted pages and download a clean file — no sign-up. Edit page list with PDF Palette.",
+    "Remove pages from PDF free online. Delete unwanted pages and download a clean file — no sign-up. Edit page list with PDF Robin.",
   "/page-numbers":
-    "Add page numbers to PDF free online. Choose position and style — no sign-up. Number PDF pages with PDF Palette.",
+    "Add page numbers to PDF free online. Choose position and style — no sign-up. Number PDF pages with PDF Robin.",
   "/crop-pdf":
-    "Crop PDF free online. Trim margins or cut to a custom area — no sign-up. Crop PDF pages with PDF Palette.",
+    "Crop PDF free online. Trim margins or cut to a custom area — no sign-up. Crop PDF pages with PDF Robin.",
   "/fill-forms":
-    "Fill PDF forms free online. Type into fillable fields and save — no sign-up. Complete PDF forms with PDF Palette.",
+    "Fill PDF forms free online. Type into fillable fields and save — no sign-up. Complete PDF forms with PDF Robin.",
   "/redact-pdf":
-    "Redact PDF free online. Permanently black out sensitive text and images — no sign-up. Secure redaction with PDF Palette.",
+    "Redact PDF free online. Permanently black out sensitive text and images — no sign-up. Secure redaction with PDF Robin.",
   "/compare-pdf":
-    "Compare two PDFs free online. Spot text and layout differences side by side — no sign-up. PDF diff with PDF Palette.",
+    "Compare two PDFs free online. Spot text and layout differences side by side — no sign-up. PDF diff with PDF Robin.",
   "/flatten-pdf":
-    "Flatten PDF free online. Bake form fields and annotations into static pages — no sign-up. Lock PDFs with PDF Palette.",
+    "Flatten PDF free online. Bake form fields and annotations into static pages — no sign-up. Lock PDFs with PDF Robin.",
   "/txt-to-pdf":
-    "Convert TXT to PDF free online. Turn plain text into a clean PDF document — no sign-up. Text to PDF with PDF Palette.",
+    "Convert TXT to PDF free online. Turn plain text into a clean PDF document — no sign-up. Text to PDF with PDF Robin.",
 };
 
 const introExtra = {
@@ -100,8 +100,8 @@ const introExtra = {
 
 const extraFaqs = {
   privacy:
-    "Most tools run in your browser. PDF to Word, Word to PDF, and HTML to PDF from a URL send the file (or page address) for conversion only — PDF Palette does not keep a copy.",
-  free: "Yes. PDF Palette tools are free to use with no account and no watermark added to your file.",
+    "Most tools run in your browser. PDF to Word, Word to PDF, and HTML to PDF from a URL send the file (or page address) for conversion only — PDF Robin does not keep a copy.",
+  free: "Yes. PDF Robin tools are free to use with no account and no watermark added to your file.",
   signup: "No. Open the tool, add your file, and download the result. No registration is required.",
 };
 
@@ -115,15 +115,15 @@ function clampMeta(text, max = 160) {
 
 function improve(entry, name, description, route) {
   const lower = name.toLowerCase();
-  const title = `${name} Free Online — No Sign-Up | PDF Palette`;
+  const title = `${name} Free Online — No Sign-Up | PDF Robin`;
   const metaDescription = clampMeta(
     metaByRoute[route] ||
-      `${description} Free online ${lower} — no sign-up, no watermark. Try PDF Palette.`
+      `${description} Free online ${lower} — no sign-up, no watermark. Try PDF Robin.`
   );
 
   let intro = entry.intro?.trim() || "";
   if (intro.length < 160) {
-    intro = `${description} Use this free online ${lower} tool: upload your file, run the tool, and download the result. No account is required and PDF Palette does not keep your document.`;
+    intro = `${description} Use this free online ${lower} tool: upload your file, run the tool, and download the result. No account is required and PDF Robin does not keep your document.`;
   }
   const bonus = introExtra[route];
   if (bonus && !intro.includes(bonus.trim().slice(0, 40))) {
@@ -157,7 +157,7 @@ function improve(entry, name, description, route) {
   if (!have("best") && !have("how do i") && !have("how to")) {
     faqs.push({
       q: `How do I ${lower} online for free?`,
-      a: `Open PDF Palette’s ${name} page, upload your file, follow the on-screen steps, and download the result. No software install or account is required.`,
+      a: `Open PDF Robin’s ${name} page, upload your file, follow the on-screen steps, and download the result. No software install or account is required.`,
     });
   }
 

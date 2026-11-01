@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FileText } from "lucide-react";
+import BrandLogo from "./BrandLogo";
 
 const Footer = () => {
   return (
@@ -9,10 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-1">
             <Link to="/" className="flex items-center gap-2">
-              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-                <FileText className="h-5 w-5 text-primary-foreground" />
-              </div>
-              <span className="text-xl font-bold text-foreground">PDF Palette</span>
+              <BrandLogo />
             </Link>
             <p className="mt-4 text-sm text-muted-foreground">
               Free tools for your better productivity.
@@ -104,7 +101,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="mt-12 border-t border-border pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} PDF Palette. All rights reserved.
+            © {new Date().getFullYear()} PDF Robin. All rights reserved.
           </p>
         </div>
       </div>

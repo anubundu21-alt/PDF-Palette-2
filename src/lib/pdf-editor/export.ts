@@ -416,8 +416,8 @@ export async function exportEditedPdf(input: ExportInput): Promise<{ blob: Blob;
   }
 
   const doc = await PDFDocument.create();
-  doc.setProducer("PDF Palette");
-  doc.setCreator("PDF Palette");
+  doc.setProducer("PDF Robin");
+  doc.setCreator("PDF Robin");
 
   // Copy the pages the user kept, in the order they arranged them. Copying
   // rather than editing in place is what makes deleting and duplicating pages
