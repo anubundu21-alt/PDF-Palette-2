@@ -27,14 +27,11 @@ const DEFAULT_TITLE = "PDFRobin — 38 Free PDF Tools That Don’t Keep Your Fil
 const DEFAULT_DESCRIPTION =
   "Merge, split, compress, convert, sign, OCR and edit PDFs free. Most tools run in your browser. A few send a file for conversion only — PDFRobin does not store it.";
 
-/** Production origin, no trailing slash. Vercel supplies the second form. */
+/** Production origin, no trailing slash. SITE_URL overrides it (e.g. for previews). */
 const siteUrl = (
   process.env.SITE_URL ||
   process.env.VITE_SITE_URL ||
-  (process.env.VERCEL_PROJECT_PRODUCTION_URL
-    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-    : "") ||
-  "https://pdf-palette.vercel.app"
+  "https://pdfrobin.com"
 ).replace(/\/+$/, "");
 
 /** Legal and marketing routes, kept in step with LegalPage's own titles. */
