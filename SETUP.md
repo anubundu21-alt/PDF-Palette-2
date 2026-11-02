@@ -1,4 +1,4 @@
-# PDF Palette — Simple Setup
+# PDFRobin — Simple Setup
 
 ## What you need
 

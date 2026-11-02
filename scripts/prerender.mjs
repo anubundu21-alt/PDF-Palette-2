@@ -22,10 +22,10 @@ const toolContent = JSON.parse(
   readFileSync(path.join(root, "src/lib/tool-content.json"), "utf8")
 );
 
-const SITE_NAME = "PDF Palette";
-const DEFAULT_TITLE = "PDF Palette — 38 Free PDF Tools That Don’t Keep Your Files";
+const SITE_NAME = "PDFRobin";
+const DEFAULT_TITLE = "PDFRobin — 38 Free PDF Tools That Don’t Keep Your Files";
 const DEFAULT_DESCRIPTION =
-  "Merge, split, compress, convert, sign, OCR and edit PDFs free. Most tools run in your browser. A few send a file for conversion only — PDF Palette does not store it.";
+  "Merge, split, compress, convert, sign, OCR and edit PDFs free. Most tools run in your browser. A few send a file for conversion only — PDFRobin does not store it.";
 
 /** Production origin, no trailing slash. Vercel supplies the second form. */
 const siteUrl = (
@@ -48,27 +48,27 @@ const staticRoutes = {
   "/about": {
     title: `About Us | ${SITE_NAME}`,
     description:
-      "PDF Palette is a set of free PDF tools that run in your browser. Convert, merge, split, compress, OCR, and edit PDFs without creating an account.",
+      "PDFRobin is a set of free PDF tools that run in your browser. Convert, merge, split, compress, OCR, and edit PDFs without creating an account.",
     priority: "0.4",
     changefreq: "yearly",
   },
   "/privacy": {
     title: `Privacy Policy | ${SITE_NAME}`,
     description:
-      "How PDF Palette handles your files: almost every tool runs in your browser, there are no accounts, and we do not keep your documents.",
+      "How PDFRobin handles your files: almost every tool runs in your browser, there are no accounts, and we do not keep your documents.",
     priority: "0.4",
     changefreq: "yearly",
   },
   "/terms": {
     title: `Terms of Service | ${SITE_NAME}`,
-    description: "The terms that apply when you use the free PDF tools on PDF Palette.",
+    description: "The terms that apply when you use the free PDF tools on PDFRobin.",
     priority: "0.3",
     changefreq: "yearly",
   },
   "/contact": {
     title: `Contact | ${SITE_NAME}`,
     description:
-      "How to reach PDF Palette with bug reports, feature requests and questions about the site.",
+      "How to reach PDFRobin with bug reports, feature requests and questions about the site.",
     priority: "0.3",
     changefreq: "yearly",
   },
@@ -235,7 +235,7 @@ writePage(
   "/404",
   {
     title: `Page not found | ${SITE_NAME}`,
-    description: "This page does not exist. Browse the free PDF tools on PDF Palette instead.",
+    description: "This page does not exist. Browse the free PDF tools on PDFRobin instead.",
   },
   null,
   { noindex: true, file: path.join(dist, "404.html") }

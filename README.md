@@ -1,4 +1,4 @@
-# PDF Palette
+# PDFRobin
 
 Free, privacy-first PDF tools. Most run **entirely in your browser**. PDF to
 Word and Word to PDF use a conversion service. No sign-up, no watermarks.
@@ -98,8 +98,8 @@ exclude asset and dotted-file paths, but this only confirms in production:
 
 ```bash
 curl -s https://<your-domain>/merge-pdf | grep -o '<title>[^<]*</title>'
-# expect: <title>Merge PDF — Combine PDF Files Free | PDF Palette</title>
-# a title of "PDF Palette — 27 Free PDF Tools..." here means every route is
+# expect: <title>Merge PDF — Combine PDF Files Free | PDFRobin</title>
+# a title of "PDFRobin — 27 Free PDF Tools..." here means every route is
 # falling back to the homepage shell and the per-route SEO isn't live.
 ```
 

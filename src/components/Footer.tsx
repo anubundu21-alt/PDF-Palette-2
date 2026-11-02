@@ -101,7 +101,7 @@ const Footer = () => {
         {/* Bottom */}
         <div className="mt-12 border-t border-border pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} PDF Palette. All rights reserved.
+            © {new Date().getFullYear()} PDFRobin. All rights reserved.
           </p>
         </div>
       </div>

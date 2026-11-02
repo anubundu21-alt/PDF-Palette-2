@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Contact = () => (
   <LegalPage
     title="Contact"
-    description="Privacy, terms, and about PDF Palette — links for how the site works."
+    description="Privacy, terms, and about PDFRobin — links for how the site works."
   >
     <section>
       <h2>Privacy and legal</h2>

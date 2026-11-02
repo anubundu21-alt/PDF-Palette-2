@@ -23,7 +23,7 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
   }
 
   componentDidCatch(error: Error, info: ErrorInfo) {
-    console.error("Unhandled error in PDF Palette:", error, info.componentStack);
+    console.error("Unhandled error in PDFRobin:", error, info.componentStack);
   }
 
   render() {

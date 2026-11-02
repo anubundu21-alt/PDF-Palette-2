@@ -1405,7 +1405,7 @@ const PrivacyNote = ({ remote = false }: { remote?: boolean }) => (
   <div className="flex items-center justify-center gap-2 pt-1 text-xs text-muted-foreground">
     <ShieldCheck className="h-4 w-4 text-tool-green" />
     {remote
-      ? "Sent for conversion only — PDF Palette does not keep a copy."
+      ? "Sent for conversion only — PDFRobin does not keep a copy."
       : "Processed in your browser — your file never leaves this device."}
   </div>
 );

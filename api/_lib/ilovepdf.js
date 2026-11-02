@@ -173,7 +173,7 @@ export async function websiteSessionToken(pagePath = "/pdf_to_word") {
   const res = await fetch(`https://www.ilovepdf.com${path}`, {
     headers: {
       Accept: "text/html",
-      "User-Agent": "Mozilla/5.0 (compatible; PDFPalette/1.0)",
+      "User-Agent": "Mozilla/5.0 (compatible; PDFRobin/1.0)",
     },
   });
   if (!res.ok) {

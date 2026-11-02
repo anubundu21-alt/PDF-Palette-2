@@ -62,7 +62,7 @@ export async function convertWordToPdfBrowser(
   onProgress?.(40, "Rebuilding layout…");
   const pdf = await PDFDocument.create();
   pdf.setTitle(file.name.replace(/\.docx$/i, "") || "document");
-  pdf.setProducer("PDF Palette");
+  pdf.setProducer("PDFRobin");
   const fonts = await embedStandardFonts(pdf);
   const pages = layoutDocument(documentModel, fonts);
   if (pages.length === 0) {

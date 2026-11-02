@@ -29,7 +29,7 @@ const ToolPageLayout = ({ tool, children }: ToolPageLayoutProps) => {
   const content = getToolContent(tool.route);
 
   useSeo({
-    title: content?.title ?? `${tool.name} — Free Online Tool | PDF Palette`,
+    title: content?.title ?? `${tool.name} — Free Online Tool | PDFRobin`,
     description: content?.description ?? tool.description,
     path: tool.route,
   });

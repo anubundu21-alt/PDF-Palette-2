@@ -1,8 +1,8 @@
 {
   "/pdf-to-word": {
     "name": "PDF to Word",
-    "title": "Convert PDF to Editable Word Docs Free Online | PDF Palette",
-    "description": "Convert PDF to editable Word (.docx) free online. Keep text, tables, and layout ready to edit—no sign-up, no watermark. Fast PDF to DOCX with PDF Palette.",
+    "title": "Convert PDF to Editable Word Docs Free Online | PDFRobin",
+    "description": "Convert PDF to editable Word (.docx) free online. Keep text, tables, and layout ready to edit—no sign-up, no watermark. Fast PDF to DOCX with PDFRobin.",
     "primaryKeyword": "PDF to Word",
     "secondaryKeywords": [
       "convert PDF to Word",
@@ -15,7 +15,7 @@
     ],
     "h1": "How to Use PDF to Word – Complete Guide",
     "slug": "pdf-to-word",
-    "intro": "Need to edit a PDF without rebuilding it from scratch? PDF Palette’s free PDF to Word tool turns a locked-looking file into a .docx you can open in Microsoft Word, Google Docs, or LibreOffice Writer.\n\nUpload on this page, run the conversion, and download when it finishes. No account is required and nothing is installed on your computer. Conversion may leave the browser so layout can be rebuilt accurately; PDF Palette does not keep your file after the download is ready.\n\nUse it for reports, letters, CVs, and proposals when you need real paragraphs instead of a flat snapshot.",
+    "intro": "Need to edit a PDF without rebuilding it from scratch? PDFRobin’s free PDF to Word tool turns a locked-looking file into a .docx you can open in Microsoft Word, Google Docs, or LibreOffice Writer.\n\nUpload on this page, run the conversion, and download when it finishes. No account is required and nothing is installed on your computer. Conversion may leave the browser so layout can be rebuilt accurately; PDFRobin does not keep your file after the download is ready.\n\nUse it for reports, letters, CVs, and proposals when you need real paragraphs instead of a flat snapshot.",
     "steps": [
       "Open the PDF to Word tool and drop your PDF onto the upload area, or click to choose a file.",
       "Confirm the file name, then start the conversion.",
@@ -40,7 +40,7 @@
       },
       {
         "heading": "Why Use PDF to Word?",
-        "body": "Use it when a client sends a PDF you must rewrite, when HR needs an editable CV, or when your team wants trackable edits and comments in Word. PDF Palette is free with no sign-up and no watermark on the result. You stay on one page from upload to download, which is faster than installing desktop software for a one-off change and easier than retyping an entire document."
+        "body": "Use it when a client sends a PDF you must rewrite, when HR needs an editable CV, or when your team wants trackable edits and comments in Word. PDFRobin is free with no sign-up and no watermark on the result. You stay on one page from upload to download, which is faster than installing desktop software for a one-off change and easier than retyping an entire document."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -54,18 +54,18 @@
       },
       {
         "q": "Does conversion stay in my browser?",
-        "a": "For PDF to Word, conversion may leave the browser. PDF Palette does not keep a copy after your download is ready."
+        "a": "For PDF to Word, conversion may leave the browser. PDFRobin does not keep a copy after your download is ready."
       },
       {
         "q": "Can I convert a scanned PDF?",
         "a": "A scan is an image until OCR adds text. Run OCR PDF first, then convert to Word for editable paragraphs you can actually revise."
       },
       {
-        "q": "Is PDF to Word free on PDF Palette?",
+        "q": "Is PDF to Word free on PDFRobin?",
         "a": "Yes. Use it online with no account and no watermark added to your .docx file."
       }
     ],
-    "conclusion": "Ready to edit that PDF? Use the free PDF to Word tool above—upload, convert, and download a .docx with no sign-up. When you need the reverse path later, convert Word back to PDF on PDF Palette in the same simple way.",
+    "conclusion": "Ready to edit that PDF? Use the free PDF to Word tool above—upload, convert, and download a .docx with no sign-up. When you need the reverse path later, convert Word back to PDF on PDFRobin in the same simple way.",
     "internalLinks": [
       {
         "route": "/word-to-pdf",
@@ -83,8 +83,8 @@
   },
   "/word-to-pdf": {
     "name": "Word to PDF",
-    "title": "Convert Word DOCX Files to PDF Free Online | PDF Palette",
-    "description": "Convert Word (.docx) to PDF free online. Share a fixed layout anyone can open—no sign-up, no watermark added. Fast DOCX to PDF conversion with PDF Palette.",
+    "title": "Convert Word DOCX Files to PDF Free Online | PDFRobin",
+    "description": "Convert Word (.docx) to PDF free online. Share a fixed layout anyone can open—no sign-up, no watermark added. Fast DOCX to PDF conversion with PDFRobin.",
     "primaryKeyword": "Word to PDF",
     "secondaryKeywords": [
       "convert Word to PDF",
@@ -97,7 +97,7 @@
     ],
     "h1": "How to Use Word to PDF – Complete Guide",
     "slug": "word-to-pdf",
-    "intro": "When someone asks for a PDF instead of an editable draft, PDF Palette’s free Word to PDF tool finishes the job in a few clicks. Turn .docx (and .doc) into a fixed file that opens the same way on phones, laptops, and printers.\n\nUpload on this page, convert, and download. No sign-up is required and you do not need Microsoft Word installed to complete the export. Conversion may leave the browser for this tool; PDF Palette does not keep your document after the download is ready.\n\nIt is a practical last step before sending a contract, homework, or proposal.",
+    "intro": "When someone asks for a PDF instead of an editable draft, PDFRobin’s free Word to PDF tool finishes the job in a few clicks. Turn .docx (and .doc) into a fixed file that opens the same way on phones, laptops, and printers.\n\nUpload on this page, convert, and download. No sign-up is required and you do not need Microsoft Word installed to complete the export. Conversion may leave the browser for this tool; PDFRobin does not keep your document after the download is ready.\n\nIt is a practical last step before sending a contract, homework, or proposal.",
     "steps": [
       "Open Word to PDF and select your .docx or .doc file.",
       "Start the conversion from the on-page controls.",
@@ -122,7 +122,7 @@
       },
       {
         "heading": "Why Use Word to PDF?",
-        "body": "Clients, schools, and printers often require PDF. It prevents accidental edits, embeds a consistent look, and works without Microsoft Word on the other end. PDF Palette is free, needs no account, and avoids installing desktop export tools for a single file when you are already in a browser and ready to send. That combination keeps handoffs simple for freelancers and teams alike."
+        "body": "Clients, schools, and printers often require PDF. It prevents accidental edits, embeds a consistent look, and works without Microsoft Word on the other end. PDFRobin is free, needs no account, and avoids installing desktop export tools for a single file when you are already in a browser and ready to send. That combination keeps handoffs simple for freelancers and teams alike."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -132,7 +132,7 @@
     "faqs": [
       {
         "q": "Do I need Microsoft Word installed?",
-        "a": "No. Convert online on PDF Palette without installing Word or creating an account on our site."
+        "a": "No. Convert online on PDFRobin without installing Word or creating an account on our site."
       },
       {
         "q": "Are .doc and .docx both supported?",
@@ -140,14 +140,14 @@
       },
       {
         "q": "Does my Word file leave the browser?",
-        "a": "Yes—conversion may leave the browser for Word to PDF. PDF Palette does not keep a copy after download."
+        "a": "Yes—conversion may leave the browser for Word to PDF. PDFRobin does not keep a copy after download."
       },
       {
         "q": "Is Word to PDF free?",
         "a": "Yes. There is no sign-up and no watermark added to your finished PDF."
       }
     ],
-    "conclusion": "Finish your draft as a shareable PDF with the free Word to PDF tool above. Upload, convert, and download in minutes—no account needed. Need to edit again later? Convert PDF to Word on PDF Palette and keep working. The converter is free, requires no account, and is ready on this page whenever you need it.",
+    "conclusion": "Finish your draft as a shareable PDF with the free Word to PDF tool above. Upload, convert, and download in minutes—no account needed. Need to edit again later? Convert PDF to Word on PDFRobin and keep working. The converter is free, requires no account, and is ready on this page whenever you need it.",
     "internalLinks": [
       {
         "route": "/pdf-to-word",
@@ -165,8 +165,8 @@
   },
   "/pdf-to-excel": {
     "name": "PDF to Excel",
-    "title": "Convert PDF Tables into Excel Free Online | PDF Palette",
-    "description": "Convert PDF tables to Excel (.xlsx) free online. Extract rows and columns you can sort and filter—no sign-up required. Fast PDF to XLSX with PDF Palette.",
+    "title": "Convert PDF Tables into Excel Free Online | PDFRobin",
+    "description": "Convert PDF tables to Excel (.xlsx) free online. Extract rows and columns you can sort and filter—no sign-up required. Fast PDF to XLSX with PDFRobin.",
     "primaryKeyword": "PDF to Excel",
     "secondaryKeywords": [
       "convert PDF to Excel",
@@ -179,7 +179,7 @@
     ],
     "h1": "How to Use PDF to Excel – Complete Guide",
     "slug": "pdf-to-excel",
-    "intro": "When a report arrives as a PDF but you need totals, filters, or charts, PDF Palette’s free PDF to Excel tool pulls tabular data into an .xlsx workbook you can open in Excel, Numbers, or Google Sheets.\n\nUpload the PDF on this page, convert, and download the spreadsheet. No account is required and nothing extra is installed. Conversion may leave the browser; PDF Palette does not keep your file after the download is ready.\n\nIt saves retyping invoices, statements, and research tables that already exist as printable pages.",
+    "intro": "When a report arrives as a PDF but you need totals, filters, or charts, PDFRobin’s free PDF to Excel tool pulls tabular data into an .xlsx workbook you can open in Excel, Numbers, or Google Sheets.\n\nUpload the PDF on this page, convert, and download the spreadsheet. No account is required and nothing extra is installed. Conversion may leave the browser; PDFRobin does not keep your file after the download is ready.\n\nIt saves retyping invoices, statements, and research tables that already exist as printable pages.",
     "steps": [
       "Open PDF to Excel and upload the PDF that contains your table.",
       "Start conversion from the tool controls.",
@@ -204,7 +204,7 @@
       },
       {
         "heading": "Why Use PDF to Excel?",
-        "body": "Invoices, bank statements, price lists, and research tables often ship as PDF. Converting saves hours of retyping and reduces copy errors when numbers matter. PDF Palette is free with no sign-up, so you can extract a one-off table without buying dedicated spreadsheet OCR software you may never use again. Keep the original PDF for audit trails while you work in Excel."
+        "body": "Invoices, bank statements, price lists, and research tables often ship as PDF. Converting saves hours of retyping and reduces copy errors when numbers matter. PDFRobin is free with no sign-up, so you can extract a one-off table without buying dedicated spreadsheet OCR software you may never use again. Keep the original PDF for audit trails while you work in Excel."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -218,7 +218,7 @@
       },
       {
         "q": "Does PDF to Excel leave my browser?",
-        "a": "Conversion may leave the browser for this tool. PDF Palette does not keep a copy after your download is ready."
+        "a": "Conversion may leave the browser for this tool. PDFRobin does not keep a copy after your download is ready."
       },
       {
         "q": "What about scanned PDFs?",
@@ -229,7 +229,7 @@
         "a": "Yes. No account is required and no watermark is added to the .xlsx file."
       }
     ],
-    "conclusion": "Pull numbers out of a PDF with the free PDF to Excel tool above—upload, convert, and download an .xlsx without signing up. When you need a printable sheet again, try Excel to PDF on PDF Palette. The converter is free, requires no account, and is ready on this page whenever you need it.",
+    "conclusion": "Pull numbers out of a PDF with the free PDF to Excel tool above—upload, convert, and download an .xlsx without signing up. When you need a printable sheet again, try Excel to PDF on PDFRobin. The converter is free, requires no account, and is ready on this page whenever you need it.",
     "internalLinks": [
       {
         "route": "/excel-to-pdf",
@@ -247,8 +247,8 @@
   },
   "/excel-to-pdf": {
     "name": "Excel to PDF",
-    "title": "Convert Excel Spreadsheets to PDF Free Online | PDF Palette",
-    "description": "Convert Excel (.xlsx) to PDF free online. Share sheets as a printable, fixed layout—no sign-up, no watermark. Fast spreadsheet to PDF with PDF Palette.",
+    "title": "Convert Excel Spreadsheets to PDF Free Online | PDFRobin",
+    "description": "Convert Excel (.xlsx) to PDF free online. Share sheets as a printable, fixed layout—no sign-up, no watermark. Fast spreadsheet to PDF with PDFRobin.",
     "primaryKeyword": "Excel to PDF",
     "secondaryKeywords": [
       "convert Excel to PDF",
@@ -261,7 +261,7 @@
     ],
     "h1": "How to Use Excel to PDF – Complete Guide",
     "slug": "excel-to-pdf",
-    "intro": "Sharing a live spreadsheet invites accidental edits. PDF Palette’s free Excel to PDF tool turns .xlsx or .xls into a fixed PDF anyone can open and print—without needing Excel on their device.\n\nUpload on this page, convert in your browser, and download the result. No sign-up is required, and PDF Palette does not keep your workbook after you finish.\n\nUse it when quotes, schedules, or inventory lists must look the same for every recipient who only needs to read or print.",
+    "intro": "Sharing a live spreadsheet invites accidental edits. PDFRobin’s free Excel to PDF tool turns .xlsx or .xls into a fixed PDF anyone can open and print—without needing Excel on their device.\n\nUpload on this page, convert in your browser, and download the result. No sign-up is required, and PDFRobin does not keep your workbook after you finish.\n\nUse it when quotes, schedules, or inventory lists must look the same for every recipient who only needs to read or print.",
     "steps": [
       "Open Excel to PDF and upload your .xlsx or .xls file.",
       "Start conversion so each sheet can be laid out onto pages.",
@@ -286,7 +286,7 @@
       },
       {
         "heading": "Why Use Excel to PDF?",
-        "body": "Use it for client quotes, inventory snapshots, class rosters, or finance packs that must look the same everywhere. PDF Palette is free and browser-based for this tool, so you avoid installing extra export plugins for a single share and you can finish from a laptop or phone browser. Recipients get a file they can open without worrying about macros or accidental cell edits."
+        "body": "Use it for client quotes, inventory snapshots, class rosters, or finance packs that must look the same everywhere. PDFRobin is free and browser-based for this tool, so you avoid installing extra export plugins for a single share and you can finish from a laptop or phone browser. Recipients get a file they can open without worrying about macros or accidental cell edits."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -300,7 +300,7 @@
       },
       {
         "q": "Does Excel to PDF run in my browser?",
-        "a": "Yes. This conversion runs on this page in your browser; PDF Palette does not keep your file."
+        "a": "Yes. This conversion runs on this page in your browser; PDFRobin does not keep your file."
       },
       {
         "q": "Do number formats carry over?",
@@ -311,7 +311,7 @@
         "a": "Yes. No account is required and no watermark is added to the downloaded PDF."
       }
     ],
-    "conclusion": "Lock a spreadsheet for sharing with the free Excel to PDF tool above. Upload, convert on this page, and download without signing up. Need the data editable again later? Try PDF to Excel on PDF Palette. The converter is free, requires no account, and is ready on this page whenever you need it.",
+    "conclusion": "Lock a spreadsheet for sharing with the free Excel to PDF tool above. Upload, convert on this page, and download without signing up. Need the data editable again later? Try PDF to Excel on PDFRobin. The converter is free, requires no account, and is ready on this page whenever you need it.",
     "internalLinks": [
       {
         "route": "/pdf-to-excel",
@@ -329,8 +329,8 @@
   },
   "/pdf-to-powerpoint": {
     "name": "PDF to PowerPoint",
-    "title": "Convert PDF Pages to PowerPoint Free Online | PDF Palette",
-    "description": "Convert PDF to PowerPoint (.pptx) free online. Turn pages into editable slides you can restyle—no sign-up required. Fast PDF to PPTX with PDF Palette.",
+    "title": "Convert PDF Pages to PowerPoint Free Online | PDFRobin",
+    "description": "Convert PDF to PowerPoint (.pptx) free online. Turn pages into editable slides you can restyle—no sign-up required. Fast PDF to PPTX with PDFRobin.",
     "primaryKeyword": "PDF to PowerPoint",
     "secondaryKeywords": [
       "convert PDF to PowerPoint",
@@ -343,7 +343,7 @@
     ],
     "h1": "How to Use PDF to PowerPoint – Complete Guide",
     "slug": "pdf-to-powerpoint",
-    "intro": "Got a PDF handout that belongs in a deck? PDF Palette’s free PDF to PowerPoint tool turns each page into a slide inside a .pptx you can open in PowerPoint, Google Slides, or LibreOffice Impress.\n\nUpload on this page, convert, and download. No sign-up is needed and nothing is installed. Conversion may leave the browser; PDF Palette does not keep your file after the download is ready.\n\nIt is a fast way to reuse manuals, one-pagers, and reading packs as editable slides.",
+    "intro": "Got a PDF handout that belongs in a deck? PDFRobin’s free PDF to PowerPoint tool turns each page into a slide inside a .pptx you can open in PowerPoint, Google Slides, or LibreOffice Impress.\n\nUpload on this page, convert, and download. No sign-up is needed and nothing is installed. Conversion may leave the browser; PDFRobin does not keep your file after the download is ready.\n\nIt is a fast way to reuse manuals, one-pagers, and reading packs as editable slides.",
     "steps": [
       "Open PDF to PowerPoint and upload your PDF.",
       "Start conversion so each page can become a slide.",
@@ -368,7 +368,7 @@
       },
       {
         "heading": "Why Use PDF to PowerPoint?",
-        "body": "Trainers reuse PDF manuals as teaching slides; marketers turn one-pagers into pitch decks; students reshape reading packs for class presentations. PDF Palette is free with no account, so you can convert a one-off PDF without buying presentation software solely for an import feature you rarely need. After download, apply your theme so the deck feels native to your brand."
+        "body": "Trainers reuse PDF manuals as teaching slides; marketers turn one-pagers into pitch decks; students reshape reading packs for class presentations. PDFRobin is free with no account, so you can convert a one-off PDF without buying presentation software solely for an import feature you rarely need. After download, apply your theme so the deck feels native to your brand."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -382,7 +382,7 @@
       },
       {
         "q": "Does conversion leave the browser?",
-        "a": "For PDF to PowerPoint, conversion may leave the browser. PDF Palette does not keep a copy after download."
+        "a": "For PDF to PowerPoint, conversion may leave the browser. PDFRobin does not keep a copy after download."
       },
       {
         "q": "Are animations preserved?",
@@ -393,7 +393,7 @@
         "a": "Yes. No sign-up is required and no watermark is added to the .pptx."
       }
     ],
-    "conclusion": "Turn pages into slides with the free PDF to PowerPoint tool above—upload, convert, and download a .pptx without an account. Sharing the deck instead of editing it? Convert PowerPoint to PDF on PDF Palette. The converter is free, requires no account, and is ready on this page whenever you need it.",
+    "conclusion": "Turn pages into slides with the free PDF to PowerPoint tool above—upload, convert, and download a .pptx without an account. Sharing the deck instead of editing it? Convert PowerPoint to PDF on PDFRobin. The converter is free, requires no account, and is ready on this page whenever you need it.",
     "internalLinks": [
       {
         "route": "/powerpoint-to-pdf",
@@ -411,8 +411,8 @@
   },
   "/powerpoint-to-pdf": {
     "name": "PowerPoint to PDF",
-    "title": "Convert PowerPoint Decks to PDF Free Online | PDF Palette",
-    "description": "Convert PowerPoint (.pptx) to PDF free online. Share slides as a fixed, printable file—no sign-up, no watermark. Fast PPTX to PDF conversion with PDF Palette.",
+    "title": "Convert PowerPoint Decks to PDF Free Online | PDFRobin",
+    "description": "Convert PowerPoint (.pptx) to PDF free online. Share slides as a fixed, printable file—no sign-up, no watermark. Fast PPTX to PDF conversion with PDFRobin.",
     "primaryKeyword": "PowerPoint to PDF",
     "secondaryKeywords": [
       "convert PowerPoint to PDF",
@@ -425,7 +425,7 @@
     ],
     "h1": "How to Use PowerPoint to PDF – Complete Guide",
     "slug": "powerpoint-to-pdf",
-    "intro": "Not everyone has PowerPoint, and emailing a live deck invites last-minute edits. PDF Palette’s free PowerPoint to PDF tool makes each slide a page in a fixed PDF that opens everywhere.\n\nUpload a .pptx or .ppt on this page, convert in your browser, and download. No account is required, and PDF Palette does not keep your presentation after you finish.\n\nSend leave-behinds, webinar archives, and print handouts with confidence when recipients only need to view or quietly print those slides.",
+    "intro": "Not everyone has PowerPoint, and emailing a live deck invites last-minute edits. PDFRobin’s free PowerPoint to PDF tool makes each slide a page in a fixed PDF that opens everywhere.\n\nUpload a .pptx or .ppt on this page, convert in your browser, and download. No account is required, and PDFRobin does not keep your presentation after you finish.\n\nSend leave-behinds, webinar archives, and print handouts with confidence when recipients only need to view or quietly print those slides.",
     "steps": [
       "Open PowerPoint to PDF and upload your .pptx or .ppt file.",
       "Start conversion so each slide can become a page.",
@@ -450,7 +450,7 @@
       },
       {
         "heading": "Why Use PowerPoint to PDF?",
-        "body": "Send leave-behinds after a meeting, archive webinars, or print handouts without requiring recipients to own PowerPoint. PDF Palette is free and browser-based here, which is handy when you are away from your usual desktop export workflow or working from a shared computer. A fixed PDF also reduces version confusion when several people forward the same deck."
+        "body": "Send leave-behinds after a meeting, archive webinars, or print handouts without requiring recipients to own PowerPoint. PDFRobin is free and browser-based here, which is handy when you are away from your usual desktop export workflow or working from a shared computer. A fixed PDF also reduces version confusion when several people forward the same deck."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -464,7 +464,7 @@
       },
       {
         "q": "Does this run in my browser?",
-        "a": "Yes. PowerPoint to PDF runs on this page in your browser; PDF Palette does not keep your file."
+        "a": "Yes. PowerPoint to PDF runs on this page in your browser; PDFRobin does not keep your file."
       },
       {
         "q": "Will page size match my slides?",
@@ -475,7 +475,7 @@
         "a": "Yes. No sign-up is required and no watermark is added to the PDF."
       }
     ],
-    "conclusion": "Share a fixed deck with the free PowerPoint to PDF tool above—upload, convert on this page, and download without signing up. Need editable slides from a PDF handout? Use PDF to PowerPoint on PDF Palette. The converter is free, requires no account, and is ready on this page whenever you need it.",
+    "conclusion": "Share a fixed deck with the free PowerPoint to PDF tool above—upload, convert on this page, and download without signing up. Need editable slides from a PDF handout? Use PDF to PowerPoint on PDFRobin. The converter is free, requires no account, and is ready on this page whenever you need it.",
     "internalLinks": [
       {
         "route": "/pdf-to-powerpoint",
@@ -493,8 +493,8 @@
   },
   "/pdf-to-jpg": {
     "name": "PDF to JPG/PNG",
-    "title": "Convert PDF Pages to JPG or PNG Free Online | PDF Palette",
-    "description": "Convert PDF pages to JPG or PNG free online. Export high-quality images for slides, posts, or print—no sign-up required. Fast PDF to image with PDF Palette.",
+    "title": "Convert PDF Pages to JPG or PNG Free Online | PDFRobin",
+    "description": "Convert PDF pages to JPG or PNG free online. Export high-quality images for slides, posts, or print—no sign-up required. Fast PDF to image with PDFRobin.",
     "primaryKeyword": "PDF to JPG",
     "secondaryKeywords": [
       "PDF to PNG",
@@ -507,7 +507,7 @@
     ],
     "h1": "How to Use PDF to JPG/PNG – Complete Guide",
     "slug": "pdf-to-jpg",
-    "intro": "Sometimes you need a picture of a page—not another PDF. PDF Palette’s free PDF to JPG/PNG tool exports each page as an image you can drop into a slide, post, or design file.\n\nChoose JPG for smaller files or PNG for sharper edges, pick a resolution, and download. The conversion runs in your browser on this page. No sign-up is required, and PDF Palette does not keep your document.\n\nIt beats blurry phone screenshots when you need consistent page images.",
+    "intro": "Sometimes you need a picture of a page—not another PDF. PDFRobin’s free PDF to JPG/PNG tool exports each page as an image you can drop into a slide, post, or design file.\n\nChoose JPG for smaller files or PNG for sharper edges, pick a resolution, and download. The conversion runs in your browser on this page. No sign-up is required, and PDFRobin does not keep your document.\n\nIt beats blurry phone screenshots when you need consistent page images.",
     "steps": [
       "Open PDF to JPG/PNG and upload your PDF.",
       "Choose JPG or PNG and select a resolution such as 96, 150, or 300 dpi.",
@@ -532,7 +532,7 @@
       },
       {
         "heading": "Why Use PDF to JPG/PNG?",
-        "body": "Social posts, thumbnails, and many CMS fields prefer images. Converting beats phone screenshots because resolution stays consistent across pages. PDF Palette is free, browser-based here, and adds no watermark to your exports, so images are ready for design tools right away. Designers also use page images as placeholders while layouts are still in progress."
+        "body": "Social posts, thumbnails, and many CMS fields prefer images. Converting beats phone screenshots because resolution stays consistent across pages. PDFRobin is free, browser-based here, and adds no watermark to your exports, so images are ready for design tools right away. Designers also use page images as placeholders while layouts are still in progress."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -546,7 +546,7 @@
       },
       {
         "q": "Does PDF to JPG run in my browser?",
-        "a": "Yes. Rendering happens on this page in your browser; PDF Palette does not keep your file."
+        "a": "Yes. Rendering happens on this page in your browser; PDFRobin does not keep your file."
       },
       {
         "q": "Can I convert only one page?",
@@ -554,10 +554,10 @@
       },
       {
         "q": "Are the images watermarked?",
-        "a": "No. PDF Palette adds no watermark, and no account is required to download."
+        "a": "No. PDFRobin adds no watermark, and no account is required to download."
       }
     ],
-    "conclusion": "Export crisp page images with the free PDF to JPG/PNG tool above—upload, choose format, and download in your browser. Building a PDF from pictures instead? Try JPG/PNG to PDF on PDF Palette. The converter is free, requires no account, and is ready on this page whenever you need it.",
+    "conclusion": "Export crisp page images with the free PDF to JPG/PNG tool above—upload, choose format, and download in your browser. Building a PDF from pictures instead? Try JPG/PNG to PDF on PDFRobin. The converter is free, requires no account, and is ready on this page whenever you need it.",
     "internalLinks": [
       {
         "route": "/jpg-to-pdf",
@@ -575,8 +575,8 @@
   },
   "/jpg-to-pdf": {
     "name": "JPG/PNG to PDF",
-    "title": "Convert JPG PNG Images to PDF Free Online | PDF Palette",
-    "description": "Convert JPG or PNG images to PDF free online. Combine photos into one shareable file—no sign-up, no watermark. Fast image to PDF conversion with PDF Palette.",
+    "title": "Convert JPG PNG Images to PDF Free Online | PDFRobin",
+    "description": "Convert JPG or PNG images to PDF free online. Combine photos into one shareable file—no sign-up, no watermark. Fast image to PDF conversion with PDFRobin.",
     "primaryKeyword": "JPG to PDF",
     "secondaryKeywords": [
       "PNG to PDF",
@@ -589,7 +589,7 @@
     ],
     "h1": "How to Use JPG/PNG to PDF – Complete Guide",
     "slug": "jpg-to-pdf",
-    "intro": "Phone photos of receipts, IDs, or worksheets are easier to send as one PDF. PDF Palette’s free JPG/PNG to PDF tool places each image on its own page—in the order you arrange—then downloads a single file.\n\nAdd up to 30 JPG or PNG images on this page, convert in your browser, and download. No account is required, and PDF Palette does not keep your pictures after you finish.\n\nIt is a quick path from camera roll to a shareable attachment.",
+    "intro": "Phone photos of receipts, IDs, or worksheets are easier to send as one PDF. PDFRobin’s free JPG/PNG to PDF tool places each image on its own page—in the order you arrange—then downloads a single file.\n\nAdd up to 30 JPG or PNG images on this page, convert in your browser, and download. No account is required, and PDFRobin does not keep your pictures after you finish.\n\nIt is a quick path from camera roll to a shareable attachment.",
     "steps": [
       "Open JPG/PNG to PDF and add your JPG or PNG images.",
       "Arrange the order so the top image becomes the first page.",
@@ -614,7 +614,7 @@
       },
       {
         "heading": "Why Use JPG/PNG to PDF?",
-        "body": "Forms, landlords, and support desks often ask for PDF, not a ZIP of photos. Converting keeps everything in one scrollable file that is easy to print. PDF Palette is free and browser-based here, which is ideal when you are finishing paperwork from a laptop or phone without installing photo software. A single PDF also travels better through email gateways than many loose images."
+        "body": "Forms, landlords, and support desks often ask for PDF, not a ZIP of photos. Converting keeps everything in one scrollable file that is easy to print. PDFRobin is free and browser-based here, which is ideal when you are finishing paperwork from a laptop or phone without installing photo software. A single PDF also travels better through email gateways than many loose images."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -632,14 +632,14 @@
       },
       {
         "q": "Does conversion stay in my browser?",
-        "a": "Yes. JPG/PNG to PDF runs on this page in your browser; PDF Palette does not keep your files."
+        "a": "Yes. JPG/PNG to PDF runs on this page in your browser; PDFRobin does not keep your files."
       },
       {
         "q": "Is JPG/PNG to PDF free?",
         "a": "Yes. No sign-up is required and no watermark is added to the PDF."
       }
     ],
-    "conclusion": "Bundle photos into one file with the free JPG/PNG to PDF tool above—upload, order pages, and download in your browser. Need images back out of a PDF? Use PDF to JPG/PNG on PDF Palette. The converter is free, requires no account, and is ready on this page whenever you need it.",
+    "conclusion": "Bundle photos into one file with the free JPG/PNG to PDF tool above—upload, order pages, and download in your browser. Need images back out of a PDF? Use PDF to JPG/PNG on PDFRobin. The converter is free, requires no account, and is ready on this page whenever you need it.",
     "internalLinks": [
       {
         "route": "/pdf-to-jpg",
@@ -657,8 +657,8 @@
   },
   "/html-to-pdf": {
     "name": "HTML to PDF",
-    "title": "Convert HTML or Web Pages to PDF Free Online | PDF Palette",
-    "description": "Convert HTML or a web page URL to PDF free online. Save printable pages with selectable text—no sign-up, no watermark. Fast HTML to PDF with PDF Palette.",
+    "title": "Convert HTML or Web Pages to PDF Free Online | PDFRobin",
+    "description": "Convert HTML or a web page URL to PDF free online. Save printable pages with selectable text—no sign-up, no watermark. Fast HTML to PDF with PDFRobin.",
     "primaryKeyword": "HTML to PDF",
     "secondaryKeywords": [
       "convert HTML to PDF",
@@ -671,7 +671,7 @@
     ],
     "h1": "How to Use HTML to PDF – Complete Guide",
     "slug": "html-to-pdf",
-    "intro": "Archive an article, save a receipt page, or print a styled HTML file without fighting browser print dialogs. PDF Palette’s free HTML to PDF tool builds a PDF with selectable, searchable text.\n\nUpload an .html file to convert in your browser, or paste a public URL when the page must be fetched for you. No sign-up is required. PDF Palette does not keep your file or address after the download is ready.\n\nIt is useful whenever you need an offline copy that still supports find-in-page.",
+    "intro": "Archive an article, save a receipt page, or print a styled HTML file without fighting browser print dialogs. PDFRobin’s free HTML to PDF tool builds a PDF with selectable, searchable text.\n\nUpload an .html file to convert in your browser, or paste a public URL when the page must be fetched for you. No sign-up is required. PDFRobin does not keep your file or address after the download is ready.\n\nIt is useful whenever you need an offline copy that still supports find-in-page.",
     "steps": [
       "Open HTML to PDF on this page.",
       "Upload an .html file, or paste the public URL you want to capture.",
@@ -696,7 +696,7 @@
       },
       {
         "heading": "Why Use HTML to PDF?",
-        "body": "Researchers archive sources, freelancers save invoices, and teams store policy pages offline for reference. PDF Palette is free with no account, and the text remains searchable later—more useful than a folder of screenshots that cannot be queried. Keeping a PDF copy also helps when a live page changes or disappears."
+        "body": "Researchers archive sources, freelancers save invoices, and teams store policy pages offline for reference. PDFRobin is free with no account, and the text remains searchable later—more useful than a folder of screenshots that cannot be queried. Keeping a PDF copy also helps when a live page changes or disappears."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -721,7 +721,7 @@
         "a": "Yes. No sign-up is required and no watermark is added to the PDF."
       }
     ],
-    "conclusion": "Save a page as a clean PDF with the free HTML to PDF tool above—upload HTML or paste a public URL, then download. Working from notes instead? Try TXT to PDF or Markdown to PDF on PDF Palette. The converter is free, requires no account, and is ready on this page whenever you need it.",
+    "conclusion": "Save a page as a clean PDF with the free HTML to PDF tool above—upload HTML or paste a public URL, then download. Working from notes instead? Try TXT to PDF or Markdown to PDF on PDFRobin. The converter is free, requires no account, and is ready on this page whenever you need it.",
     "internalLinks": [
       {
         "route": "/markdown-to-pdf",
@@ -739,8 +739,8 @@
   },
   "/txt-to-pdf": {
     "name": "TXT to PDF",
-    "title": "Convert Plain TXT Files to PDF Free Online | PDF Palette",
-    "description": "Convert TXT to PDF free online. Turn plain text notes into a clean, shareable document—no sign-up, no watermark. Fast text to PDF conversion with PDF Palette.",
+    "title": "Convert Plain TXT Files to PDF Free Online | PDFRobin",
+    "description": "Convert TXT to PDF free online. Turn plain text notes into a clean, shareable document—no sign-up, no watermark. Fast text to PDF conversion with PDFRobin.",
     "primaryKeyword": "TXT to PDF",
     "secondaryKeywords": [
       "convert text to PDF",
@@ -753,7 +753,7 @@
     ],
     "h1": "How to Use TXT to PDF – Complete Guide",
     "slug": "txt-to-pdf",
-    "intro": "Plain text is easy to edit but awkward to share as a finished handout. PDF Palette’s free TXT to PDF tool lays a .txt file onto clean PDF pages you can email, archive, or print.\n\nUpload on this page, convert in your browser, and download. Blank lines are preserved and long lines wrap to the page width. No account is required, and your file stays in the browser during conversion.\n\nUse it for notes, logs, and exported text dumps that need a polished container.",
+    "intro": "Plain text is easy to edit but awkward to share as a finished handout. PDFRobin’s free TXT to PDF tool lays a .txt file onto clean PDF pages you can email, archive, or print.\n\nUpload on this page, convert in your browser, and download. Blank lines are preserved and long lines wrap to the page width. No account is required, and your file stays in the browser during conversion.\n\nUse it for notes, logs, and exported text dumps that need a polished container.",
     "steps": [
       "Open TXT to PDF and upload your .txt file.",
       "Start conversion from the on-page controls.",
@@ -778,7 +778,7 @@
       },
       {
         "heading": "Why Use TXT to PDF?",
-        "body": "Developers share logs, writers send drafts, and support teams attach plain-text exports that must look intentional rather than unfinished. PDF Palette is free, needs no sign-up, and keeps conversion in your browser for this tool so everyday notes stay private on your device. A PDF also discourages accidental edits after you send the file. That privacy-minded flow fits everyday notes and logs."
+        "body": "Developers share logs, writers send drafts, and support teams attach plain-text exports that must look intentional rather than unfinished. PDFRobin is free, needs no sign-up, and keeps conversion in your browser for this tool so everyday notes stay private on your device. A PDF also discourages accidental edits after you send the file. That privacy-minded flow fits everyday notes and logs."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -792,7 +792,7 @@
       },
       {
         "q": "Is my TXT file uploaded to a server?",
-        "a": "No. TXT to PDF runs in your browser on this page; PDF Palette does not keep your file."
+        "a": "No. TXT to PDF runs in your browser on this page; PDFRobin does not keep your file."
       },
       {
         "q": "Can I convert Markdown with this tool?",
@@ -803,7 +803,7 @@
         "a": "Yes. No account is required and no watermark is added to the PDF."
       }
     ],
-    "conclusion": "Turn notes into a shareable PDF with the free TXT to PDF tool above—upload, convert in your browser, and download with no sign-up. Prefer structured docs with headings? Try Markdown to PDF on PDF Palette. The converter is free, requires no account, and is ready on this page whenever you need it.",
+    "conclusion": "Turn notes into a shareable PDF with the free TXT to PDF tool above—upload, convert in your browser, and download with no sign-up. Prefer structured docs with headings? Try Markdown to PDF on PDFRobin. The converter is free, requires no account, and is ready on this page whenever you need it.",
     "internalLinks": [
       {
         "route": "/markdown-to-pdf",
@@ -821,8 +821,8 @@
   },
   "/markdown-to-pdf": {
     "name": "Markdown to PDF",
-    "title": "Convert Markdown MD Files to PDF Free Online | PDF Palette",
-    "description": "Convert Markdown (.md) to PDF free online. Headings, lists, and code become a clean document—no sign-up, no watermark. Fast MD to PDF with PDF Palette.",
+    "title": "Convert Markdown MD Files to PDF Free Online | PDFRobin",
+    "description": "Convert Markdown (.md) to PDF free online. Headings, lists, and code become a clean document—no sign-up, no watermark. Fast MD to PDF with PDFRobin.",
     "primaryKeyword": "Markdown to PDF",
     "secondaryKeywords": [
       "convert Markdown to PDF",
@@ -835,7 +835,7 @@
     ],
     "h1": "How to Use Markdown to PDF – Complete Guide",
     "slug": "markdown-to-pdf",
-    "intro": "README files and technical notes are often written in Markdown. PDF Palette’s free Markdown to PDF tool turns a .md file into a clean PDF with headings, bullet lists, and fenced code blocks laid out for reading and print.\n\nUpload on this page, convert in your browser, and download. No sign-up is required, and PDF Palette does not keep your file after conversion finishes.\n\nShare documentation with people who never open a Markdown previewer yet still need a polished PDF.",
+    "intro": "README files and technical notes are often written in Markdown. PDFRobin’s free Markdown to PDF tool turns a .md file into a clean PDF with headings, bullet lists, and fenced code blocks laid out for reading and print.\n\nUpload on this page, convert in your browser, and download. No sign-up is required, and PDFRobin does not keep your file after conversion finishes.\n\nShare documentation with people who never open a Markdown previewer yet still need a polished PDF.",
     "steps": [
       "Open Markdown to PDF and upload a .md or .markdown file.",
       "Start conversion from the tool controls.",
@@ -860,7 +860,7 @@
       },
       {
         "heading": "Why Use Markdown to PDF?",
-        "body": "Engineers share READMEs with non-git audiences, writers deliver drafts, and teams archive specs without forcing everyone into a Markdown previewer. PDF Palette is free, browser-based here, and adds no watermark, which keeps handouts looking professional. It is especially handy when a stakeholder only wants a printable attachment. Attach the PDF and keep the .md source for later edits."
+        "body": "Engineers share READMEs with non-git audiences, writers deliver drafts, and teams archive specs without forcing everyone into a Markdown previewer. PDFRobin is free, browser-based here, and adds no watermark, which keeps handouts looking professional. It is especially handy when a stakeholder only wants a printable attachment. Attach the PDF and keep the .md source for later edits."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -878,7 +878,7 @@
       },
       {
         "q": "Does Markdown to PDF stay in my browser?",
-        "a": "Yes. Conversion runs on this page in your browser; PDF Palette does not keep your file."
+        "a": "Yes. Conversion runs on this page in your browser; PDFRobin does not keep your file."
       },
       {
         "q": "Is Markdown to PDF free?",
@@ -903,8 +903,8 @@
   },
   "/csv-to-pdf": {
     "name": "CSV to PDF",
-    "title": "Convert CSV Data Tables to PDF Free Online | PDF Palette",
-    "description": "Convert CSV to PDF free online. Turn spreadsheet rows into a printable table you can share—no sign-up, no watermark. Fast CSV to PDF with PDF Palette.",
+    "title": "Convert CSV Data Tables to PDF Free Online | PDFRobin",
+    "description": "Convert CSV to PDF free online. Turn spreadsheet rows into a printable table you can share—no sign-up, no watermark. Fast CSV to PDF with PDFRobin.",
     "primaryKeyword": "CSV to PDF",
     "secondaryKeywords": [
       "convert CSV to PDF",
@@ -917,7 +917,7 @@
     ],
     "h1": "How to Use CSV to PDF – Complete Guide",
     "slug": "csv-to-pdf",
-    "intro": "CSV exports are great for data tools but awkward as email attachments people must open in Excel. PDF Palette’s free CSV to PDF tool builds a landscape PDF table you can print or share—with the first row repeating as a header on each page.\n\nUpload a .csv on this page, convert in your browser, and download. No sign-up is required, and your file stays in the browser during conversion.\n\nIdeal for inventory lists, sample extracts, and admin tables that should not be casually edited.",
+    "intro": "CSV exports are great for data tools but awkward as email attachments people must open in Excel. PDFRobin’s free CSV to PDF tool builds a landscape PDF table you can print or share—with the first row repeating as a header on each page.\n\nUpload a .csv on this page, convert in your browser, and download. No sign-up is required, and your file stays in the browser during conversion.\n\nIdeal for inventory lists, sample extracts, and admin tables that should not be casually edited.",
     "steps": [
       "Open CSV to PDF and upload your .csv file.",
       "Start conversion so rows can be paginated into a table.",
@@ -942,7 +942,7 @@
       },
       {
         "heading": "Why Use CSV to PDF?",
-        "body": "Operations teams send inventory lists, analysts share sample extracts, and admins attach user tables that must not be edited casually after delivery. PDF Palette is free and browser-based for this tool, so a quick export does not require a spreadsheet install on the recipient’s side. Printable headers on every page also help when packets span multiple sheets."
+        "body": "Operations teams send inventory lists, analysts share sample extracts, and admins attach user tables that must not be edited casually after delivery. PDFRobin is free and browser-based for this tool, so a quick export does not require a spreadsheet install on the recipient’s side. Printable headers on every page also help when packets span multiple sheets."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -960,14 +960,14 @@
       },
       {
         "q": "Does CSV to PDF run in my browser?",
-        "a": "Yes. Conversion stays on this page in your browser; PDF Palette does not keep your file."
+        "a": "Yes. Conversion stays on this page in your browser; PDFRobin does not keep your file."
       },
       {
         "q": "Is CSV to PDF free?",
         "a": "Yes. No account is required and no watermark is added to the PDF."
       }
     ],
-    "conclusion": "Turn a CSV into a printable table with the free CSV to PDF tool above—upload, convert in your browser, and download with no sign-up. Need an editable spreadsheet from a PDF table? Try PDF to Excel on PDF Palette. The converter is free, requires no account, and is ready on this page whenever you need it.",
+    "conclusion": "Turn a CSV into a printable table with the free CSV to PDF tool above—upload, convert in your browser, and download with no sign-up. Need an editable spreadsheet from a PDF table? Try PDF to Excel on PDFRobin. The converter is free, requires no account, and is ready on this page whenever you need it.",
     "internalLinks": [
       {
         "route": "/pdf-to-excel",
@@ -985,8 +985,8 @@
   },
   "/merge-pdf": {
     "name": "Merge PDF",
-    "title": "Merge Multiple PDFs Into One File Free Online | PDF Palette",
-    "description": "Learn how to merge PDF files free online with PDF Palette. Combine multiple PDFs in any order in your browser—no account, no watermark, download instantly.",
+    "title": "Merge Multiple PDFs Into One File Free Online | PDFRobin",
+    "description": "Learn how to merge PDF files free online with PDFRobin. Combine multiple PDFs in any order in your browser—no account, no watermark, download instantly.",
     "primaryKeyword": "merge PDF",
     "secondaryKeywords": [
       "combine PDF files",
@@ -999,9 +999,9 @@
     ],
     "h1": "How to Use Merge PDF – Complete Guide",
     "slug": "merge-pdf",
-    "intro": "Need several PDFs in one file for email or a portal upload? PDF Palette’s Merge PDF tool combines documents in your browser so you can stack contracts, scans, and annexes without installing desktop software or creating an account.\n\nUpload up to twenty files, drag them into the exact order you want, then download a single PDF. Nothing is watermarked on the way out, and the merge finishes as a straightforward browser job you can repeat whenever a packet needs assembling quickly.",
+    "intro": "Need several PDFs in one file for email or a portal upload? PDFRobin’s Merge PDF tool combines documents in your browser so you can stack contracts, scans, and annexes without installing desktop software or creating an account.\n\nUpload up to twenty files, drag them into the exact order you want, then download a single PDF. Nothing is watermarked on the way out, and the merge finishes as a straightforward browser job you can repeat whenever a packet needs assembling quickly.",
     "steps": [
-      "Open Merge PDF on PDF Palette and upload the PDF files you want to combine.",
+      "Open Merge PDF on PDFRobin and upload the PDF files you want to combine.",
       "Drag the file list into the exact order the pages should appear in the final document.",
       "Start the merge to process everything in your browser.",
       "Download the combined PDF when processing finishes."
@@ -1009,7 +1009,7 @@
     "sections": [
       {
         "heading": "What Is Merge PDF?",
-        "body": "Merge PDF is a free online tool that joins multiple PDF files into one continuous document. Instead of emailing a zip of attachments or printing and rescanning, you assemble the pages once and share a single file that stays easy to open. PDF Palette runs the merge in your browser, so your files stay on your device while pages are stitched together in the sequence you choose for contracts, homework packets, or travel documents. The result is a single attachment that still preserves each original page."
+        "body": "Merge PDF is a free online tool that joins multiple PDF files into one continuous document. Instead of emailing a zip of attachments or printing and rescanning, you assemble the pages once and share a single file that stays easy to open. PDFRobin runs the merge in your browser, so your files stay on your device while pages are stitched together in the sequence you choose for contracts, homework packets, or travel documents. The result is a single attachment that still preserves each original page."
       },
       {
         "heading": "How to Use Merge PDF",
@@ -1023,7 +1023,7 @@
       },
       {
         "heading": "Why Use Merge PDF?",
-        "body": "Merging online is faster than hunting for desktop software when you only need a quick combine before you hit send. PDF Palette is free, works without an account, and keeps the whole workflow in the browser from upload to download. That makes it ideal for school packets, client deliverables, and mixed scans you want to ship as one attachment without juggling folders. You stay productive without waiting on installs when the only task is combining files."
+        "body": "Merging online is faster than hunting for desktop software when you only need a quick combine before you hit send. PDFRobin is free, works without an account, and keeps the whole workflow in the browser from upload to download. That makes it ideal for school packets, client deliverables, and mixed scans you want to ship as one attachment without juggling folders. You stay productive without waiting on installs when the only task is combining files."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -1040,7 +1040,7 @@
         "a": "No. Merge PDF stacks the existing pages into one file. It does not rewrite text or rebuild layouts; it preserves each page as it appears in the source documents."
       },
       {
-        "q": "Do I need an account to merge PDFs on PDF Palette?",
+        "q": "Do I need an account to merge PDFs on PDFRobin?",
         "a": "No. The tool is free to use in your browser with no sign-up. Upload, merge, and download without creating an account."
       },
       {
@@ -1048,7 +1048,7 @@
         "a": "Yes. After you upload, drag the files into the sequence you want. That order becomes the page order in the downloaded PDF."
       }
     ],
-    "conclusion": "Merging PDFs should be a short chore, not a software project. Upload your files on PDF Palette, set the order you need, and download one clean document with the free Merge PDF tool whenever you need a single shareable packet—no account required.",
+    "conclusion": "Merging PDFs should be a short chore, not a software project. Upload your files on PDFRobin, set the order you need, and download one clean document with the free Merge PDF tool whenever you need a single shareable packet—no account required.",
     "internalLinks": [
       {
         "route": "/split-pdf",
@@ -1066,8 +1066,8 @@
   },
   "/split-pdf": {
     "name": "Split PDF",
-    "title": "Split a PDF by Pages or Ranges Free Online | PDF Palette",
-    "description": "Learn how to split a PDF free online with PDF Palette. Divide by ranges or one file per page in your browser—no account required, download in seconds.",
+    "title": "Split a PDF by Pages or Ranges Free Online | PDFRobin",
+    "description": "Learn how to split a PDF free online with PDFRobin. Divide by ranges or one file per page in your browser—no account required, download in seconds.",
     "primaryKeyword": "split PDF",
     "secondaryKeywords": [
       "split PDF online free",
@@ -1080,7 +1080,7 @@
     ],
     "h1": "How to Use Split PDF – Complete Guide",
     "slug": "split-pdf",
-    "intro": "A long PDF is often easier to share when you break it into smaller pieces for email or review. PDF Palette’s Split PDF tool lets you cut by page ranges or produce one file per page, all inside your browser with no account required.\n\nUpload your document, choose how to divide it, then download only the sections you need. Whether you are sending a chapter, isolating a signed page, or archiving sheets separately, the split stays free and free of extra watermarks on every download.",
+    "intro": "A long PDF is often easier to share when you break it into smaller pieces for email or review. PDFRobin’s Split PDF tool lets you cut by page ranges or produce one file per page, all inside your browser with no account required.\n\nUpload your document, choose how to divide it, then download only the sections you need. Whether you are sending a chapter, isolating a signed page, or archiving sheets separately, the split stays free and free of extra watermarks on every download.",
     "steps": [
       "Open Split PDF and upload the PDF you want to divide.",
       "Choose split by page ranges or one PDF per page.",
@@ -1090,7 +1090,7 @@
     "sections": [
       {
         "heading": "What Is Split PDF?",
-        "body": "Split PDF turns one multi-page document into smaller PDFs you can send or archive on their own. You might pull a single chapter from a report, share only the signed pages of a contract, or export every page as its own file for filing systems that prefer one sheet per document. PDF Palette handles the split locally in your browser so you can divide files without installing a desktop suite or creating an account first."
+        "body": "Split PDF turns one multi-page document into smaller PDFs you can send or archive on their own. You might pull a single chapter from a report, share only the signed pages of a contract, or export every page as its own file for filing systems that prefer one sheet per document. PDFRobin handles the split locally in your browser so you can divide files without installing a desktop suite or creating an account first."
       },
       {
         "heading": "How to Use Split PDF",
@@ -1104,7 +1104,7 @@
       },
       {
         "heading": "Why Use Split PDF?",
-        "body": "Email limits and upload portals often reject oversized packets even when only a few pages matter. Splitting lets you send the relevant section without exposing the rest of the file. PDF Palette is free, needs no login, and works quickly in the browser—handy on a borrowed computer or anytime you cannot install software before a deadline. That flexibility matters when a portal asks for one section at a time."
+        "body": "Email limits and upload portals often reject oversized packets even when only a few pages matter. Splitting lets you send the relevant section without exposing the rest of the file. PDFRobin is free, needs no login, and works quickly in the browser—handy on a borrowed computer or anytime you cannot install software before a deadline. That flexibility matters when a portal asks for one section at a time."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -1114,7 +1114,7 @@
     "faqs": [
       {
         "q": "Can I split a PDF into individual pages?",
-        "a": "Yes. Choose the one-file-per-page option and PDF Palette will create a separate PDF for every page in the document."
+        "a": "Yes. Choose the one-file-per-page option and PDFRobin will create a separate PDF for every page in the document."
       },
       {
         "q": "Can I split by custom page ranges?",
@@ -1125,11 +1125,11 @@
         "a": "Splitting copies the selected pages into new files. It does not recompress images or alter page content, so visual quality stays the same as the source."
       },
       {
-        "q": "Is Split PDF free on PDF Palette?",
+        "q": "Is Split PDF free on PDFRobin?",
         "a": "Yes. You can split PDFs online for free with no account. Upload, configure the split, and download your files from the browser."
       }
     ],
-    "conclusion": "When one PDF is too much to send, split it into clearer pieces first. PDF Palette’s free Split PDF tool divides documents by range or by page in your browser so you can share only what matters, quickly and without creating an account.",
+    "conclusion": "When one PDF is too much to send, split it into clearer pieces first. PDFRobin’s free Split PDF tool divides documents by range or by page in your browser so you can share only what matters, quickly and without creating an account.",
     "internalLinks": [
       {
         "route": "/extract-pages",
@@ -1147,8 +1147,8 @@
   },
   "/compress-pdf": {
     "name": "Compress PDF",
-    "title": "Compress a PDF to Smaller Size Free Online | PDF Palette",
-    "description": "Learn how to compress a PDF free online with PDF Palette. Shrink large files for email or uploads in your browser—no account needed, keep sharing simple.",
+    "title": "Compress a PDF to Smaller Size Free Online | PDFRobin",
+    "description": "Learn how to compress a PDF free online with PDFRobin. Shrink large files for email or uploads in your browser—no account needed, keep sharing simple.",
     "primaryKeyword": "compress PDF",
     "secondaryKeywords": [
       "reduce PDF file size",
@@ -1161,7 +1161,7 @@
     ],
     "h1": "How to Use Compress PDF – Complete Guide",
     "slug": "compress-pdf",
-    "intro": "Large PDFs bounce from inboxes and slow down uploads at the worst moment. PDF Palette’s Compress PDF tool reduces file size in your browser so documents fit common attachment limits and portal caps without installing software.\n\nChoose a compression level that balances clarity and size, run the job, and download a lighter PDF. The tool is free, needs no account, and does not stamp a site watermark on your result—just a smaller file that is ready to send or store.",
+    "intro": "Large PDFs bounce from inboxes and slow down uploads at the worst moment. PDFRobin’s Compress PDF tool reduces file size in your browser so documents fit common attachment limits and portal caps without installing software.\n\nChoose a compression level that balances clarity and size, run the job, and download a lighter PDF. The tool is free, needs no account, and does not stamp a site watermark on your result—just a smaller file that is ready to send or store.",
     "steps": [
       "Open Compress PDF and upload the PDF you want to shrink.",
       "Select a compression level that balances size and quality for your use case.",
@@ -1171,7 +1171,7 @@
     "sections": [
       {
         "heading": "What Is Compress PDF?",
-        "body": "Compress PDF reduces how much disk space a document uses, usually by downsampling images and optimizing streams inside the file. The goal is a lighter PDF that still looks good enough for email, cloud uploads, or everyday archiving. PDF Palette runs compression in the browser with a real optimization pipeline, so you can shrink files without installing desktop software or uploading through a separate desktop app. You keep using the same PDF format—just a leaner file for everyday sharing."
+        "body": "Compress PDF reduces how much disk space a document uses, usually by downsampling images and optimizing streams inside the file. The goal is a lighter PDF that still looks good enough for email, cloud uploads, or everyday archiving. PDFRobin runs compression in the browser with a real optimization pipeline, so you can shrink files without installing desktop software or uploading through a separate desktop app. You keep using the same PDF format—just a leaner file for everyday sharing."
       },
       {
         "heading": "How to Use Compress PDF",
@@ -1185,7 +1185,7 @@
       },
       {
         "heading": "Why Use Compress PDF?",
-        "body": "A smaller PDF travels better through email gateways and web forms that enforce hard size caps. Compression also helps you store scans without filling a drive after a busy week of paperwork. PDF Palette is free and account-free, which makes it practical for one-off files you need to send today without buying or installing a dedicated compressor. You avoid bouncing between apps just to clear a megabyte limit."
+        "body": "A smaller PDF travels better through email gateways and web forms that enforce hard size caps. Compression also helps you store scans without filling a drive after a busy week of paperwork. PDFRobin is free and account-free, which makes it practical for one-off files you need to send today without buying or installing a dedicated compressor. You avoid bouncing between apps just to clear a megabyte limit."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -1198,7 +1198,7 @@
         "a": "Strong compression can soften images. Choose a lighter setting when sharpness matters, and always open the download to confirm it meets your needs."
       },
       {
-        "q": "Is PDF compression free on PDF Palette?",
+        "q": "Is PDF compression free on PDFRobin?",
         "a": "Yes. Compress PDF is free to use online with no account. Upload, compress in the browser, and download the result."
       },
       {
@@ -1210,7 +1210,7 @@
         "a": "That is one of the most common uses. Shrink the file first, then attach the smaller download so it clears typical email size limits."
       }
     ],
-    "conclusion": "When a PDF is too heavy to send, compress it before you attach it. PDF Palette’s free Compress PDF tool shrinks files in your browser so you can email, upload, and store documents with less friction and without signing up first. Upload, shrink, and download in one place.",
+    "conclusion": "When a PDF is too heavy to send, compress it before you attach it. PDFRobin’s free Compress PDF tool shrinks files in your browser so you can email, upload, and store documents with less friction and without signing up first. Upload, shrink, and download in one place.",
     "internalLinks": [
       {
         "route": "/merge-pdf",
@@ -1228,8 +1228,8 @@
   },
   "/rotate-pdf": {
     "name": "Rotate PDF",
-    "title": "Rotate PDF Pages the Right Way Free Online | PDF Palette",
-    "description": "Learn how to rotate PDF pages free online with PDF Palette. Fix sideways or upside-down scans in your browser—no account, download a corrected file fast.",
+    "title": "Rotate PDF Pages the Right Way Free Online | PDFRobin",
+    "description": "Learn how to rotate PDF pages free online with PDFRobin. Fix sideways or upside-down scans in your browser—no account, download a corrected file fast.",
     "primaryKeyword": "rotate PDF",
     "secondaryKeywords": [
       "rotate PDF pages",
@@ -1242,7 +1242,7 @@
     ],
     "h1": "How to Use Rotate PDF – Complete Guide",
     "slug": "rotate-pdf",
-    "intro": "Scanned pages often land sideways or upside down, and a viewer rotate button rarely fixes what recipients see later. PDF Palette’s Rotate PDF tool permanently turns pages so the file opens correctly in any standard reader you share with.\n\nUpload your PDF, choose the rotation angle you need, process the change in the browser, and download the corrected document. No account is required, and no watermark is added—only the orientation fix you asked for before you send the file along.",
+    "intro": "Scanned pages often land sideways or upside down, and a viewer rotate button rarely fixes what recipients see later. PDFRobin’s Rotate PDF tool permanently turns pages so the file opens correctly in any standard reader you share with.\n\nUpload your PDF, choose the rotation angle you need, process the change in the browser, and download the corrected document. No account is required, and no watermark is added—only the orientation fix you asked for before you send the file along.",
     "steps": [
       "Open Rotate PDF and upload the PDF with incorrect page orientation.",
       "Choose how far to rotate the pages (for example 90°, 180°, or 270°).",
@@ -1266,7 +1266,7 @@
       },
       {
         "heading": "Why Use Rotate PDF?",
-        "body": "Sending a sideways scan looks unprofessional and slows every reader who has to twist a laptop or phone. Rotating once saves future viewers from repeating that friction. PDF Palette does the job free online with no sign-up, which is ideal when you need a corrected file before a meeting, filing deadline, or client handoff later the same day. A permanent fix beats asking every reader to rotate the view themselves."
+        "body": "Sending a sideways scan looks unprofessional and slows every reader who has to twist a laptop or phone. Rotating once saves future viewers from repeating that friction. PDFRobin does the job free online with no sign-up, which is ideal when you need a corrected file before a meeting, filing deadline, or client handoff later the same day. A permanent fix beats asking every reader to rotate the view themselves."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -1276,7 +1276,7 @@
     "faqs": [
       {
         "q": "Is the rotation permanent?",
-        "a": "Yes. PDF Palette writes the new orientation into the downloaded PDF, so pages stay upright when someone else opens the file."
+        "a": "Yes. PDFRobin writes the new orientation into the downloaded PDF, so pages stay upright when someone else opens the file."
       },
       {
         "q": "Can I rotate a PDF 180 degrees?",
@@ -1284,14 +1284,14 @@
       },
       {
         "q": "Do I need software to rotate a PDF?",
-        "a": "No. Rotate PDF on PDF Palette runs in your browser. Upload, pick an angle, and download without installing an app."
+        "a": "No. Rotate PDF on PDFRobin runs in your browser. Upload, pick an angle, and download without installing an app."
       },
       {
         "q": "Will rotating change the text on the page?",
         "a": "Rotation changes orientation, not the wording. Text and images turn with the page so content stays intact."
       }
     ],
-    "conclusion": "Fix orientation once and share with confidence afterward. PDF Palette’s free Rotate PDF tool permanently corrects sideways and upside-down pages in your browser so every recipient sees upright pages—no account and no extra software required. Upload, choose an angle, and download the upright file.",
+    "conclusion": "Fix orientation once and share with confidence afterward. PDFRobin’s free Rotate PDF tool permanently corrects sideways and upside-down pages in your browser so every recipient sees upright pages—no account and no extra software required. Upload, choose an angle, and download the upright file.",
     "internalLinks": [
       {
         "route": "/organize-pdf",
@@ -1309,8 +1309,8 @@
   },
   "/organize-pdf": {
     "name": "Organize PDF",
-    "title": "Organize and Reorder PDF Pages Free Online | PDF Palette",
-    "description": "Learn how to organize PDF pages free online with PDF Palette. Reorder, rotate, duplicate, or delete pages in your browser—no account needed to download.",
+    "title": "Organize and Reorder PDF Pages Free Online | PDFRobin",
+    "description": "Learn how to organize PDF pages free online with PDFRobin. Reorder, rotate, duplicate, or delete pages in your browser—no account needed to download.",
     "primaryKeyword": "organize PDF",
     "secondaryKeywords": [
       "reorder PDF pages",
@@ -1323,7 +1323,7 @@
     ],
     "h1": "How to Use Organize PDF – Complete Guide",
     "slug": "organize-pdf",
-    "intro": "Sometimes a PDF needs more than one fix at once before it is ready to send. PDF Palette’s Organize PDF tool shows every page as a thumbnail so you can reorder, rotate, duplicate, or delete in a single visual pass.\n\nUpload your file, rearrange the layout on the board, process everything in the browser, and download a cleaned-up document. The tool is free to use with no account and does not add a watermark to your finished PDF when processing completes.",
+    "intro": "Sometimes a PDF needs more than one fix at once before it is ready to send. PDFRobin’s Organize PDF tool shows every page as a thumbnail so you can reorder, rotate, duplicate, or delete in a single visual pass.\n\nUpload your file, rearrange the layout on the board, process everything in the browser, and download a cleaned-up document. The tool is free to use with no account and does not add a watermark to your finished PDF when processing completes.",
     "steps": [
       "Open Organize PDF and upload the PDF you want to rearrange.",
       "Drag thumbnails to reorder pages; rotate, duplicate, or delete as needed.",
@@ -1333,7 +1333,7 @@
     "sections": [
       {
         "heading": "What Is Organize PDF?",
-        "body": "Organize PDF is a visual page manager for PDF documents that need several small fixes together. Instead of juggling separate split, rotate, and remove tools, you work from one thumbnail board. Drag pages into a new order, fix orientation, remove blanks, or duplicate a sheet you need twice. PDF Palette keeps the workflow in the browser for quick edits without desktop software or an account wall. One pass can replace several separate page tools when the packet needs mixed fixes."
+        "body": "Organize PDF is a visual page manager for PDF documents that need several small fixes together. Instead of juggling separate split, rotate, and remove tools, you work from one thumbnail board. Drag pages into a new order, fix orientation, remove blanks, or duplicate a sheet you need twice. PDFRobin keeps the workflow in the browser for quick edits without desktop software or an account wall. One pass can replace several separate page tools when the packet needs mixed fixes."
       },
       {
         "heading": "How to Use Organize PDF",
@@ -1365,14 +1365,14 @@
       },
       {
         "q": "Is Organize PDF free to use?",
-        "a": "Yes. PDF Palette offers Organize PDF free online with no account. Work in the browser and download when you are done."
+        "a": "Yes. PDFRobin offers Organize PDF free online with no account. Work in the browser and download when you are done."
       },
       {
         "q": "Does organizing create a new PDF?",
         "a": "Yes. Your changes are written into a new download. Keep the original if you want an untouched backup."
       }
     ],
-    "conclusion": "Messy page order does not need a full desktop editor. Use PDF Palette’s free Organize PDF tool to reorder, rotate, and clean pages in your browser, then download a document that finally reads in the right sequence without creating an account. One visual pass is often all it takes.",
+    "conclusion": "Messy page order does not need a full desktop editor. Use PDFRobin’s free Organize PDF tool to reorder, rotate, and clean pages in your browser, then download a document that finally reads in the right sequence without creating an account. One visual pass is often all it takes.",
     "internalLinks": [
       {
         "route": "/merge-pdf",
@@ -1390,8 +1390,8 @@
   },
   "/extract-pages": {
     "name": "Extract Pages",
-    "title": "Extract Selected Pages From a PDF Free Online | PDF Palette",
-    "description": "Learn how to extract pages from a PDF free online with PDF Palette. Save selected pages as a new file in your browser—no account and no watermark added.",
+    "title": "Extract Selected Pages From a PDF Free Online | PDFRobin",
+    "description": "Learn how to extract pages from a PDF free online with PDFRobin. Save selected pages as a new file in your browser—no account and no watermark added.",
     "primaryKeyword": "extract pages from PDF",
     "secondaryKeywords": [
       "extract PDF pages",
@@ -1404,7 +1404,7 @@
     ],
     "h1": "How to Use Extract Pages – Complete Guide",
     "slug": "extract-pages",
-    "intro": "You rarely need an entire binder when one section will do for a review, filing, or client handoff. PDF Palette’s Extract Pages tool pulls the pages you select into a brand-new PDF while leaving your original document untouched on disk where you saved it.\n\nUpload the file, pick pages from the thumbnails—consecutive or scattered—then process in the browser and download only what you need. Free online use means no account and no watermark on the extracted result you share next.",
+    "intro": "You rarely need an entire binder when one section will do for a review, filing, or client handoff. PDFRobin’s Extract Pages tool pulls the pages you select into a brand-new PDF while leaving your original document untouched on disk where you saved it.\n\nUpload the file, pick pages from the thumbnails—consecutive or scattered—then process in the browser and download only what you need. Free online use means no account and no watermark on the extracted result you share next.",
     "steps": [
       "Open Extract Pages and upload the source PDF.",
       "Select the pages you want—single pages, ranges, or a mixed set—from the thumbnails.",
@@ -1414,7 +1414,7 @@
     "sections": [
       {
         "heading": "What Is Extract Pages?",
-        "body": "Extract Pages creates a new PDF that contains only the pages you choose from a larger source file. Unlike deleting pages from a working copy, extraction is ideal when you want a shareable subset—an exhibit, a certificate page, or a chapter—without altering the master document. PDF Palette runs the selection and export in your browser so you can pull pages quickly without installing page tools. You leave the master file alone while still creating a ready-to-send subset."
+        "body": "Extract Pages creates a new PDF that contains only the pages you choose from a larger source file. Unlike deleting pages from a working copy, extraction is ideal when you want a shareable subset—an exhibit, a certificate page, or a chapter—without altering the master document. PDFRobin runs the selection and export in your browser so you can pull pages quickly without installing page tools. You leave the master file alone while still creating a ready-to-send subset."
       },
       {
         "heading": "How to Use Extract Pages",
@@ -1445,7 +1445,7 @@
         "a": "Yes. Select any mix of pages from the thumbnails—consecutive or scattered—and they will appear together in the new PDF."
       },
       {
-        "q": "Is Extract Pages free on PDF Palette?",
+        "q": "Is Extract Pages free on PDFRobin?",
         "a": "Yes. Use it online for free with no account. Upload, select pages, and download the new PDF from your browser."
       },
       {
@@ -1453,7 +1453,7 @@
         "a": "Extract focuses on saving a chosen subset as one new PDF. Split is better when you want to divide a whole document into multiple files or ranges in one pass."
       }
     ],
-    "conclusion": "Pull the pages that matter and leave the rest behind for later. PDF Palette’s free Extract Pages tool builds a clean new PDF from your selection in the browser—simple, fast, and account-free from the first upload through the final download. Keep the master, share the subset.",
+    "conclusion": "Pull the pages that matter and leave the rest behind for later. PDFRobin’s free Extract Pages tool builds a clean new PDF from your selection in the browser—simple, fast, and account-free from the first upload through the final download. Keep the master, share the subset.",
     "internalLinks": [
       {
         "route": "/split-pdf",
@@ -1471,8 +1471,8 @@
   },
   "/remove-pages": {
     "name": "Remove Pages",
-    "title": "Remove Unwanted Pages From a PDF Free Online | PDF Palette",
-    "description": "Learn how to remove pages from a PDF free online with PDF Palette. Delete unwanted pages in your browser and download a cleaner file—no account needed.",
+    "title": "Remove Unwanted Pages From a PDF Free Online | PDFRobin",
+    "description": "Learn how to remove pages from a PDF free online with PDFRobin. Delete unwanted pages in your browser and download a cleaner file—no account needed.",
     "primaryKeyword": "remove pages from PDF",
     "secondaryKeywords": [
       "delete PDF pages",
@@ -1485,7 +1485,7 @@
     ],
     "h1": "How to Use Remove Pages – Complete Guide",
     "slug": "remove-pages",
-    "intro": "Blank scans, outdated covers, and private notes do not belong in the version you send outside your team. PDF Palette’s Remove Pages tool lets you delete those sheets and download a cleaner PDF without installing editing software on the machine you are using.\n\nUpload your file, select what to drop from the thumbnails, process the removal in the browser, and save the trimmed document. No account is required, and no watermark is added to the download you keep or forward.",
+    "intro": "Blank scans, outdated covers, and private notes do not belong in the version you send outside your team. PDFRobin’s Remove Pages tool lets you delete those sheets and download a cleaner PDF without installing editing software on the machine you are using.\n\nUpload your file, select what to drop from the thumbnails, process the removal in the browser, and save the trimmed document. No account is required, and no watermark is added to the download you keep or forward.",
     "steps": [
       "Open Remove Pages and upload the PDF you want to trim.",
       "Select the pages that should be deleted using the page thumbnails.",
@@ -1495,7 +1495,7 @@
     "sections": [
       {
         "heading": "What Is Remove Pages?",
-        "body": "Remove Pages deletes selected pages from a PDF and exports a new file without them. It is the direct way to strip blanks, duplicate sheets, cover leftovers, or internal drafts before a document leaves your desk. PDF Palette handles the edit in your browser so you can clean a file without installing page-editing software or signing up for an account first. The download is a shorter version of the same document, not a copy-paste into another format."
+        "body": "Remove Pages deletes selected pages from a PDF and exports a new file without them. It is the direct way to strip blanks, duplicate sheets, cover leftovers, or internal drafts before a document leaves your desk. PDFRobin handles the edit in your browser so you can clean a file without installing page-editing software or signing up for an account first. The download is a shorter version of the same document, not a copy-paste into another format."
       },
       {
         "heading": "How to Use Remove Pages",
@@ -1509,7 +1509,7 @@
       },
       {
         "heading": "Why Use Remove Pages?",
-        "body": "Smaller, clearer files are easier to review and safer to share when extras would distract or expose notes. Removing blanks and outdated sheets also trims size before email in many cases. PDF Palette is free online with no login, which fits last-minute cleanups before you hit send on a packet that still needs a quick pass. A quick trim often prevents awkward questions about leftover internal pages."
+        "body": "Smaller, clearer files are easier to review and safer to share when extras would distract or expose notes. Removing blanks and outdated sheets also trims size before email in many cases. PDFRobin is free online with no login, which fits last-minute cleanups before you hit send on a packet that still needs a quick pass. A quick trim often prevents awkward questions about leftover internal pages."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -1527,14 +1527,14 @@
       },
       {
         "q": "Is Remove Pages free?",
-        "a": "Yes. PDF Palette offers Remove Pages free online with no account. Upload, delete, and download in your browser."
+        "a": "Yes. PDFRobin offers Remove Pages free online with no account. Upload, delete, and download in your browser."
       },
       {
         "q": "Should I remove pages or extract pages?",
         "a": "Remove pages when the goal is a shorter version of the same document. Extract pages when you want a new file that contains only a chosen subset while treating the master as untouched source material."
       }
     ],
-    "conclusion": "Strip what you do not need before you share the file outside your team. PDF Palette’s free Remove Pages tool deletes unwanted sheets in your browser so the download is ready to send without an account or extra software to install. Clean the packet, then hit send.",
+    "conclusion": "Strip what you do not need before you share the file outside your team. PDFRobin’s free Remove Pages tool deletes unwanted sheets in your browser so the download is ready to send without an account or extra software to install. Clean the packet, then hit send.",
     "internalLinks": [
       {
         "route": "/extract-pages",
@@ -1552,8 +1552,8 @@
   },
   "/page-numbers": {
     "name": "Add Page Numbers",
-    "title": "Add Clear Page Numbers to a PDF Free Online | PDF Palette",
-    "description": "Learn how to add page numbers to a PDF free online with PDF Palette. Choose position and format in your browser—no account, then download a numbered file.",
+    "title": "Add Clear Page Numbers to a PDF Free Online | PDFRobin",
+    "description": "Learn how to add page numbers to a PDF free online with PDFRobin. Choose position and format in your browser—no account, then download a numbered file.",
     "primaryKeyword": "add page numbers to PDF",
     "secondaryKeywords": [
       "number PDF pages",
@@ -1566,7 +1566,7 @@
     ],
     "h1": "How to Use Add Page Numbers – Complete Guide",
     "slug": "page-numbers",
-    "intro": "Unnumbered packets are hard to discuss on a call when nobody shares the same reference point. PDF Palette’s Add Page Numbers tool stamps a clear sequence onto every page so reviewers can cite the same spot with confidence during edits and follow-ups.\n\nUpload your PDF, set position and numbering style, process in the browser, and download the labeled file. It is free to use with no account, and the only marks added are the page numbers you chose for the document.",
+    "intro": "Unnumbered packets are hard to discuss on a call when nobody shares the same reference point. PDFRobin’s Add Page Numbers tool stamps a clear sequence onto every page so reviewers can cite the same spot with confidence during edits and follow-ups.\n\nUpload your PDF, set position and numbering style, process in the browser, and download the labeled file. It is free to use with no account, and the only marks added are the page numbers you chose for the document.",
     "steps": [
       "Open Add Page Numbers and upload the PDF that needs numbering.",
       "Choose where numbers appear and how they should look, including the starting number if needed.",
@@ -1576,7 +1576,7 @@
     "sections": [
       {
         "heading": "What Is Add Page Numbers?",
-        "body": "Add Page Numbers places a page index on each sheet of a PDF—typically in a corner of the header or footer area. Numbering helps meetings, court bundles, and study packs stay aligned when people jump between screens and printouts. PDF Palette applies your format in the browser and returns a downloadable file with the stamps included so citations match for everyone. Those stamps remain visible in other readers and on printed copies of the download."
+        "body": "Add Page Numbers places a page index on each sheet of a PDF—typically in a corner of the header or footer area. Numbering helps meetings, court bundles, and study packs stay aligned when people jump between screens and printouts. PDFRobin applies your format in the browser and returns a downloadable file with the stamps included so citations match for everyone. Those stamps remain visible in other readers and on printed copies of the download."
       },
       {
         "heading": "How to Use Add Page Numbers",
@@ -1590,7 +1590,7 @@
       },
       {
         "heading": "Why Use Add Page Numbers?",
-        "body": "Shared reading is smoother when everyone can say “see page twelve” and land in the same place. Numbering also makes printed stacks easier to reassemble after a meeting. PDF Palette is free online and needs no sign-up, so you can label a file in minutes before a review instead of hunting for desktop pagination tools. Clear pagination also helps when people annotate printed copies later."
+        "body": "Shared reading is smoother when everyone can say “see page twelve” and land in the same place. Numbering also makes printed stacks easier to reassemble after a meeting. PDFRobin is free online and needs no sign-up, so you can label a file in minutes before a review instead of hunting for desktop pagination tools. Clear pagination also helps when people annotate printed copies later."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -1607,7 +1607,7 @@
         "a": "Yes. Set a custom starting number when exhibits or continuations need to follow an existing sequence."
       },
       {
-        "q": "Is Add Page Numbers free on PDF Palette?",
+        "q": "Is Add Page Numbers free on PDFRobin?",
         "a": "Yes. The tool is free online with no account. Configure numbering in the browser and download the result."
       },
       {
@@ -1615,7 +1615,7 @@
         "a": "Yes. Numbers are written into the downloaded file so they appear in other readers and in print, not only in a temporary preview."
       }
     ],
-    "conclusion": "Give every page a clear reference point for reviews and printouts. PDF Palette’s free Add Page Numbers tool stamps your chosen format in the browser so everyone stays on the same page, with no account required to finish the job. Number once, cite with confidence.",
+    "conclusion": "Give every page a clear reference point for reviews and printouts. PDFRobin’s free Add Page Numbers tool stamps your chosen format in the browser so everyone stays on the same page, with no account required to finish the job. Number once, cite with confidence.",
     "internalLinks": [
       {
         "route": "/headers-footers",
@@ -1633,8 +1633,8 @@
   },
   "/crop-pdf": {
     "name": "Crop PDF",
-    "title": "Crop PDF Pages and Trim Margins Free Online | PDF Palette",
-    "description": "Learn how to crop a PDF free online with PDF Palette. Trim margins or set a new visible area in your browser—no account required, download a tighter page.",
+    "title": "Crop PDF Pages and Trim Margins Free Online | PDFRobin",
+    "description": "Learn how to crop a PDF free online with PDFRobin. Trim margins or set a new visible area in your browser—no account required, download a tighter page.",
     "primaryKeyword": "crop PDF",
     "secondaryKeywords": [
       "trim PDF margins",
@@ -1647,7 +1647,7 @@
     ],
     "h1": "How to Use Crop PDF – Complete Guide",
     "slug": "crop-pdf",
-    "intro": "Wide scanner margins and dark edges waste space on screen and on paper when you only need the content itself. PDF Palette’s Crop PDF tool lets you set a tighter visible area so the page fills with what matters instead of empty borders from the scan bed.\n\nUpload your PDF, define the crop rectangle, process in the browser, and download the trimmed result. Free online use means no account and no watermark—just cleaner pages ready to read, present, or print with less distraction.",
+    "intro": "Wide scanner margins and dark edges waste space on screen and on paper when you only need the content itself. PDFRobin’s Crop PDF tool lets you set a tighter visible area so the page fills with what matters instead of empty borders from the scan bed.\n\nUpload your PDF, define the crop rectangle, process in the browser, and download the trimmed result. Free online use means no account and no watermark—just cleaner pages ready to read, present, or print with less distraction.",
     "steps": [
       "Open Crop PDF and upload the PDF you want to trim.",
       "Set the crop area to keep the content you need and exclude excess margins.",
@@ -1657,7 +1657,7 @@
     "sections": [
       {
         "heading": "What Is Crop PDF?",
-        "body": "Crop PDF changes the visible page area by trimming margins or cutting to a custom rectangle you choose on the preview. It is commonly used after scanning books or forms that arrive with thick borders and uneven edges. PDF Palette applies the crop in your browser so you can tidy pages without a desktop publishing suite, an account, or a long install before the cleanup. The tighter page box helps both on-screen reading and printed handouts look intentional."
+        "body": "Crop PDF changes the visible page area by trimming margins or cutting to a custom rectangle you choose on the preview. It is commonly used after scanning books or forms that arrive with thick borders and uneven edges. PDFRobin applies the crop in your browser so you can tidy pages without a desktop publishing suite, an account, or a long install before the cleanup. The tighter page box helps both on-screen reading and printed handouts look intentional."
       },
       {
         "heading": "How to Use Crop PDF",
@@ -1671,7 +1671,7 @@
       },
       {
         "heading": "Why Use Crop PDF?",
-        "body": "Cropping improves readability by removing noisy borders and can make printouts look intentional instead of rushed from the scanner glass. It also helps presentations and screen shares by focusing attention on the content. PDF Palette is free, needs no login, and finishes the edit online in your browser whenever you need a tighter page. A tighter crop can also reduce visual noise in screenshots and slides."
+        "body": "Cropping improves readability by removing noisy borders and can make printouts look intentional instead of rushed from the scanner glass. It also helps presentations and screen shares by focusing attention on the content. PDFRobin is free, needs no login, and finishes the edit online in your browser whenever you need a tighter page. A tighter crop can also reduce visual noise in screenshots and slides."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -1688,7 +1688,7 @@
         "a": "Yes. Scans with black borders or uneven margins are a common reason to crop, and the browser tool is built for that cleanup."
       },
       {
-        "q": "Is Crop PDF free on PDF Palette?",
+        "q": "Is Crop PDF free on PDFRobin?",
         "a": "Yes. Use Crop PDF online for free with no account. Upload, set the area, and download from your browser."
       },
       {
@@ -1696,7 +1696,7 @@
         "a": "Crop first when large empty margins dominate the page, then compress if the file is still too heavy for email or upload."
       }
     ],
-    "conclusion": "Trim the noise around your content before you present or print. PDF Palette’s free Crop PDF tool tightens margins in the browser so pages look cleaner on screen and on paper, and you never need an account to download the result. Keep the content, drop the clutter.",
+    "conclusion": "Trim the noise around your content before you present or print. PDFRobin’s free Crop PDF tool tightens margins in the browser so pages look cleaner on screen and on paper, and you never need an account to download the result. Keep the content, drop the clutter.",
     "internalLinks": [
       {
         "route": "/rotate-pdf",
@@ -1714,8 +1714,8 @@
   },
   "/watermark-pdf": {
     "name": "Watermark PDF",
-    "title": "Watermark a PDF With Text or Image Free Online | PDF Palette",
-    "description": "Learn how to watermark a PDF free online with PDF Palette. Add text or an image across pages in your browser—no account, mark drafts before you share them.",
+    "title": "Watermark a PDF With Text or Image Free Online | PDFRobin",
+    "description": "Learn how to watermark a PDF free online with PDFRobin. Add text or an image across pages in your browser—no account, mark drafts before you share them.",
     "primaryKeyword": "watermark PDF",
     "secondaryKeywords": [
       "add watermark to PDF",
@@ -1728,7 +1728,7 @@
     ],
     "h1": "How to Use Watermark PDF – Complete Guide",
     "slug": "watermark-pdf",
-    "intro": "Before a draft circulates, mark it so nobody mistakes an early copy for a final delivery. PDF Palette’s Watermark PDF tool places text or an image across pages so files stay identifiable as drafts, confidential packets, or branded samples in any reader.\n\nUpload your PDF, configure the watermark, process in the browser, and download the stamped file. The tool is free online, needs no account, and adds only the mark you configure—not an extra site stamp on the finished download.",
+    "intro": "Before a draft circulates, mark it so nobody mistakes an early copy for a final delivery. PDFRobin’s Watermark PDF tool places text or an image across pages so files stay identifiable as drafts, confidential packets, or branded samples in any reader.\n\nUpload your PDF, configure the watermark, process in the browser, and download the stamped file. The tool is free online, needs no account, and adds only the mark you configure—not an extra site stamp on the finished download.",
     "steps": [
       "Open Watermark PDF and upload the document you want to mark.",
       "Enter watermark text or provide an image, then adjust placement as needed.",
@@ -1738,7 +1738,7 @@
     "sections": [
       {
         "heading": "What Is Watermark PDF?",
-        "body": "Watermark PDF overlays repeated text or a logo on PDF pages so the mark travels with every copy. Common labels include DRAFT, CONFIDENTIAL, SAMPLE, or a company name placed across the sheet. The visible cue discourages treating early versions as final. PDF Palette applies watermarks in your browser so you can brand or protect a document without desktop software or creating an account. Recipients see the label in ordinary PDF readers without needing special software."
+        "body": "Watermark PDF overlays repeated text or a logo on PDF pages so the mark travels with every copy. Common labels include DRAFT, CONFIDENTIAL, SAMPLE, or a company name placed across the sheet. The visible cue discourages treating early versions as final. PDFRobin applies watermarks in your browser so you can brand or protect a document without desktop software or creating an account. Recipients see the label in ordinary PDF readers without needing special software."
       },
       {
         "heading": "How to Use Watermark PDF",
@@ -1752,7 +1752,7 @@
       },
       {
         "heading": "Why Use Watermark PDF?",
-        "body": "A visible mark reduces mix-ups between drafts and finals and signals how a file should be handled. It is also a lightweight branding step for sample PDFs you send to prospects. PDF Palette is free online with no sign-up, which fits quick pre-share checks when you need the label on the file before it leaves your desk. Clear labeling protects both the sender and the recipient from version mix-ups."
+        "body": "A visible mark reduces mix-ups between drafts and finals and signals how a file should be handled. It is also a lightweight branding step for sample PDFs you send to prospects. PDFRobin is free online with no sign-up, which fits quick pre-share checks when you need the label on the file before it leaves your desk. Clear labeling protects both the sender and the recipient from version mix-ups."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -1769,15 +1769,15 @@
         "a": "Yes. Watermark PDF supports image marks as well as text, which is useful for branding sample documents."
       },
       {
-        "q": "Is Watermark PDF free on PDF Palette?",
+        "q": "Is Watermark PDF free on PDFRobin?",
         "a": "Yes. The tool is free to use in your browser with no account. Add your mark and download the stamped PDF."
       },
       {
-        "q": "Does PDF Palette add its own watermark?",
-        "a": "No. Your download includes the watermark you configured—not an extra PDF Palette stamp."
+        "q": "Does PDFRobin add its own watermark?",
+        "a": "No. Your download includes the watermark you configured—not an extra PDFRobin stamp."
       }
     ],
-    "conclusion": "Mark drafts before they travel beyond your desk. PDF Palette’s free Watermark PDF tool stamps text or images in your browser so shared copies stay clearly labeled as drafts or confidential files, with no account required to download. Label early, avoid version mix-ups later.",
+    "conclusion": "Mark drafts before they travel beyond your desk. PDFRobin’s free Watermark PDF tool stamps text or images in your browser so shared copies stay clearly labeled as drafts or confidential files, with no account required to download. Label early, avoid version mix-ups later.",
     "internalLinks": [
       {
         "route": "/protect-pdf",
@@ -1795,8 +1795,8 @@
   },
   "/edit-pdf": {
     "name": "Edit PDF",
-    "title": "Edit a PDF With Text and Markup Free Online | PDF Palette",
-    "description": "Learn how to edit a PDF free online with PDF Palette. Add text, images, shapes, and notes in your browser—no account required, save a marked-up download fast.",
+    "title": "Edit a PDF With Text and Markup Free Online | PDFRobin",
+    "description": "Learn how to edit a PDF free online with PDFRobin. Add text, images, shapes, and notes in your browser—no account required, save a marked-up download fast.",
     "primaryKeyword": "edit PDF",
     "secondaryKeywords": [
       "PDF editor online free",
@@ -1809,7 +1809,7 @@
     ],
     "h1": "How to Use Edit PDF – Complete Guide",
     "slug": "edit-pdf",
-    "intro": "Quick fixes should not require buying a full desktop editor for a few labels, arrows, or notes. PDF Palette’s Edit PDF tool lets you add text, images, shapes, highlights, and annotations directly in the browser on the pages that need attention today.\n\nUpload your file, place the markup you need, process the changes, and download an updated PDF. Free online use means no account and no watermark on your edits—just a practical path from upload to a shareable download.",
+    "intro": "Quick fixes should not require buying a full desktop editor for a few labels, arrows, or notes. PDFRobin’s Edit PDF tool lets you add text, images, shapes, highlights, and annotations directly in the browser on the pages that need attention today.\n\nUpload your file, place the markup you need, process the changes, and download an updated PDF. Free online use means no account and no watermark on your edits—just a practical path from upload to a shareable download.",
     "steps": [
       "Open Edit PDF and upload the PDF you want to mark up.",
       "Add text boxes, images, shapes, highlights, or notes on the pages that need changes.",
@@ -1819,7 +1819,7 @@
     "sections": [
       {
         "heading": "What Is Edit PDF?",
-        "body": "Edit PDF is a browser markup workspace for PDF documents that need practical touch-ups. You can place new text, drop in images, draw simple shapes, highlight passages, and leave notes without converting the file to another format first. It is built for labels, callouts, and corrections rather than redesigning complex publications from scratch, and PDF Palette keeps the session free and account-free. Your markup is saved into the download so it shows up for the next person who opens it."
+        "body": "Edit PDF is a browser markup workspace for PDF documents that need practical touch-ups. You can place new text, drop in images, draw simple shapes, highlight passages, and leave notes without converting the file to another format first. It is built for labels, callouts, and corrections rather than redesigning complex publications from scratch, and PDFRobin keeps the session free and account-free. Your markup is saved into the download so it shows up for the next person who opens it."
       },
       {
         "heading": "How to Use Edit PDF",
@@ -1833,7 +1833,7 @@
       },
       {
         "heading": "Why Use Edit PDF?",
-        "body": "Browser editing removes the install step when you only need light changes before a meeting or handoff. PDF Palette is free and account-free, which is ideal for feedback rounds, form callouts, and last-minute labels. You stay on one page from upload through download, so the path stays short when time is limited and the edits are straightforward. That speed matters when feedback arrives late and the file still has to go out."
+        "body": "Browser editing removes the install step when you only need light changes before a meeting or handoff. PDFRobin is free and account-free, which is ideal for feedback rounds, form callouts, and last-minute labels. You stay on one page from upload through download, so the path stays short when time is limited and the edits are straightforward. That speed matters when feedback arrives late and the file still has to go out."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -1846,7 +1846,7 @@
         "a": "You can add text, images, shapes, highlights, and notes, then download a PDF that includes those annotations."
       },
       {
-        "q": "Do I need an account to edit PDFs on PDF Palette?",
+        "q": "Do I need an account to edit PDFs on PDFRobin?",
         "a": "No. Edit PDF is free online with no sign-up. Upload, mark up in the browser, and download when you are finished."
       },
       {
@@ -1858,7 +1858,7 @@
         "a": "Yes. Changes are saved into the downloaded PDF so recipients see the markup in standard readers."
       }
     ],
-    "conclusion": "Light PDF edits belong in the browser when you only need markup. PDF Palette’s free Edit PDF tool helps you add text, images, and notes without an account, then download a ready-to-share file in just a few minutes of work. Markup stays with the download you send.",
+    "conclusion": "Light PDF edits belong in the browser when you only need markup. PDFRobin’s free Edit PDF tool helps you add text, images, and notes without an account, then download a ready-to-share file in just a few minutes of work. Markup stays with the download you send.",
     "internalLinks": [
       {
         "route": "/sign-pdf",
@@ -1876,8 +1876,8 @@
   },
   "/headers-footers": {
     "name": "Headers & Footers",
-    "title": "Add Headers and Footers to a PDF Free Online | PDF Palette",
-    "description": "Learn how to add headers and footers to a PDF free online with PDF Palette. Place custom text on every page in your browser—no account, download when ready.",
+    "title": "Add Headers and Footers to a PDF Free Online | PDFRobin",
+    "description": "Learn how to add headers and footers to a PDF free online with PDFRobin. Place custom text on every page in your browser—no account, download when ready.",
     "primaryKeyword": "PDF headers and footers",
     "secondaryKeywords": [
       "add header to PDF",
@@ -1890,7 +1890,7 @@
     ],
     "h1": "How to Use Headers & Footers – Complete Guide",
     "slug": "headers-footers",
-    "intro": "Consistent header and footer text makes a long packet look finished and easier to track in a busy review. PDF Palette’s Headers & Footers tool places your wording at the top or bottom of every page without desktop software.\n\nUpload the PDF, enter the header and footer content you need, process the file in the browser, and download the stamped document. It is free online with no account and no extra watermark beyond the text you choose to add yourself.",
+    "intro": "Consistent header and footer text makes a long packet look finished and easier to track in a busy review. PDFRobin’s Headers & Footers tool places your wording at the top or bottom of every page without desktop software.\n\nUpload the PDF, enter the header and footer content you need, process the file in the browser, and download the stamped document. It is free online with no account and no extra watermark beyond the text you choose to add yourself.",
     "steps": [
       "Open Headers & Footers and upload the PDF you want to label.",
       "Enter header and footer text, including page tokens if you use them.",
@@ -1900,7 +1900,7 @@
     "sections": [
       {
         "heading": "What Is Headers & Footers?",
-        "body": "Headers & Footers adds repeating text bands to the top and bottom of PDF pages so every sheet carries the same frame. Teams use them for document titles, version labels, confidentiality lines, and page references that should appear consistently. PDF Palette applies your text across the file in the browser so you avoid manual copy-paste on dozens of pages and still finish without desktop software. That consistent frame helps long packets feel intentional instead of hastily assembled."
+        "body": "Headers & Footers adds repeating text bands to the top and bottom of PDF pages so every sheet carries the same frame. Teams use them for document titles, version labels, confidentiality lines, and page references that should appear consistently. PDFRobin applies your text across the file in the browser so you avoid manual copy-paste on dozens of pages and still finish without desktop software. That consistent frame helps long packets feel intentional instead of hastily assembled."
       },
       {
         "heading": "How to Use Headers & Footers",
@@ -1914,7 +1914,7 @@
       },
       {
         "heading": "Why Use Headers & Footers?",
-        "body": "Repeated context reduces confusion in long reviews when people print some pages and skim others on screen. A footer with a title and page cue helps stacks stay sorted after a meeting. PDF Palette offers the tool free online with no login, which is ideal when you need a polished packet on short notice without installing an office suite. Consistent labeling also helps when pages get separated after printing."
+        "body": "Repeated context reduces confusion in long reviews when people print some pages and skim others on screen. A footer with a title and page cue helps stacks stay sorted after a meeting. PDFRobin offers the tool free online with no login, which is ideal when you need a polished packet on short notice without installing an office suite. Consistent labeling also helps when pages get separated after printing."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -1931,7 +1931,7 @@
         "a": "Yes. You can include page numbering tokens in the text so the stamp updates on each page as supported by the tool."
       },
       {
-        "q": "Is Headers & Footers free on PDF Palette?",
+        "q": "Is Headers & Footers free on PDFRobin?",
         "a": "Yes. Use it online for free with no account. Configure your text in the browser and download the stamped PDF."
       },
       {
@@ -1939,7 +1939,7 @@
         "a": "They sit in the top and bottom bands. Leave margin space in the source when possible, and preview the download if pages are already crowded."
       }
     ],
-    "conclusion": "Give every page the same professional frame from start to finish. PDF Palette’s free Headers & Footers tool stamps your text in the browser so long PDFs stay labeled consistently, and you can download without creating an account. Repeat the frame on every page automatically.",
+    "conclusion": "Give every page the same professional frame from start to finish. PDFRobin’s free Headers & Footers tool stamps your text in the browser so long PDFs stay labeled consistently, and you can download without creating an account. Repeat the frame on every page automatically.",
     "internalLinks": [
       {
         "route": "/page-numbers",
@@ -1957,8 +1957,8 @@
   },
   "/edit-metadata": {
     "name": "Edit Metadata",
-    "title": "Edit PDF Title Author and Metadata Free Online | PDF Palette",
-    "description": "Learn how to edit PDF metadata free online with PDF Palette. Update title, author, subject, and keywords in your browser—no account, then download quickly.",
+    "title": "Edit PDF Title Author and Metadata Free Online | PDFRobin",
+    "description": "Learn how to edit PDF metadata free online with PDFRobin. Update title, author, subject, and keywords in your browser—no account, then download quickly.",
     "primaryKeyword": "edit PDF metadata",
     "secondaryKeywords": [
       "change PDF title",
@@ -1971,7 +1971,7 @@
     ],
     "h1": "How to Use Edit Metadata – Complete Guide",
     "slug": "edit-metadata",
-    "intro": "PDF properties travel with the file even when the page content already looks fine to everyday readers. PDF Palette’s Edit Metadata tool updates title, author, subject, and keywords so downloads show the right details in property panels and shared libraries alike.\n\nUpload your PDF, edit the fields you care about, process the change in the browser, and download the updated copy. Free online use means no account is required—just accurate document properties before you publish, file, or archive the PDF.",
+    "intro": "PDF properties travel with the file even when the page content already looks fine to everyday readers. PDFRobin’s Edit Metadata tool updates title, author, subject, and keywords so downloads show the right details in property panels and shared libraries alike.\n\nUpload your PDF, edit the fields you care about, process the change in the browser, and download the updated copy. Free online use means no account is required—just accurate document properties before you publish, file, or archive the PDF.",
     "steps": [
       "Open Edit Metadata and upload the PDF whose properties you want to change.",
       "Update title, author, subject, keywords, or clear fields you no longer need.",
@@ -1981,7 +1981,7 @@
     "sections": [
       {
         "heading": "What Is Edit Metadata?",
-        "body": "Edit Metadata changes the document information stored inside a PDF—fields such as title, author, subject, and keywords. Those values appear in reader property panels and can influence how files are labeled in libraries and download folders. PDF Palette lets you revise them in the browser without opening a desktop editor, so property cleanup stays as simple as the other free tools on the site. Cleaning those fields is separate from editing page text, yet it still shapes how files are labeled."
+        "body": "Edit Metadata changes the document information stored inside a PDF—fields such as title, author, subject, and keywords. Those values appear in reader property panels and can influence how files are labeled in libraries and download folders. PDFRobin lets you revise them in the browser without opening a desktop editor, so property cleanup stays as simple as the other free tools on the site. Cleaning those fields is separate from editing page text, yet it still shapes how files are labeled."
       },
       {
         "heading": "How to Use Edit Metadata",
@@ -1995,7 +1995,7 @@
       },
       {
         "heading": "Why Use Edit Metadata?",
-        "body": "Wrong titles confuse shared drives and email attachments when two files look alike at a glance. Updating author and subject helps teams find the right version later in search. PDF Palette is free online and needs no sign-up, which makes property cleanup a short task before publishing, submitting, or archiving a finished document. A minute of cleanup here can save confusion across an entire shared folder."
+        "body": "Wrong titles confuse shared drives and email attachments when two files look alike at a glance. Updating author and subject helps teams find the right version later in search. PDFRobin is free online and needs no sign-up, which makes property cleanup a short task before publishing, submitting, or archiving a finished document. A minute of cleanup here can save confusion across an entire shared folder."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -2012,7 +2012,7 @@
         "a": "No. Metadata lives in the file properties. Visible page content stays the same unless you edit the pages with another tool."
       },
       {
-        "q": "Is Edit Metadata free on PDF Palette?",
+        "q": "Is Edit Metadata free on PDFRobin?",
         "a": "Yes. The tool is free online with no account. Update fields in the browser and download the revised PDF."
       },
       {
@@ -2020,7 +2020,7 @@
         "a": "Accurate title and author details help recipients recognize the file and keep libraries searchable. Cleaning template leftovers also avoids sharing outdated internal labels."
       }
     ],
-    "conclusion": "Page content is only half the story inside a PDF file. PDF Palette’s free Edit Metadata tool updates title, author, subject, and keywords in your browser so shared files carry accurate properties—no account required to save the changes. Accurate properties help every future search.",
+    "conclusion": "Page content is only half the story inside a PDF file. PDFRobin’s free Edit Metadata tool updates title, author, subject, and keywords in your browser so shared files carry accurate properties—no account required to save the changes. Accurate properties help every future search.",
     "internalLinks": [
       {
         "route": "/headers-footers",
@@ -2038,8 +2038,8 @@
   },
   "/sign-pdf": {
     "name": "Sign PDF",
-    "title": "Sign PDF Files Without Printing Free Online | PDF Palette",
-    "description": "Sign a PDF free online in your browser. Draw, type, or upload a signature, place it on any page, and download—no account required with PDF Palette today.",
+    "title": "Sign PDF Files Without Printing Free Online | PDFRobin",
+    "description": "Sign a PDF free online in your browser. Draw, type, or upload a signature, place it on any page, and download—no account required with PDFRobin today.",
     "primaryKeyword": "sign PDF online",
     "secondaryKeywords": [
       "electronic signature PDF",
@@ -2052,7 +2052,7 @@
     ],
     "h1": "How to Use Sign PDF – Complete Guide",
     "slug": "sign-pdf",
-    "intro": "Need to sign a contract, form, or approval without a printer? PDF Palette’s Sign PDF tool lets you add a signature right in your browser—draw it, type it in a handwriting style, or upload an image of your wet-ink signature.\n\nPlace and resize the mark on any page, add a date or initials if you need them, then download the signed file. No account is required, and signing stays in your tab so the document is not uploaded for this tool.",
+    "intro": "Need to sign a contract, form, or approval without a printer? PDFRobin’s Sign PDF tool lets you add a signature right in your browser—draw it, type it in a handwriting style, or upload an image of your wet-ink signature.\n\nPlace and resize the mark on any page, add a date or initials if you need them, then download the signed file. No account is required, and signing stays in your tab so the document is not uploaded for this tool.",
     "steps": [
       "Open Sign PDF and upload the PDF you need to sign.",
       "Create a signature by drawing, typing, or uploading an image.",
@@ -2067,7 +2067,7 @@
       },
       {
         "heading": "How to Use Sign PDF",
-        "body": "Follow these steps in PDF Palette to finish a self-signature quickly. Everything runs in your browser, so you do not install software or create an account first.",
+        "body": "Follow these steps in PDFRobin to finish a self-signature quickly. Everything runs in your browser, so you do not install software or create an account first.",
         "steps": [
           "Upload your PDF.",
           "Create or reuse a signature (draw, type, or image).",
@@ -2086,7 +2086,7 @@
     ],
     "faqs": [
       {
-        "q": "Is an electronic signature on PDF Palette legally binding?",
+        "q": "Is an electronic signature on PDFRobin legally binding?",
         "a": "Many everyday agreements accept a drawn or typed e-signature, but rules differ by country and document type. Confirm what your situation requires before relying on it for high-stakes filings."
       },
       {
@@ -2094,7 +2094,7 @@
         "a": "No. You sign the file yourself in the browser. It does not manage recipients, reminders, or certificate-based workflows."
       },
       {
-        "q": "Is my signature stored on PDF Palette servers?",
+        "q": "Is my signature stored on PDFRobin servers?",
         "a": "No. For this tool, the signature exists only in your browser session and is discarded when you close the tab."
       },
       {
@@ -2102,7 +2102,7 @@
         "a": "Yes. Place signatures, initials, or dates on as many pages as you need before you download."
       }
     ],
-    "conclusion": "Sign PDF on PDF Palette is a fast, free way to finish paperwork without printing or scanning. Upload your file, place a drawn, typed, or image signature, add dates if needed, and download. No account is required, and signing stays in your browser for everyday documents.",
+    "conclusion": "Sign PDF on PDFRobin is a fast, free way to finish paperwork without printing or scanning. Upload your file, place a drawn, typed, or image signature, add dates if needed, and download. No account is required, and signing stays in your browser for everyday documents.",
     "internalLinks": [
       {
         "route": "/fill-forms",
@@ -2120,8 +2120,8 @@
   },
   "/ocr-pdf": {
     "name": "OCR PDF",
-    "title": "OCR Scanned PDFs to Searchable Free Online | PDF Palette",
-    "description": "OCR a PDF free online to make scans searchable and selectable. Run optical character recognition with PDF Palette; no account required to get started.",
+    "title": "OCR Scanned PDFs to Searchable Free Online | PDFRobin",
+    "description": "OCR a PDF free online to make scans searchable and selectable. Run optical character recognition with PDFRobin; no account required to get started.",
     "primaryKeyword": "OCR PDF online",
     "secondaryKeywords": [
       "make PDF searchable",
@@ -2134,7 +2134,7 @@
     ],
     "h1": "How to Use OCR PDF – Complete Guide",
     "slug": "ocr-pdf",
-    "intro": "A scanned PDF is usually just pictures of pages. You cannot search it, select words, or paste quotes into another document until optical character recognition (OCR) adds a text layer behind the scan.\n\nPDF Palette’s OCR PDF tool recognizes the characters on each page and returns a searchable PDF that still looks like the original. Use it free online with no account—ideal before converting to Word or Excel, or when you need to find a phrase in a paper archive.",
+    "intro": "A scanned PDF is usually just pictures of pages. You cannot search it, select words, or paste quotes into another document until optical character recognition (OCR) adds a text layer behind the scan.\n\nPDFRobin’s OCR PDF tool recognizes the characters on each page and returns a searchable PDF that still looks like the original. Use it free online with no account—ideal before converting to Word or Excel, or when you need to find a phrase in a paper archive.",
     "steps": [
       "Open OCR PDF and upload your scanned PDF.",
       "Start recognition and wait while each page is processed.",
@@ -2149,7 +2149,7 @@
       },
       {
         "heading": "How to Use OCR PDF",
-        "body": "Upload a scan, run recognition, and download the searchable PDF. No install is needed. OCR uses a conversion service for recognition; PDF Palette does not keep a copy.",
+        "body": "Upload a scan, run recognition, and download the searchable PDF. No install is needed. OCR uses a conversion service for recognition; PDFRobin does not keep a copy.",
         "steps": [
           "Upload the scanned PDF.",
           "Wait for OCR to finish on all pages.",
@@ -2159,7 +2159,7 @@
       },
       {
         "heading": "Why Use OCR PDF?",
-        "body": "Paper archives, faxed forms, and phone photos of documents are hard to reuse until they become text. OCR unlocks search across large packets, speeds quoting for notes and tickets, and prepares files for Word or Excel conversion afterward. PDF Palette keeps the flow simple: one upload, one download, and no sign-up before you start the recognition job."
+        "body": "Paper archives, faxed forms, and phone photos of documents are hard to reuse until they become text. OCR unlocks search across large packets, speeds quoting for notes and tickets, and prepares files for Word or Excel conversion afterward. PDFRobin keeps the flow simple: one upload, one download, and no sign-up before you start the recognition job."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -2172,19 +2172,19 @@
         "a": "Usually no. The original page image remains; recognized text is added as a searchable layer behind it."
       },
       {
-        "q": "How accurate is OCR on PDF Palette?",
+        "q": "How accurate is OCR on PDFRobin?",
         "a": "Clean printed scans at good resolution work well. Low-resolution, skewed, noisy, or handwritten pages are less reliable."
       },
       {
         "q": "Is my PDF kept after OCR?",
-        "a": "The file is sent for recognition only. PDF Palette does not keep a copy afterward. Prefer tools that stay fully in-browser if you cannot send a sensitive scan anywhere."
+        "a": "The file is sent for recognition only. PDFRobin does not keep a copy afterward. Prefer tools that stay fully in-browser if you cannot send a sensitive scan anywhere."
       },
       {
         "q": "Can I convert the OCR’d PDF to Word next?",
         "a": "Yes. Once a text layer exists, PDF to Word and similar converters have real characters to work with instead of a blank image page."
       }
     ],
-    "conclusion": "OCR PDF makes image-based scans searchable and copyable so paper archives become usable again. Run recognition free online on PDF Palette, download the searchable file, then find phrases or convert to Word or Excel with far better results than you get from a blank scan alone.",
+    "conclusion": "OCR PDF makes image-based scans searchable and copyable so paper archives become usable again. Run recognition free online on PDFRobin, download the searchable file, then find phrases or convert to Word or Excel with far better results than you get from a blank scan alone.",
     "internalLinks": [
       {
         "route": "/pdf-to-word",
@@ -2202,8 +2202,8 @@
   },
   "/unlock-pdf": {
     "name": "Unlock PDF",
-    "title": "Unlock Password-Protected PDF Free Online | PDF Palette",
-    "description": "Unlock a PDF free online when you know the password. Remove open restrictions in your browser with PDF Palette—no account required and no guessing at all.",
+    "title": "Unlock Password-Protected PDF Free Online | PDFRobin",
+    "description": "Unlock a PDF free online when you know the password. Remove open restrictions in your browser with PDFRobin—no account required and no guessing at all.",
     "primaryKeyword": "unlock PDF online",
     "secondaryKeywords": [
       "remove PDF password",
@@ -2216,7 +2216,7 @@
     ],
     "h1": "How to Use Unlock PDF – Complete Guide",
     "slug": "unlock-pdf",
-    "intro": "Bank statements, payslips, and shared packs often arrive encrypted. If you already know the password, Unlock PDF removes that open restriction so you can archive, print, merge, or convert the file without typing it every time you open the document.\n\nPDF Palette runs this step in your browser: enter the password you are entitled to use, then download an unlocked copy. No account is required, and the tool does not guess or bypass passwords you do not already have.",
+    "intro": "Bank statements, payslips, and shared packs often arrive encrypted. If you already know the password, Unlock PDF removes that open restriction so you can archive, print, merge, or convert the file without typing it every time you open the document.\n\nPDFRobin runs this step in your browser: enter the password you are entitled to use, then download an unlocked copy. No account is required, and the tool does not guess or bypass passwords you do not already have.",
     "steps": [
       "Open Unlock PDF and upload the protected file.",
       "Enter the password that currently opens the PDF.",
@@ -2227,7 +2227,7 @@
     "sections": [
       {
         "heading": "What Is Unlock PDF?",
-        "body": "Unlock PDF creates a copy of a password-protected document that opens without asking for that password again. It is for documents you can already open—not for cracking unknown credentials or breaking into files you should not access. Once unlocked, the file behaves like a normal PDF for viewing, printing, merging, and further editing with other PDF Palette tools on your device afterward."
+        "body": "Unlock PDF creates a copy of a password-protected document that opens without asking for that password again. It is for documents you can already open—not for cracking unknown credentials or breaking into files you should not access. Once unlocked, the file behaves like a normal PDF for viewing, printing, merging, and further editing with other PDFRobin tools on your device afterward."
       },
       {
         "heading": "How to Use Unlock PDF",
@@ -2266,7 +2266,7 @@
         "a": "If you still need to share it securely, use Protect PDF and send the password through a separate channel."
       }
     ],
-    "conclusion": "Unlock PDF is a free, browser-local way to remove a password you already know and are allowed to use. Open PDF Palette, enter the passphrase once, download the unrestricted copy, then archive, print, merge, or convert without repeated prompts each time the file opens on your computer.",
+    "conclusion": "Unlock PDF is a free, browser-local way to remove a password you already know and are allowed to use. Open PDFRobin, enter the passphrase once, download the unrestricted copy, then archive, print, merge, or convert without repeated prompts each time the file opens on your computer.",
     "internalLinks": [
       {
         "route": "/protect-pdf",
@@ -2284,8 +2284,8 @@
   },
   "/protect-pdf": {
     "name": "Protect PDF",
-    "title": "Password-Protect PDF Documents Free Online | PDF Palette",
-    "description": "Protect a PDF with a password free online. Encrypt the file in your browser with PDF Palette so recipients need your passphrase before they can open it.",
+    "title": "Password-Protect PDF Documents Free Online | PDFRobin",
+    "description": "Protect a PDF with a password free online. Encrypt the file in your browser with PDFRobin so recipients need your passphrase before they can open it.",
     "primaryKeyword": "protect PDF with password",
     "secondaryKeywords": [
       "password protect PDF online",
@@ -2298,7 +2298,7 @@
     ],
     "h1": "How to Use Protect PDF – Complete Guide",
     "slug": "protect-pdf",
-    "intro": "Before you email a contract, tax form, or ID scan, put a password on the PDF. Protect PDF encrypts the file so recipients cannot open it without the passphrase you choose and communicate separately from the attachment.\n\nPDF Palette applies protection in your browser—no account required. Share the password through a different channel than the file itself, such as a call, text, or separate message, so one intercepted email is never enough on its own.",
+    "intro": "Before you email a contract, tax form, or ID scan, put a password on the PDF. Protect PDF encrypts the file so recipients cannot open it without the passphrase you choose and communicate separately from the attachment.\n\nPDFRobin applies protection in your browser—no account required. Share the password through a different channel than the file itself, such as a call, text, or separate message, so one intercepted email is never enough on its own.",
     "steps": [
       "Open Protect PDF and upload the document.",
       "Enter a strong password (and confirm it if prompted).",
@@ -2348,7 +2348,7 @@
         "a": "No. Encryption controls access; it does not rewrite how text and images appear on the page."
       }
     ],
-    "conclusion": "Protect PDF gives you a free, in-browser way to lock a file before sharing it by email or chat. Encrypt on PDF Palette, download the protected copy, deliver the password separately, and keep sensitive attachments from opening for anyone who should not see them at all.",
+    "conclusion": "Protect PDF gives you a free, in-browser way to lock a file before sharing it by email or chat. Encrypt on PDFRobin, download the protected copy, deliver the password separately, and keep sensitive attachments from opening for anyone who should not see them at all.",
     "internalLinks": [
       {
         "route": "/unlock-pdf",
@@ -2366,8 +2366,8 @@
   },
   "/fill-forms": {
     "name": "Fill PDF Forms",
-    "title": "Fill Interactive PDF Form Fields Free Online | PDF Palette",
-    "description": "Fill PDF forms free online in your browser. Complete text fields, checkboxes, and dropdowns with PDF Palette, then download—no account required at all.",
+    "title": "Fill Interactive PDF Form Fields Free Online | PDFRobin",
+    "description": "Fill PDF forms free online in your browser. Complete text fields, checkboxes, and dropdowns with PDFRobin, then download—no account required at all.",
     "primaryKeyword": "fill PDF forms online",
     "secondaryKeywords": [
       "complete PDF form free",
@@ -2380,7 +2380,7 @@
     ],
     "h1": "How to Use Fill PDF Forms – Complete Guide",
     "slug": "fill-forms",
-    "intro": "Skip the print-and-pen routine for applications and HR packs. Fill PDF Forms detects interactive fields—text boxes, checkboxes, and dropdowns—so you can complete worksheets on screen without scanning anything back in afterward.\n\nWork stays in your browser on PDF Palette: type your answers, optionally flatten so they cannot be edited later, and download the finished file. No account is required, and what you type does not need to leave your device for this tool.",
+    "intro": "Skip the print-and-pen routine for applications and HR packs. Fill PDF Forms detects interactive fields—text boxes, checkboxes, and dropdowns—so you can complete worksheets on screen without scanning anything back in afterward.\n\nWork stays in your browser on PDFRobin: type your answers, optionally flatten so they cannot be edited later, and download the finished file. No account is required, and what you type does not need to leave your device for this tool.",
     "steps": [
       "Upload the fillable PDF form.",
       "Click each field and enter text, checks, or dropdown choices.",
@@ -2430,7 +2430,7 @@
         "a": "Yes. Complete the fields here, then open Sign PDF to place a signature or initials."
       }
     ],
-    "conclusion": "Fill PDF Forms makes interactive paperwork quick and private in your browser. Complete the fields free on PDF Palette, flatten if you need a locked snapshot for submission, and download without creating an account or installing desktop form-filling software on your computer at all.",
+    "conclusion": "Fill PDF Forms makes interactive paperwork quick and private in your browser. Complete the fields free on PDFRobin, flatten if you need a locked snapshot for submission, and download without creating an account or installing desktop form-filling software on your computer at all.",
     "internalLinks": [
       {
         "route": "/sign-pdf",
@@ -2448,8 +2448,8 @@
   },
   "/redact-pdf": {
     "name": "Redact PDF",
-    "title": "Redact Sensitive Data in PDFs Free Online | PDF Palette",
-    "description": "Redact a PDF free online in your browser. Permanently remove sensitive text and images with PDF Palette—true redaction that removes content, not a cover.",
+    "title": "Redact Sensitive Data in PDFs Free Online | PDFRobin",
+    "description": "Redact a PDF free online in your browser. Permanently remove sensitive text and images with PDFRobin—true redaction that removes content, not a cover.",
     "primaryKeyword": "redact PDF online",
     "secondaryKeywords": [
       "black out text in PDF",
@@ -2462,7 +2462,7 @@
     ],
     "h1": "How to Use Redact PDF – Complete Guide",
     "slug": "redact-pdf",
-    "intro": "Drawing a black rectangle in a normal editor often only hides text—the words can still be selected or recovered from the file underneath. Redact PDF on PDF Palette rebuilds affected pages so the underlying content is actually gone from the document.\n\nMark the regions to remove in your browser, apply redaction, and download a sanitized copy. No account is required. Prefer this whenever you must share a file that still contains account numbers, addresses, or private notes.",
+    "intro": "Drawing a black rectangle in a normal editor often only hides text—the words can still be selected or recovered from the file underneath. Redact PDF on PDFRobin rebuilds affected pages so the underlying content is actually gone from the document.\n\nMark the regions to remove in your browser, apply redaction, and download a sanitized copy. No account is required. Prefer this whenever you must share a file that still contains account numbers, addresses, or private notes.",
     "steps": [
       "Upload the PDF that contains sensitive content.",
       "Draw redaction boxes over text or images to remove.",
@@ -2487,7 +2487,7 @@
       },
       {
         "heading": "Why Use Redact PDF?",
-        "body": "Legal, HR, and support teams share PDFs that still contain secrets in headers and footnotes. Overlay “redaction” fails under simple copy-paste from the file. Browser-local redaction keeps the document on your device while you sanitize it, and PDF Palette requires no account for a free pass on routine packets that need permanent removal."
+        "body": "Legal, HR, and support teams share PDFs that still contain secrets in headers and footnotes. Overlay “redaction” fails under simple copy-paste from the file. Browser-local redaction keeps the document on your device while you sanitize it, and PDFRobin requires no account for a free pass on routine packets that need permanent removal."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -2512,7 +2512,7 @@
         "a": "Use Auto-Redact PII to find common personal-data patterns quickly, then use Redact PDF for anything the patterns miss."
       }
     ],
-    "conclusion": "Redact PDF is the free, browser-local way to remove sensitive content for real before you share. Mark every region carefully, apply redaction so underlying data is gone, download on PDF Palette, and keep the unredacted original offline where only you can reach it.",
+    "conclusion": "Redact PDF is the free, browser-local way to remove sensitive content for real before you share. Mark every region carefully, apply redaction so underlying data is gone, download on PDFRobin, and keep the unredacted original offline where only you can reach it.",
     "internalLinks": [
       {
         "route": "/auto-redact-pii",
@@ -2530,8 +2530,8 @@
   },
   "/compare-pdf": {
     "name": "Compare PDF",
-    "title": "Compare Two PDF File Versions Free Online | PDF Palette",
-    "description": "Compare two PDFs free online in your browser. Spot text and layout changes between versions with PDF Palette, and review diffs with no account required.",
+    "title": "Compare Two PDF File Versions Free Online | PDFRobin",
+    "description": "Compare two PDFs free online in your browser. Spot text and layout changes between versions with PDFRobin, and review diffs with no account required.",
     "primaryKeyword": "compare PDF online",
     "secondaryKeywords": [
       "PDF difference checker",
@@ -2544,7 +2544,7 @@
     ],
     "h1": "How to Use Compare PDF – Complete Guide",
     "slug": "compare-pdf",
-    "intro": "When a contract or report comes back marked as only lightly revised, the risky changes are easy to miss. Compare PDF loads two versions and highlights differences page by page so you can see what actually changed between exports.\n\nRun the comparison free online in your browser on PDF Palette—no account required. Use it before you sign, publish, or file a document that should only contain the edits you already agreed to accept in writing.",
+    "intro": "When a contract or report comes back marked as only lightly revised, the risky changes are easy to miss. Compare PDF loads two versions and highlights differences page by page so you can see what actually changed between exports.\n\nRun the comparison free online in your browser on PDFRobin—no account required. Use it before you sign, publish, or file a document that should only contain the edits you already agreed to accept in writing.",
     "steps": [
       "Open Compare PDF and upload the original version.",
       "Upload the revised PDF as the second file.",
@@ -2569,7 +2569,7 @@
       },
       {
         "heading": "Why Use Compare PDF?",
-        "body": "Manual side-by-side scrolling misses renumbered clauses and quiet deletions in long exhibits. A dedicated compare pass reduces that risk before you sign or publish. Doing it locally in the browser keeps draft agreements on your device while you review, and PDF Palette does not require a login to begin checking what changed."
+        "body": "Manual side-by-side scrolling misses renumbered clauses and quiet deletions in long exhibits. A dedicated compare pass reduces that risk before you sign or publish. Doing it locally in the browser keeps draft agreements on your device while you review, and PDFRobin does not require a login to begin checking what changed."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -2594,7 +2594,7 @@
         "a": "No. It is a practical aid for spotting changes. Critical agreements still need human—and often legal—review."
       }
     ],
-    "conclusion": "Compare PDF helps you catch real edits between versions without endless side-by-side scrolling. Upload both files free on PDF Palette, review the highlights in your browser, then approve or send feedback with fewer surprises hiding in the fine print of a last-minute revision.",
+    "conclusion": "Compare PDF helps you catch real edits between versions without endless side-by-side scrolling. Upload both files free on PDFRobin, review the highlights in your browser, then approve or send feedback with fewer surprises hiding in the fine print of a last-minute revision.",
     "internalLinks": [
       {
         "route": "/sign-pdf",
@@ -2612,8 +2612,8 @@
   },
   "/flatten-pdf": {
     "name": "Flatten PDF",
-    "title": "Flatten PDF Forms and Page Layers Free Online | PDF Palette",
-    "description": "Flatten a PDF free online in your browser. Lock form fields and make pages static with PDF Palette so recipients cannot casually edit finished content.",
+    "title": "Flatten PDF Forms and Page Layers Free Online | PDFRobin",
+    "description": "Flatten a PDF free online in your browser. Lock form fields and make pages static with PDFRobin so recipients cannot casually edit finished content.",
     "primaryKeyword": "flatten PDF online",
     "secondaryKeywords": [
       "flatten PDF form fields",
@@ -2626,7 +2626,7 @@
     ],
     "h1": "How to Use Flatten PDF – Complete Guide",
     "slug": "flatten-pdf",
-    "intro": "A filled form that still has live fields can be cleared or altered after you send it. Flatten PDF bakes interactive content into static pages so the file reads as a finished document instead of an open worksheet someone can reset.\n\nUse PDF Palette free online in your browser: upload, flatten, and download. No account is required. It is the usual last step after Fill PDF Forms or before archiving a packet you do not want edited later by someone else.",
+    "intro": "A filled form that still has live fields can be cleared or altered after you send it. Flatten PDF bakes interactive content into static pages so the file reads as a finished document instead of an open worksheet someone can reset.\n\nUse PDFRobin free online in your browser: upload, flatten, and download. No account is required. It is the usual last step after Fill PDF Forms or before archiving a packet you do not want edited later by someone else.",
     "steps": [
       "Open Flatten PDF and upload your file.",
       "Confirm you want fields and pages flattened.",
@@ -2676,7 +2676,7 @@
         "a": "Fill fields first, sign if required, then flatten when you want a final uneditable snapshot for submission."
       }
     ],
-    "conclusion": "Flatten PDF locks a finished document into a static copy you can share with fewer edit risks. Run it free in your browser on PDF Palette once the fields and signatures are final, then download and submit the snapshot with more confidence than a still-live form.",
+    "conclusion": "Flatten PDF locks a finished document into a static copy you can share with fewer edit risks. Run it free in your browser on PDFRobin once the fields and signatures are final, then download and submit the snapshot with more confidence than a still-live form.",
     "internalLinks": [
       {
         "route": "/fill-forms",
@@ -2694,8 +2694,8 @@
   },
   "/repair-pdf": {
     "name": "Repair PDF",
-    "title": "Repair Corrupt or Damaged PDFs Free Online | PDF Palette",
-    "description": "Repair a damaged PDF free online in your browser. Rebuild pages so viewers and printers can open the file again using PDF Palette—no account required.",
+    "title": "Repair Corrupt or Damaged PDFs Free Online | PDFRobin",
+    "description": "Repair a damaged PDF free online in your browser. Rebuild pages so viewers and printers can open the file again using PDFRobin—no account required.",
     "primaryKeyword": "repair PDF online",
     "secondaryKeywords": [
       "fix corrupt PDF",
@@ -2708,7 +2708,7 @@
     ],
     "h1": "How to Use Repair PDF – Complete Guide",
     "slug": "repair-pdf",
-    "intro": "Some PDFs throw errors, refuse to save, or open with missing pages after a bad download or flaky export from another app. Repair PDF rebuilds the document page by page into a fresh file that ordinary viewers can open again more reliably.\n\nProcessing stays in your browser on PDF Palette—free, with no account. It cannot invent content that was never in the file, but it often restores a usable copy when the structure is only partly broken.",
+    "intro": "Some PDFs throw errors, refuse to save, or open with missing pages after a bad download or flaky export from another app. Repair PDF rebuilds the document page by page into a fresh file that ordinary viewers can open again more reliably.\n\nProcessing stays in your browser on PDFRobin—free, with no account. It cannot invent content that was never in the file, but it often restores a usable copy when the structure is only partly broken.",
     "steps": [
       "Open Repair PDF and upload the problematic file.",
       "Start repair and wait while pages are rebuilt.",
@@ -2733,7 +2733,7 @@
       },
       {
         "heading": "Why Use Repair PDF?",
-        "body": "A single bad attachment can block printing, merging, or conversion for an entire workflow on deadline. Repairing locally avoids uploading sensitive broken files to unknown recovery sites. PDF Palette keeps the flow simple and free when you just need the document to open again on ordinary viewers without installing recovery utilities."
+        "body": "A single bad attachment can block printing, merging, or conversion for an entire workflow on deadline. Repairing locally avoids uploading sensitive broken files to unknown recovery sites. PDFRobin keeps the flow simple and free when you just need the document to open again on ordinary viewers without installing recovery utilities."
       },
       {
         "heading": "Tips for Getting the Best Results",
@@ -2758,7 +2758,7 @@
         "a": "Usually not. Use Unlock PDF with the known password rather than repair."
       }
     ],
-    "conclusion": "Repair PDF is a free, browser-local reset for files that will not open cleanly after a bad download or export. Rebuild on PDF Palette, verify every page loads, keep the original until you are sure, then continue compressing, merging, or converting as usual with the fixed copy.",
+    "conclusion": "Repair PDF is a free, browser-local reset for files that will not open cleanly after a bad download or export. Rebuild on PDFRobin, verify every page loads, keep the original until you are sure, then continue compressing, merging, or converting as usual with the fixed copy.",
     "internalLinks": [
       {
         "route": "/compress-pdf",
@@ -2776,8 +2776,8 @@
   },
   "/extract-text": {
     "name": "Extract Text",
-    "title": "Extract All Text from PDF Files Free Online | PDF Palette",
-    "description": "Extract text from a PDF free online in your browser. Download selectable content as a plain .txt file with PDF Palette; no account required for quotes.",
+    "title": "Extract All Text from PDF Files Free Online | PDFRobin",
+    "description": "Extract text from a PDF free online in your browser. Download selectable content as a plain .txt file with PDFRobin; no account required for quotes.",
     "primaryKeyword": "extract text from PDF",
     "secondaryKeywords": [
       "PDF to text online",
@@ -2790,7 +2790,7 @@
     ],
     "h1": "How to Use Extract Text – Complete Guide",
     "slug": "extract-text",
-    "intro": "When you need quotes, notes, or a plain-text archive, Extract Text pulls selectable strings from a PDF into a downloadable .txt file. It is faster than copying page by page and handy when you want search outside the PDF viewer on your computer.\n\nRun it free online in your browser on PDF Palette with no account. Scanned pages without a text layer will come out empty or nearly empty until you run OCR PDF first.",
+    "intro": "When you need quotes, notes, or a plain-text archive, Extract Text pulls selectable strings from a PDF into a downloadable .txt file. It is faster than copying page by page and handy when you want search outside the PDF viewer on your computer.\n\nRun it free online in your browser on PDFRobin with no account. Scanned pages without a text layer will come out empty or nearly empty until you run OCR PDF first.",
     "steps": [
       "Open Extract Text and upload your PDF.",
       "Start extraction in your browser.",
@@ -2840,7 +2840,7 @@
         "a": "Yes. Summarize & Ask PDF builds a local extractive summary and keyword answers from the document text."
       }
     ],
-    "conclusion": "Extract Text turns a PDF’s selectable content into a simple .txt download you can paste or index anywhere. Use it free in your browser on PDF Palette, and run OCR first whenever you are starting from a scan instead of a born-digital file with real text.",
+    "conclusion": "Extract Text turns a PDF’s selectable content into a simple .txt download you can paste or index anywhere. Use it free in your browser on PDFRobin, and run OCR first whenever you are starting from a scan instead of a born-digital file with real text.",
     "internalLinks": [
       {
         "route": "/ocr-pdf",
@@ -2858,8 +2858,8 @@
   },
   "/extract-images": {
     "name": "Extract Images",
-    "title": "Extract Embedded PDF Image Files Free Online | PDF Palette",
-    "description": "Extract images from a PDF free online in your browser. Download embedded pictures as PNG files with PDF Palette; no account required to export figures.",
+    "title": "Extract Embedded PDF Image Files Free Online | PDFRobin",
+    "description": "Extract images from a PDF free online in your browser. Download embedded pictures as PNG files with PDFRobin; no account required to export figures.",
     "primaryKeyword": "extract images from PDF",
     "secondaryKeywords": [
       "PDF image extractor",
@@ -2872,7 +2872,7 @@
     ],
     "h1": "How to Use Extract Images – Complete Guide",
     "slug": "extract-images",
-    "intro": "Diagrams, logos, and photos embedded in a PDF are awkward to reuse if you only have a low-quality screenshot. Extract Images pulls those pictures out so you can save them as PNG files for slides, tickets, or docs.\n\nWhen a page has no separate image objects, PDF Palette can render that page as a PNG instead so you still get a usable visual. The tool runs free online in your browser with no account required to begin.",
+    "intro": "Diagrams, logos, and photos embedded in a PDF are awkward to reuse if you only have a low-quality screenshot. Extract Images pulls those pictures out so you can save them as PNG files for slides, tickets, or docs.\n\nWhen a page has no separate image objects, PDFRobin can render that page as a PNG instead so you still get a usable visual. The tool runs free online in your browser with no account required to begin.",
     "steps": [
       "Open Extract Images and upload your PDF.",
       "Start extraction in your browser.",
@@ -2922,7 +2922,7 @@
         "a": "Yes. Use PDF to JPG when you want one image per page rather than only embedded pictures."
       }
     ],
-    "conclusion": "Extract Images recovers usable PNG files from a PDF without relying on cropped screenshots. Run it free in your browser on PDF Palette, then drop figures into presentations, tickets, or design tools with better clarity than a phone photo of the printed page would give you.",
+    "conclusion": "Extract Images recovers usable PNG files from a PDF without relying on cropped screenshots. Run it free in your browser on PDFRobin, then drop figures into presentations, tickets, or design tools with better clarity than a phone photo of the printed page would give you.",
     "internalLinks": [
       {
         "route": "/pdf-to-jpg",
@@ -2940,8 +2940,8 @@
   },
   "/auto-redact-pii": {
     "name": "Auto-Redact PII",
-    "title": "Auto-Redact PII in PDF Documents Free Online | PDF Palette",
-    "description": "Auto-redact PII in a PDF free online. Find names, emails, phones, and similar data, then black them out in your browser with PDF Palette—no account needed.",
+    "title": "Auto-Redact PII in PDF Documents Free Online | PDFRobin",
+    "description": "Auto-redact PII in a PDF free online. Find names, emails, phones, and similar data, then black them out in your browser with PDFRobin—no account needed.",
     "primaryKeyword": "auto redact PII PDF",
     "secondaryKeywords": [
       "redact personal information PDF",
@@ -2954,7 +2954,7 @@
     ],
     "h1": "How to Use Auto-Redact PII – Complete Guide",
     "slug": "auto-redact-pii",
-    "intro": "Sharing logs, tickets, or customer PDFs often means stripping personal data first. Auto-Redact PII scans for common patterns—such as names, emails, and phone numbers—paints black boxes over matches, and flattens so the text cannot be copied straight back out of the file.\n\nEverything runs in your browser on PDF Palette, free and without an account. Always review the output carefully; automation speeds the pass but does not replace a human check before you release the file.",
+    "intro": "Sharing logs, tickets, or customer PDFs often means stripping personal data first. Auto-Redact PII scans for common patterns—such as names, emails, and phone numbers—paints black boxes over matches, and flattens so the text cannot be copied straight back out of the file.\n\nEverything runs in your browser on PDFRobin, free and without an account. Always review the output carefully; automation speeds the pass but does not replace a human check before you release the file.",
     "steps": [
       "Upload the PDF that may contain personal data.",
       "Start Auto-Redact PII and wait while patterns are found.",
@@ -3004,7 +3004,7 @@
         "a": "Flattening helps ensure blacked-out text cannot simply be selected or copied from live text underneath."
       }
     ],
-    "conclusion": "Auto-Redact PII speeds removal of common personal data before you share a PDF outside your team. Run it free in your browser on PDF Palette, review every page carefully, and finish stubborn edge cases with manual Redact PDF so fewer identifiers slip through unnoticed.",
+    "conclusion": "Auto-Redact PII speeds removal of common personal data before you share a PDF outside your team. Run it free in your browser on PDFRobin, review every page carefully, and finish stubborn edge cases with manual Redact PDF so fewer identifiers slip through unnoticed.",
     "internalLinks": [
       {
         "route": "/redact-pdf",
@@ -3022,8 +3022,8 @@
   },
   "/chat-with-pdf": {
     "name": "Summarize & Ask PDF",
-    "title": "Summarize and Ask PDF Locally Free Online | PDF Palette",
-    "description": "Summarize a PDF and ask questions free online with local extractive Q&A—not cloud AI chat. Private on-device help from PDF Palette, no account needed.",
+    "title": "Summarize and Ask PDF Locally Free Online | PDFRobin",
+    "description": "Summarize a PDF and ask questions free online with local extractive Q&A—not cloud AI chat. Private on-device help from PDFRobin, no account needed.",
     "primaryKeyword": "summarize PDF online",
     "secondaryKeywords": [
       "ask questions about PDF",
@@ -3036,7 +3036,7 @@
     ],
     "h1": "How to Use Summarize & Ask PDF – Complete Guide",
     "slug": "chat-with-pdf",
-    "intro": "Summarize & Ask PDF helps you skim a long document without sending it to a cloud AI chatbot. PDF Palette builds an extractive summary from the file’s own sentences and answers questions by matching keywords to passages that already appear in the text.\n\nLoad the PDF in your browser, read the summary, then ask follow-ups. Nothing is sent to a cloud model for this tool—the text stays on your device. Free to use with no account.",
+    "intro": "Summarize & Ask PDF helps you skim a long document without sending it to a cloud AI chatbot. PDFRobin builds an extractive summary from the file’s own sentences and answers questions by matching keywords to passages that already appear in the text.\n\nLoad the PDF in your browser, read the summary, then ask follow-ups. Nothing is sent to a cloud model for this tool—the text stays on your device. Free to use with no account.",
     "steps": [
       "Open Summarize & Ask PDF and upload your document.",
       "Click Load & summarize to build the local summary.",
@@ -3086,7 +3086,7 @@
         "a": "The PDF may lack a text layer. Run OCR PDF, then load and summarize again."
       }
     ],
-    "conclusion": "Summarize & Ask PDF gives you a private, on-device way to skim and query a long document. Use it free on PDF Palette for extractive summaries and keyword passage answers—faithful to what the file already says, without sending any of that text to cloud AI chat services.",
+    "conclusion": "Summarize & Ask PDF gives you a private, on-device way to skim and query a long document. Use it free on PDFRobin for extractive summaries and keyword passage answers—faithful to what the file already says, without sending any of that text to cloud AI chat services.",
     "internalLinks": [
       {
         "route": "/extract-text",
