@@ -89,7 +89,7 @@ const organization = {
   "@id": `${siteUrl}/#organization`,
   name: SITE_NAME,
   url: `${siteUrl}/`,
-  logo: `${siteUrl}/og-image.png`,
+  logo: `${siteUrl}/icon-512.png`,
 };
 
 function homeGraph() {
@@ -102,6 +102,7 @@ function homeGraph() {
         "@id": `${siteUrl}/#website`,
         url: `${siteUrl}/`,
         name: SITE_NAME,
+        alternateName: ["PDF Robin", "pdfrobin.com"],
         description: DEFAULT_DESCRIPTION,
         publisher: { "@id": `${siteUrl}/#organization` },
       },
