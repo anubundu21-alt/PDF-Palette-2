@@ -1,4 +1,4 @@
-import { TOOLS, checkAdmin, readStats, storageConfigured } from "./_lib/analytics.js";
+import { TOOLS, checkAdmin, readStats, redis, storageConfigured } from "./_lib/analytics.js";
 
 const NAMES = { jpg: "JPG", pdf: "PDF", ocr: "OCR", html: "HTML", txt: "TXT", csv: "CSV", pii: "PII", powerpoint: "PowerPoint", to: "to", with: "with" };
 const label = (slug) =>
@@ -47,6 +47,15 @@ export default async function handler(req, res) {
     return send(res, 503, page("<h1>Storage not connected</h1><p class=sub>Connect an Upstash Redis database to this project (Vercel → Storage), then redeploy.</p>"));
   }
 
+  // Write test, so a read-only token or a storage error shows up here rather
+  // than as silently missing counts.
+  let health = "Storage connected, write test OK";
+  try {
+    await redis([["HINCRBY", "dl:selftest", "writes", 1]]);
+  } catch (error) {
+    health = `Storage write failed: ${error.message}`;
+  }
+
   let stats;
   try {
     stats = await readStats();
@@ -63,7 +72,7 @@ export default async function handler(req, res) {
   const cell = (v) => `<td${v ? "" : " class=zero"}>${n(v)}</td>`;
 
   send(res, 200, page(`
-<h1>PDFRobin downloads</h1><p class=sub>Files downloaded from each tool. Days are UTC.</p>
+<h1>PDFRobin downloads</h1><p class=sub>Files downloaded from each tool. Days are UTC. · ${esc(health)}</p>
 <div class=tiles>
  <div class=tile><span>Today</span><b>${n(tot.today)}</b></div>
  <div class=tile><span>Last 7 days</span><b>${n(tot.d7)}</b></div>

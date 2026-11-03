@@ -7,9 +7,10 @@ export default async function handler(req, res) {
   try {
     const { tool } = await readJson(req);
     if (!TOOLS.includes(tool)) return sendJson(res, 400, { error: "Unknown tool" });
-    if (storageConfigured()) await countDownload(tool);
+    if (!storageConfigured()) return sendJson(res, 200, { ok: false, reason: "storage not configured" });
+    await countDownload(tool);
     sendJson(res, 200, { ok: true });
-  } catch {
-    sendJson(res, 200, { ok: false });
+  } catch (error) {
+    sendJson(res, 200, { ok: false, reason: error?.message || "storage error" });
   }
 }
