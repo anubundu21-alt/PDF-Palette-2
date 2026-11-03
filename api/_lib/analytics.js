@@ -9,9 +9,16 @@ export const TOOLS = ["pdf-to-word", "word-to-pdf", "pdf-to-excel", "excel-to-pd
 const DAY_TTL_SECONDS = 400 * 24 * 3600;
 
 function redisConfig() {
-  const url = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
-  const token = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
-  return url && token ? { url: url.replace(/\/+$/, ""), token } : null;
+  const env = process.env;
+  // Vercel lets the integration use a custom prefix (KV_, STORAGE_, ...), so
+  // fall back to any <PREFIX>_REST_API_URL that has a matching token.
+  const prefixes = ["KV", "UPSTASH_REDIS", ...Object.keys(env).filter((k) => k.endsWith("_REST_API_URL")).map((k) => k.slice(0, -"_REST_API_URL".length))];
+  for (const p of prefixes) {
+    const url = env[`${p}_REST_API_URL`] || (p === "UPSTASH_REDIS" ? env.UPSTASH_REDIS_REST_URL : undefined);
+    const token = env[`${p}_REST_API_TOKEN`] || (p === "UPSTASH_REDIS" ? env.UPSTASH_REDIS_REST_TOKEN : undefined);
+    if (url && token) return { url: url.replace(/\/+$/, ""), token };
+  }
+  return null;
 }
 
 export function storageConfigured() {
