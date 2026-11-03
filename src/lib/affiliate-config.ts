@@ -10,6 +10,12 @@ export type ManualAffiliate = {
   cta: string;
   /** Full affiliate URL including your partner / ref ID. */
   url: string;
+  /**
+   * Optional sidebar banner, served from /public (e.g. "/ads/hostinger-300x250.png").
+   * Must be a local file: the site's cross-origin isolation blocks images from
+   * other domains. Empty → a text card is shown instead.
+   */
+  banner?: string;
   accent: "orange" | "blue" | "green";
 };
 
@@ -21,6 +27,7 @@ export const MANUAL_AFFILIATES: ManualAffiliate[] = [
     cta: "See Hostinger deals",
     // Paste your Hostinger affiliate link here:
     url: "",
+    banner: "/ads/hostinger-300x250.png",
     accent: "orange",
   },
   {

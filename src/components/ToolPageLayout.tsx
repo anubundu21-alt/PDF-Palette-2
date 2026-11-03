@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import SidebarBanner, { hasSidebarBanner } from "./SidebarBanner";
 import { Link } from "react-router-dom";
 import { ChevronRight, Home } from "lucide-react";
 import { PDFTool } from "@/lib/tools";
@@ -73,7 +74,16 @@ const ToolPageLayout = ({ tool, children }: ToolPageLayoutProps) => {
 
         <section className="py-5 md:py-6">
           <div className="container mx-auto px-4">
-            {children}
+            {hasSidebarBanner() ? (
+              <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_300px] lg:items-start lg:gap-8">
+                <div className="min-w-0">{children}</div>
+                <aside className="mt-8 flex justify-center lg:sticky lg:top-24 lg:mt-0">
+                  <SidebarBanner />
+                </aside>
+              </div>
+            ) : (
+              children
+            )}
             {content && <ToolSeoContent tool={tool} content={content} />}
           </div>
         </section>
