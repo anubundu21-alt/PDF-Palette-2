@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { saveAs } from "file-saver";
+import { saveAs } from "@/lib/save";
 import { AlertCircle, Loader2, PenLine, Plus, RefreshCw } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";

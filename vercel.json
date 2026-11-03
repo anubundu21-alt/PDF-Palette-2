@@ -53,6 +53,7 @@
     }
   ],
   "rewrites": [
+    { "source": "/admin", "destination": "/api/admin" },
     {
       "source": "/((?!api/|assets/|gs-wasm/|libre-wasm/|tesseract/|.*\\..*).*)",
       "destination": "/index.html"

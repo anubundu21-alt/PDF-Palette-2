@@ -1,5 +1,5 @@
 import { PDFDocument, StandardFonts, degrees, rgb } from "pdf-lib";
-import { saveAs } from "file-saver";
+import { saveAs } from "@/lib/save";
 import {
   compressWithGhostscript,
 } from "./ghostscript-compress";

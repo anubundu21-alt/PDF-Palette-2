@@ -28,7 +28,10 @@ export function convertApiPlugin(mode: string): Plugin {
         const url = (req.url || "").split("?")[0];
         const convert = /^\/api\/convert\/([a-z]+)\/?$/.exec(url);
         const ilove = /^\/api\/ilove\/([a-z]+)\/?$/.exec(url);
-        const kind = convert
+        const root = /^\/(?:api\/)?(admin|track)\/?$/.exec(url);
+        const kind = root
+          ? { dir: "api", name: root[1], routes: ["admin", "track"] as const }
+          : convert
           ? { dir: "api/convert", name: convert[1], routes: CONVERT_ROUTES }
           : ilove
             ? { dir: "api/ilove", name: ilove[1], routes: ILOVE_ROUTES }
