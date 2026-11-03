@@ -69,7 +69,9 @@ const Privacy = () => (
       <p>
         PDFRobin may show advertisements through Google AdSense (or a similar network) once approved.
         Those partners can use cookies or similar technologies to serve and measure ads. We do not use an
-        in-app analytics product that tracks which documents you open. Your browser and hosting provider may
+        in-app analytics product that tracks which documents you open. When you download a result we count
+        one download for that tool and the country your request came from (looked up by our hosting provider);
+        we do not store your IP address, the file, its name, or anything that identifies you. Your browser and hosting provider may
         also use technical cookies required to deliver the site. You can control cookies in your browser
         settings, and use Google’s ad settings tools where available.
       </p>

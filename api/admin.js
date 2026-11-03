@@ -63,6 +63,22 @@ export default async function handler(req, res) {
     return send(res, 502, page(`<h1>Could not load stats</h1><p class=sub>${esc(error.message)}</p>`));
   }
 
+  const regionName = new Intl.DisplayNames(["en"], { type: "region" });
+  const flag = (cc) => (cc === "XX" ? "🌐" : String.fromCodePoint(...[...cc].map((ch) => 127397 + ch.charCodeAt(0))));
+  const country = (cc) => {
+    if (cc === "XX") return "Unknown";
+    try {
+      return regionName.of(cc) || cc;
+    } catch {
+      return cc;
+    }
+  };
+  const sumC = (cc, k) => stats.countryDays.slice(0, k).reduce((s, d) => s + (d.counts[cc] || 0), 0);
+  const codes = new Set([...Object.keys(stats.countryTotal), ...stats.countryDays.flatMap((d) => Object.keys(d.counts))]);
+  const crows = [...codes]
+    .map((cc) => ({ cc, today: sumC(cc, 1), d7: sumC(cc, 7), d30: sumC(cc, 30), all: stats.countryTotal[cc] || 0 }))
+    .sort((a, b) => b.all - a.all || b.d30 - a.d30 || a.cc.localeCompare(b.cc));
+
   const sumDays = (tool, k) => stats.days.slice(0, k).reduce((s, d) => s + (d.counts[tool] || 0), 0);
   const rows = TOOLS.map((t) => ({ t, today: sumDays(t, 1), d7: sumDays(t, 7), d30: sumDays(t, 30), all: stats.total[t] || 0 }))
     .sort((a, b) => b.all - a.all || b.d30 - a.d30 || a.t.localeCompare(b.t));
@@ -82,9 +98,13 @@ export default async function handler(req, res) {
 <h2>Downloads per day, last 30 days</h2>
 <div class=card><div class=bars>${daily.map((d) => `<div class=bar title="${d.date}: ${n(d.v)}" style="height:${(d.v / max) * 100}%"></div>`).join("")}</div>
 <div class=axis><span>${daily[0].date}</span><span>${daily[daily.length - 1].date}</span></div></div>
+<h2>By country</h2>
+<div class=card><table><thead><tr><th>Country</th><th>Today</th><th>7 days</th><th>30 days</th><th>All time</th></tr></thead><tbody>
+${crows.length ? crows.map((r) => `<tr><td>${flag(r.cc)} ${esc(country(r.cc))}</td>${cell(r.today)}${cell(r.d7)}${cell(r.d30)}${cell(r.all)}</tr>`).join("\n") : `<tr><td class=zero>No downloads with a country yet</td><td></td><td></td><td></td><td></td></tr>`}
+</tbody></table></div>
 <h2>By tool</h2>
 <div class=card><table><thead><tr><th>Tool</th><th>Today</th><th>7 days</th><th>30 days</th><th>All time</th></tr></thead><tbody>
 ${rows.map((r) => `<tr><td>${esc(label(r.t))}</td>${cell(r.today)}${cell(r.d7)}${cell(r.d30)}${cell(r.all)}</tr>`).join("\n")}
 </tbody></table></div>
-<p class=note>Counts only: no names, emails, IPs or file details are stored.</p>`));
+<p class=note>Counts only: no names, emails, IPs or file details are stored. Country comes from the host’s geo lookup; the IP is not kept.</p>`));
 }

@@ -47,25 +47,45 @@ export function day(offset = 0) {
   return new Date(Date.now() - offset * 86400000).toISOString().slice(0, 10);
 }
 
-export async function countDownload(tool) {
-  const key = `dl:day:${day()}`;
+/** Two-letter country from the host's geo header (Vercel). The IP itself is never stored. */
+export function countryOf(req) {
+  const c = String(req.headers?.["x-vercel-ip-country"] || "").toUpperCase();
+  return /^[A-Z]{2}$/.test(c) ? c : "XX";
+}
+
+export async function countDownload(tool, country = "XX") {
+  const d = day();
   await redis([
     ["HINCRBY", "dl:total", tool, 1],
-    ["HINCRBY", key, tool, 1],
-    ["EXPIRE", key, DAY_TTL_SECONDS],
+    ["HINCRBY", `dl:day:${d}`, tool, 1],
+    ["EXPIRE", `dl:day:${d}`, DAY_TTL_SECONDS],
+    ["HINCRBY", "dl:ctotal", country, 1],
+    ["HINCRBY", `dl:cday:${d}`, country, 1],
+    ["EXPIRE", `dl:cday:${d}`, DAY_TTL_SECONDS],
   ]);
 }
 
 /** Totals plus the last 30 days, per tool and per day. */
 export async function readStats() {
   const days = Array.from({ length: 30 }, (_, i) => day(i));
-  const results = await redis([["HGETALL", "dl:total"], ...days.map((d) => ["HGETALL", `dl:day:${d}`])]);
+  const results = await redis([
+    ["HGETALL", "dl:total"],
+    ...days.map((d) => ["HGETALL", `dl:day:${d}`]),
+    ["HGETALL", "dl:ctotal"],
+    ...days.map((d) => ["HGETALL", `dl:cday:${d}`]),
+  ]);
+  const c0 = days.length + 1;
   const toMap = (flat) => {
     const m = {};
     for (let i = 0; flat && i < flat.length; i += 2) m[flat[i]] = Number(flat[i + 1]) || 0;
     return m;
   };
-  return { total: toMap(results[0]), days: days.map((d, i) => ({ date: d, counts: toMap(results[i + 1]) })) };
+  return {
+    total: toMap(results[0]),
+    days: days.map((d, i) => ({ date: d, counts: toMap(results[i + 1]) })),
+    countryTotal: toMap(results[c0]),
+    countryDays: days.map((d, i) => ({ date: d, counts: toMap(results[c0 + i + 1]) })),
+  };
 }
 
 const digest = (s) => createHash("sha256").update(String(s)).digest();
