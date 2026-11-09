@@ -37,12 +37,14 @@ const siteUrl = (
 /** Legal and marketing routes, kept in step with LegalPage's own titles. */
 const staticRoutes = {
   "/": {
+    h1: "Free PDF Tools That Run in Your Browser",
     title: DEFAULT_TITLE,
     description: DEFAULT_DESCRIPTION,
     priority: "1.0",
     changefreq: "weekly",
   },
   "/about": {
+    h1: "About PDFRobin",
     title: `About Us | ${SITE_NAME}`,
     description:
       "PDFRobin is a set of free PDF tools that run in your browser. Convert, merge, split, compress, OCR, and edit PDFs without creating an account.",
@@ -50,6 +52,7 @@ const staticRoutes = {
     changefreq: "yearly",
   },
   "/privacy": {
+    h1: "Privacy Policy",
     title: `Privacy Policy | ${SITE_NAME}`,
     description:
       "How PDFRobin handles your files: almost every tool runs in your browser, there are no accounts, and we do not keep your documents.",
@@ -57,12 +60,14 @@ const staticRoutes = {
     changefreq: "yearly",
   },
   "/terms": {
+    h1: "Terms of Service",
     title: `Terms of Service | ${SITE_NAME}`,
     description: "The terms that apply when you use the free PDF tools on PDFRobin.",
     priority: "0.3",
     changefreq: "yearly",
   },
   "/contact": {
+    h1: "Contact",
     title: `Contact | ${SITE_NAME}`,
     description:
       "How to reach PDFRobin with bug reports, feature requests and questions about the site.",
@@ -207,25 +212,101 @@ function stripExistingSeo(html) {
 const shell = readFileSync(path.join(dist, "index.html"), "utf8");
 const base = stripExistingSeo(shell);
 
-function writePage(route, meta, graph, { noindex = false, file } = {}) {
+
+/**
+ * Crawlable markup for the #root container.
+ *
+ * Google reported 21 URLs as "Discovered/Crawled - currently not indexed".
+ * Every prerendered file carried a correct <head> but an empty
+ * <div id="root"></div>, so a crawler that does not execute JavaScript saw a
+ * page with no content, no headings and no outgoing links - and the AI
+ * crawlers robots.txt invites (GPTBot, PerplexityBot, ClaudeBot) run no JS at
+ * all, so they saw nothing whatsoever.
+ *
+ * main.tsx mounts with createRoot().render(), which REPLACES the container's
+ * children rather than hydrating them, so React discards this markup on mount.
+ * It has to stay plain: no classes, nothing that depends on the app's styles,
+ * and the same content the rendered page shows - markup that differs from what
+ * users see is cloaking.
+ */
+const LEGAL_LINKS = [
+  ["/about", "About Us"],
+  ["/privacy", "Privacy Policy"],
+  ["/terms", "Terms of Service"],
+  ["/contact", "Contact"],
+];
+
+const siteHeader = () => `<header><a href="/">${esc(SITE_NAME)}</a></header>`;
+
+const toolsNav = () =>
+  `<nav aria-label="All PDF tools"><h2>All PDF tools</h2><ul>` +
+  Object.entries(toolContent)
+    .map(([route, tool]) => `<li><a href="${esc(route)}">${esc(tool.name)}</a></li>`)
+    .join("") +
+  `</ul></nav>`;
+
+const siteFooter = () =>
+  `<footer><ul>` +
+  LEGAL_LINKS.map(([href, label]) => `<li><a href="${esc(href)}">${esc(label)}</a></li>`).join("") +
+  `</ul></footer>`;
+
+function toolBody(tool) {
+  return (
+    siteHeader() +
+    `<main>` +
+    `<h1>${esc(tool.h1)}</h1>` +
+    `<p>${esc(tool.intro)}</p>` +
+    `<h2>How to ${esc(tool.name)}</h2>` +
+    `<ol>${tool.steps.map((step) => `<li>${esc(step)}</li>`).join("")}</ol>` +
+    tool.sections
+      .map((section) => `<h2>${esc(section.heading)}</h2><p>${esc(section.body)}</p>`)
+      .join("") +
+    `<h2>Frequently asked questions</h2>` +
+    tool.faqs.map((faq) => `<h3>${esc(faq.q)}</h3><p>${esc(faq.a)}</p>`).join("") +
+    `<p>${esc(tool.conclusion)}</p>` +
+    `<h2>Related tools</h2><ul>` +
+    tool.internalLinks
+      .map((link) => `<li><a href="${esc(link.route)}">${esc(link.anchor)}</a></li>`)
+      .join("") +
+    `</ul></main>` +
+    toolsNav() +
+    siteFooter()
+  );
+}
+
+function staticBody(meta) {
+  return (
+    siteHeader() +
+    `<main><h1>${esc(meta.h1)}</h1><p>${esc(meta.description)}</p></main>` +
+    toolsNav() +
+    siteFooter()
+  );
+}
+
+function writePage(route, meta, graph, { noindex = false, file, body = "" } = {}) {
   const html = base.replace(
     /<\/head>/i,
     `  ${head({ route, ...meta, graph, noindex })}\n  </head>`
   );
+  const withBody = body
+    ? html.replace('<div id="root"></div>', `<div id="root">${body}</div>`)
+    : html;
   const target = file ?? path.join(dist, route === "/" ? "index.html" : `${route.slice(1)}/index.html`);
   mkdirSync(path.dirname(target), { recursive: true });
-  writeFileSync(target, html);
+  writeFileSync(target, withBody);
 }
 
 const urls = [];
 
 for (const [route, meta] of Object.entries(staticRoutes)) {
-  writePage(route, meta, route === "/" ? homeGraph() : null);
+  writePage(route, meta, route === "/" ? homeGraph() : null, { body: staticBody(meta) });
   urls.push({ route, priority: meta.priority, changefreq: meta.changefreq });
 }
 
 for (const [route, tool] of Object.entries(toolContent)) {
-  writePage(route, { title: tool.title, description: tool.description }, toolGraph(route, tool));
+  writePage(route, { title: tool.title, description: tool.description }, toolGraph(route, tool), {
+    body: toolBody(tool),
+  });
   urls.push({ route, priority: "0.9", changefreq: "monthly" });
 }
 

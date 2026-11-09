@@ -79,6 +79,18 @@ function upsertCanonical(href: string) {
   el.setAttribute("href", href);
 }
 
+/**
+ * Canonical origin, fixed rather than read from window.location.origin.
+ *
+ * A visitor arriving on www.pdfrobin.com used to get a canonical naming www,
+ * so the same page was advertised under two hosts and Google had to choose -
+ * part of why pages sat in "Crawled - currently not indexed". The Vercel
+ * redirect handles the request; this makes the tag agree with it.
+ */
+const SITE_ORIGIN = (
+  import.meta.env.VITE_SITE_URL || "https://pdfrobin.com"
+).replace(/\/+$/, "");
+
 export interface SeoOptions {
   title: string;
   description: string;
@@ -96,10 +108,9 @@ export interface SeoOptions {
  */
 export function useSeo({ title, description, path, noindex }: SeoOptions) {
   useEffect(() => {
-    const url =
-      typeof window === "undefined"
-        ? ""
-        : `${window.location.origin}${path ?? window.location.pathname}`;
+    const url = `${SITE_ORIGIN}${
+      path ?? (typeof window === "undefined" ? "/" : window.location.pathname)
+    }`;
 
     document.title = title;
     upsertMeta({ name: "description" }, description);
