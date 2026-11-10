@@ -289,7 +289,7 @@ function writePage(route, meta, graph, { noindex = false, file, body = "" } = {}
     `  ${head({ route, ...meta, graph, noindex })}\n  </head>`
   );
   const withBody = body
-    ? html.replace('<div id="root"></div>', `<div id="root">${body}</div>`)
+    ? html.replace('<div id="root"></div>', `<div id="root" data-prerendered>${body}</div>`)
     : html;
   const target = file ?? path.join(dist, route === "/" ? "index.html" : `${route.slice(1)}/index.html`);
   mkdirSync(path.dirname(target), { recursive: true });
