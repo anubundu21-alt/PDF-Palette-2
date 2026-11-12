@@ -75,6 +75,23 @@ const Privacy = () => (
         also use technical cookies required to deliver the site. You can control cookies in your browser
         settings, and use Google’s ad settings tools where available.
       </p>
+      <p>
+        With your consent, we use the Meta Pixel, a tool from Meta Platforms, Inc. (Facebook and Instagram), to
+        measure how our Facebook and Instagram ads perform. It records page visits on PDFRobin and sets
+        cookies that Meta may combine with your Meta account. It never receives your files, their names or
+        their contents. The pixel does not load until you choose “Accept” in our cookie banner; choosing
+        “Decline” keeps it off. You can change your choice at any time, and manage Meta’s ad use of your data
+        in your Facebook or Instagram ad preferences.
+      </p>
+      <p>
+        <button
+          type="button"
+          className="underline text-primary"
+          onClick={() => window.dispatchEvent(new Event("pdfrobin:cookie-settings"))}
+        >
+          Change cookie settings
+        </button>
+      </p>
     </section>
     <section>
       <h2>Affiliate links</h2>
