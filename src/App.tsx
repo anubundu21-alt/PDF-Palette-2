@@ -4,7 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "next-themes";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Navigate, Routes, Route, useLocation } from "react-router-dom";
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, useEffect, useRef } from "react";
 import Index from "./pages/Index";
 import Navbar from "@/components/Navbar";
 import ScrollToTop from "./components/ScrollToTop";
@@ -40,6 +40,13 @@ const queryClient = new QueryClient();
 /** Keyed by pathname so a render error clears the moment the user navigates away. */
 const RoutedContent = () => {
   const location = useLocation();
+
+  // Meta Pixel: index.html tracks the first PageView; report client-side navigations too.
+  const firstPath = useRef(true);
+  useEffect(() => {
+    if (firstPath.current) { firstPath.current = false; return; }
+    (window as unknown as { fbq?: (...a: unknown[]) => void }).fbq?.("track", "PageView");
+  }, [location.pathname]);
 
   return (
     <ErrorBoundary key={location.pathname}>
